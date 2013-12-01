@@ -9,7 +9,7 @@
 .intro-text p { color: #999;  font-size: 11px; }
 
 /* navigation */
-.navSub > li { font-size:12px; }
+.navSub > li { font-size:12px; z-index: 1; }
 .navSub > li.daily-deal-menu a {text-transform: uppercase; }
 .navSub > li.daily-deal-menu:hover a {  background: url(http://www.lazada.vn/images/spinbasket/sprites/sprite_general.png) no-repeat scroll 206px -261px transparent !important;}
 .sbm-bge > div { font-size: 0.65em; }
@@ -24,7 +24,7 @@
 .sbnc1, .sbnc2 { z-index: 5; }
 .cat-img { position: absolute; left: 0; bottom:0; z-index: 1; }
 .cat-img a { display: block; width: 527px; border-radius: 5px; -webkit-border-radius: 5px; }
-.navSub > li:hover .navLayer, .navSub > li.hover .navLayer { left: 202px; }
+.navSub > li:hover .navLayer, .navSub > li.hover .navLayer { left: 211px; top: 0; opacity: 1;}
 .borderDestroyer { left: -5px; }
 
 .navLayerSub .sbncco, .navLayerSub .sbnc3t { margin: 0; }

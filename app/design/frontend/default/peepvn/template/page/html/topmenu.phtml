@@ -31,50 +31,71 @@
  * @see Mage_Page_Block_Html_Topmenu
  */
 ?>
-<?php $_menu = $this->getHtml('level-top') ?>
+<?php
+$_menu = $this->getHtml('level-top') ?>
 <?php if($_menu): ?>
 <nav id="menu" class="hdMenu">
 	<div class="navWrapper">
 		<div class="nav brdMEdium">
 			<div class="navWrapper nav-sub-visible sbmwr">
 				<div class="navWrapperBackground"></div>
-				<a class="navAllCat  arrowBorder" href="http://www.lazada.vn/dien-thoai-di-dong-moi/nokia/#">Tất cả</a>
-				<a class="navDropdown arrow" href="http://www.lazada.vn/dien-thoai-di-dong-moi/nokia/#"></a>
+				<a class="navAllCat  arrowBorder" href="#">Tất cả</a>
+				<a class="navDropdown arrow" href="#"></a>
 				<ul class="navSub">
 					<?php
-					$activeCategories = array();
-			        foreach ($this->getStoreCategories() as $child) {
-			            if ($child->getIsActive()) {
-			                $activeCategories[] = $child;
-			            }
-			        }
-			        $activeCategoriesCount = count($activeCategories);
-			        $hasActiveCategoriesCount = ($activeCategoriesCount > 0);
-			
-			        if (!$hasActiveCategoriesCount) {
-			            return '';
-			        }
-			
-			        $html = '';
-			        $j = 0;
-			        foreach ($activeCategories as $category) {
-			            $html .= $this->_renderCategoryMenuItemHtml(
-			                $category,
-			                $level,
-			                ($j == $activeCategoriesCount - 1),
-			                ($j == 0),
-			                true,
-			                $outermostItemClass,
-			                $childrenWrapClass,
-			                true
-			            );
-			            $j++;
-			        }
+					require_once $_SERVER['DOCUMENT_ROOT'].'/app/Mage.php'; 
+					Mage::app();
 					
+					function get_categories(){
+					
+					$category = Mage::getModel('catalog/category'); 
+					$tree = $category->getTreeModel(); 
+					$tree->load();
+					
+					$ids = $tree->getCollection()->getAllIds(); 
+					$arr = array();
+					
+					if ($ids){ 
+					foreach ($ids as $id){ 
+					$cat = Mage::getModel('catalog/category'); 
+					$cat->load($id); 
+					array_push($arr, $cat); 
+					} 
+					}
+					
+					return $arr;
+					
+					}
+					
+					$categories = get_categories();
+					foreach($categories as $cat):					
 					?>
+					<?php if($cat->getLevel() == 2): ?>
+					<li><a class="cat_<?php echo $cat->getId()?>" href="<?php echo $cat->getUrl()?>"><?php echo $cat->getName(); ?></a>
+						<?php if(count($cat->getChildrenCategories())>0): ?>
+						<div class="navLayer sbnyl">
+							<div class="navLayerSub clearfix">
+								<?php $i =0; foreach($cat->getChildrenCategories() as $cat): ?>
+									<?php if($i < 3): ?>
+									<div class="sbnc1">
+									<?php else: ?>
+									<div class="sbnc2">
+									<?php endif; ?>
+									<a class="bsnch  cat_<?php echo $cat->getId()?>" href="<?php echo $cat->getUrl()?>"><?php echo $cat->getName(); ?></a>
+								</div>
+								<div class="sbnc3">
+									
+								</div>
+								<?php $i++; endforeach; ?>
+							</div>
+						</div>
+						<?php endif; ?>
+					</li>
+					<?php endif; ?>
+					<?php endforeach; ?>
 				</ul>
 			</div>
 		</div>
 	</div>
-</nav>sdsdsdsds
+</nav>
 <?php endif ?>

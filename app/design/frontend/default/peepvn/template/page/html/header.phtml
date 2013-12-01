@@ -1,0 +1,142 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2013 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * @var Mage_Page_Block_Html_Header $this
+ */
+?>
+
+<header id="header">
+    <div class="l-pageWrapper">
+    	<div class="hdHolder clearfix">    		
+	        <?php echo $this->getChildHtml('topLinks') ?>
+	        
+	        <a class="sb-sp-lg-co" href="/">
+				<div>
+				<span class="hdLogo">
+				<!--<span>Logo</span>-->
+				</span>
+				</div>
+				<div class="sb-sp-lg-px">.vn</div>
+			</a>
+			
+			<div class="hsbhb-main">
+				<div class="hsbhb" tooltip="cod_tooltip">
+					<div>
+						<div class="usp-sp-ico usp-sprite usp-sp-cash">
+							<div class="usp-sprite cash-animation"></div>
+							<div class="usp-sprite cash-static"></div>
+						</div>
+						<div class="usp-sp-desc">
+							<div class="strong uspHeadline">
+								Thanh toán khi
+								<br>
+								nhận hàng
+							</div>
+							<div class="uspHeadline-sub"></div>
+						</div>
+					</div>
+					<div>
+						<div class="tip middle" id="cod_tooltip" style="display: none;">
+							<div class="tt-title">
+								<b>Bạn e ngại về việc thanh toán qua thẻ?</b>
+							</div>
+							<div class="tt-desc">
+								Hãy chọn giải pháp trả tiền mặt cho nhân viên giao hàng của Lazada khi nhận được hàng.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="hsbhb" tooltip="freeship_tooltip">
+					<div>
+						<div class="usp-sp-ico usp-sprite usp-sp-ship">
+							<div class="usp-sprite ship-animation"></div>
+						</div>
+						<div class="usp-sp-desc">
+							<div class="strong uspHeadline">
+								GIAO HÀNG
+								<br>
+								TOÀN QUỐC<sup>(*)</sup>
+							</div>
+							<div class="uspHeadline-sub"></div>
+						</div>
+					</div>
+					<div>
+						<div class="tip middle" id="freeship_tooltip" style="margin-left: -1em; display: none;">
+							<div class="tt-title">
+								<b>Giao hàng toàn quốc <sup>(*)</sup></b>
+							</div>
+							<div class="tt-desc">
+								Lazada giao hàng miễn phí toàn quốc cho đơn hàng <b>trên 1.000.000 VND </b>(trừ phân vùng 6 là 1.500.000VND trở lên). Chi phí này không bao gồm Phí hàng cồng kềnh áp dụng cho một số sản phẩm tại Lazada.vn quy định tại Mục 3.
+								<br>
+								Xem thêm chi tiết tại <a href="http://www.lazada.vn/shipping">http://www.lazada.vn/shipping</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="hsbhb" tooltip="warranty_tooltip">
+					<div>
+						<div class="usp-sp-ico usp-sprite usp-sp-warranty">
+							<div class="usp-sprite warranty-animation"></div>
+							<div class="usp-sprite warranty-static"></div>
+						</div>
+						<div class="usp-sp-desc">
+							<div class="strong uspHeadline">
+								TRẢ HÀNG
+								<br>
+								TRONG 30 NGÀY
+							</div>
+							<div class="uspHeadline-sub"></div>
+						</div>
+					</div>
+					<div>
+						<div class="tip middle" id="warranty_tooltip" style="margin-left: 0em; display: none;">
+							<div class="tt-title">
+								<b>Hoàn trả sản phẩm trong vòng 30 ngày</b>
+							</div>
+							<div class="tt-desc">
+								Thật vậy, bạn có thể hoàn trả hàng trong vòng 30 ngày kể từ khi mua sản phẩm (theo chính sách của chúng tôi). Truy cập <a href="http://www.lazada.vn/chinh-sach-doi-tra-hang">http://www.lazada.vn/chinh-sach-doi-tra-hang</a> để biết thêm chi tiết.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="social_plugins fcbk">
+				</div>
+				<span style="display: inline-block; width: 100%;"></span>
+			</div>
+		</div>
+	        
+	    <div class="hdMainBar">
+			<?php echo $this->getChildHtml('topMenu') ?>
+	        
+	        <?php echo $this->getChildHtml('topSearch') ?>
+	        
+	        <?php echo $this->getChildHtml('topContainer'); ?>
+        </div>
+    </div>
+</header>
+<?php if ($this->getIsHomePage()):?>
+	<style>ul.navSub{display: block;}</style>
+<?php endif; ?>

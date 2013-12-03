@@ -1651,7 +1651,7 @@ input.error, select.error, textarea.error {
 	margin: 5px 5px 0 5px
 }
 .hdMeta {
-	right: 0
+	right: 0;
 }
 .hdMetaLinks {
 	float: right;
@@ -6713,7 +6713,7 @@ ul.ul-footer > li a {
 .thm-spinbasket #header {
 	position: relative;
 	width: 100%;
-	height: 105px
+	height: 116px
 }
 .ie7 .thm-spinbasket #header {
 	height: 95px
@@ -13218,7 +13218,9 @@ a.bsnch:hover {
 }
 .sbnyl {
 	width: 760px !important;
-	min-height: 10em
+	min-height: 10em;
+	z-index: 2;
+	min-height: 350px;
 }
 .fancybox-wrap, .fancybox-skin, .fancybox-outer, .fancybox-inner, .fancybox-image, .fancybox-wrap iframe, .fancybox-wrap object, .fancybox-nav, .fancybox-nav span, .fancybox-tmp {
 	padding: 0;

@@ -43,9 +43,10 @@
     <?php // List mode ?>
     <?php if($this->getMode()!='grid'): ?>
     <?php $_iterator = 0; ?>
-    <ol class="products-list" id="products-list">
+    <section class="catalog-products-section box-bd pan mtm">
+    <ul class="subGroupProducts clearfix products-list" id="products-list">
     <?php foreach ($_productCollection as $_product): ?>
-        <li class="item<?php if( ++$_iterator == sizeof($_productCollection) ): ?> last<?php endif; ?>">
+        <li class="item <?php if( ++$_iterator == sizeof($_productCollection) ): ?> last<?php endif; ?>">
             <?php // Product Image ?>
             <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135); ?>" width="135" height="135" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" /></a>
             <?php // Product description ?>
@@ -78,7 +79,8 @@
             </div>
         </li>
     <?php endforeach; ?>
-    </ol>
+    </ul>
+    </section>
     <script type="text/javascript">decorateList('products-list', 'none-recursive')</script>
 
     <?php else: ?>

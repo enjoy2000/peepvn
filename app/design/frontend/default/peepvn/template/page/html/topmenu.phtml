@@ -71,22 +71,32 @@ $_menu = $this->getHtml('level-top') ?>
 					foreach($categories as $cat):					
 					?>
 					<?php if($cat->getLevel() == 2): ?>
-					<li><a class="cat_<?php echo $cat->getId()?>" href="<?php echo $cat->getUrl()?>"><?php echo $cat->getName(); ?></a>
+					<li id="cat_<?php echo $cat->getId()?>"><a class="cat_<?php echo $cat->getId()?>" href="<?php echo $cat->getUrl()?>"><?php echo $cat->getName(); ?></a>
 						<?php if(count($cat->getChildrenCategories())>0): ?>
 						<div class="navLayer sbnyl">
 							<div class="navLayerSub clearfix">
+								<div class="sbnc1">
 								<?php $i =0; foreach($cat->getChildrenCategories() as $cat): ?>
 									<?php if($i < 3): ?>
-									<div class="sbnc1">
-									<?php else: ?>
-									<div class="sbnc2">
+										<a class="bsnch  cat_<?php echo $cat->getId()?>" href="<?php echo $cat->getUrl()?>"><?php echo $cat->getName(); ?></a>
+										<?php if(count($cat->getChildrenCategories())>0): ?>
+											<div class="bsnclco">
+												<?php foreach($cat->getChildrenCategories() as $cat2): ?>
+												<a class="bsncLink  cat_<?php echo $cat2->getId()?>" href="<?php echo $cat2->getUrl()?>"><?php echo $cat2->getName(); ?></a>
+												<?php endforeach; ?>
+											</div>
+										<?php endif; ?>
 									<?php endif; ?>
-									<a class="bsnch  cat_<?php echo $cat->getId()?>" href="<?php echo $cat->getUrl()?>"><?php echo $cat->getName(); ?></a>
-								</div>
-								<div class="sbnc3">
-									
-								</div>
 								<?php $i++; endforeach; ?>
+								</div>
+								<div class="sbnc2">
+								<?php foreach($cat->getChildrenCategories() as $cat): ?>
+									<?php if($i >= 3): ?>
+										<a class="bsnch  cat_<?php echo $cat->getId()?>" href="<?php echo $cat->getUrl()?>"><?php echo $cat->getName(); ?></a>
+									<?php endif; ?>
+								<?php $i++; endforeach; ?>
+								</div>
+								<div class="sbnc3"></div>
 							</div>
 						</div>
 						<?php endif; ?>

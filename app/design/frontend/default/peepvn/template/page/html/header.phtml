@@ -44,7 +44,7 @@
 			
 			<div class="hsbhb-main">
 				<div class="hsbhb" tooltip="cod_tooltip">
-					<div>
+					<div class="toggle-button">
 						<div class="usp-sp-ico usp-sprite usp-sp-cash">
 							<div class="usp-sprite cash-animation"></div>
 							<div class="usp-sprite cash-static"></div>
@@ -58,7 +58,7 @@
 							<div class="uspHeadline-sub"></div>
 						</div>
 					</div>
-					<div>
+					<div class="toggle-content">
 						<div class="tip middle" id="cod_tooltip" style="display: none;">
 							<div class="tt-title">
 								<b>Bạn e ngại về việc thanh toán qua thẻ?</b>
@@ -70,7 +70,7 @@
 					</div>
 				</div>
 				<div class="hsbhb" tooltip="freeship_tooltip">
-					<div>
+					<div class="toggle-button">
 						<div class="usp-sp-ico usp-sprite usp-sp-ship">
 							<div class="usp-sprite ship-animation"></div>
 						</div>
@@ -83,7 +83,7 @@
 							<div class="uspHeadline-sub"></div>
 						</div>
 					</div>
-					<div>
+					<div class="toggle-content">
 						<div class="tip middle" id="freeship_tooltip" style="margin-left: -1em; display: none;">
 							<div class="tt-title">
 								<b>Giao hàng toàn quốc <sup>(*)</sup></b>
@@ -97,7 +97,7 @@
 					</div>
 				</div>
 				<div class="hsbhb" tooltip="warranty_tooltip">
-					<div>
+					<div class="toggle-button">
 						<div class="usp-sp-ico usp-sprite usp-sp-warranty">
 							<div class="usp-sprite warranty-animation"></div>
 							<div class="usp-sprite warranty-static"></div>
@@ -111,7 +111,7 @@
 							<div class="uspHeadline-sub"></div>
 						</div>
 					</div>
-					<div>
+					<div class="toggle-content">
 						<div class="tip middle" id="warranty_tooltip" style="margin-left: 0em; display: none;">
 							<div class="tt-title">
 								<b>Hoàn trả sản phẩm trong vòng 30 ngày</b>
@@ -123,6 +123,26 @@
 					</div>
 				</div>
 				<div class="social_plugins fcbk">
+					<div class="fbbtn">
+						<div class="pluginConnectButton">
+							<div class="pluginButton pluginButtonSmall pluginButtonInline pluginConnectButtonDisconnected" title="">
+								<div>
+									<form method="get" action="https://www.facebook.com/LazadaVietnam" target="_blank">
+										<button type="submit">
+											<i class="pluginButtonIcon img sp_like sx_like_fav"></i>Like
+										</button>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="pluginCountButtonNub">
+							<s></s>
+							<i></i>
+						</div>
+						<div class="pluginCountButton pluginCountNum">
+							<span id="u_0_1"> <span class="pluginCountTextDisconnected"> 684K </span> </span>
+						</div>
+					</div>
 				</div>
 				<span style="display: inline-block; width: 100%;"></span>
 			</div>
@@ -136,6 +156,8 @@
 	        <?php echo $this->getChildHtml('topContainer'); ?>
         </div>
     </div>
+    
+    <div class="hdPageLine"></div>
 </header>
 <?php if ($this->getIsHomePage()):?>
 	<style>ul.navSub{display: block;}</style>

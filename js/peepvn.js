@@ -3,10 +3,20 @@ $j = jQuery.noConflict();
 function menuInit(){
 	$j('ul.navSub').prepend('<li class="multiMenu daily-deal-menu"><a href="http://www.lazada.vn/mega-deals/" title="Mega deals"><span class="navSubTxt">Mega deals <div class="sbm-bge"><div>SALE</div></div></span></a></li>');
 }
-
+//init slide
 function slideInit(){
-	$j('#Slideshow .hpSlideshowSlides').cycle({fx:'scrollHorz',next: '.ui-buttonNextSlide',prev: '.ui-buttonPrevSlide' ,delay: -1000})
-	
+	$j('#Slideshow .hpSlideshowSlides').cycle({fx:'scrollHorz',next: '.ui-buttonNextSlide',prev: '.ui-buttonPrevSlide' ,delay: -1000});
+}
+//hover function to replace product image
+function producImagePlaceholder(){
+	$j('a.loadOnCustomEvent').hover(function(){
+		originUrl = $j(this).parents('.item').find('span.lazyImage img').attr('src');
+		$j(this).parents('.item').find('span.lazyImage img').attr('src',$j(this).data('placeholder'));
+		event.preventDefault();
+	},
+	function(){
+		$j(this).parents('.item').find('span.lazyImage img').attr('src',originUrl);
+	});
 }
 /////////////////////////////////////
 // INIT MENU * DO NOT CHANGE      //
@@ -14,6 +24,7 @@ function slideInit(){
 $j(document).ready(function(){
 	menuInit();
 	slideInit();
+	producImagePlaceholder();
 	//main menu on hover
 	$j('ul.navSub li').hover(function(){
 		$j('.navLayer.sbnyl', this).stop(true,true).css('top',$j(this).index()*(-1)*($j(this).height()+2)).animate({'opacity':1},200);

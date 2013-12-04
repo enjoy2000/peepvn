@@ -32,10 +32,10 @@ $catalogSearchHelper =  $this->helper('catalogsearch');
     	<div class="ss-bar" id="searchSSBar" style="width: 510px;">
     		<div class="ss-lupe"></div>
     		<div>
-       			<input id="searchInput" class="sel-search-input ss-input" type="text" name="<?php echo $catalogSearchHelper->getQueryParamName() ?>" value="<?php echo $catalogSearchHelper->getEscapedQueryText() ?>" placeholder="<?php echo $this->__('Top search input') ?>" maxlength="<?php echo $catalogSearchHelper->getMaxQueryLength();?>" />
+       			<input id="searchInput" class="sel-search-input ss-input" type="text" name="<?php echo $catalogSearchHelper->getQueryParamName() ?>" value="<?php echo $catalogSearchHelper->getEscapedQueryText() ?>" placeholder="<?php echo $this->__('Tìm kiếm theo sản phẩm, danh mục hay nhãn hàng mong muốn') ?>" maxlength="<?php echo $catalogSearchHelper->getMaxQueryLength();?>" />
         	</div>
         </div>
-        <button id="sbhacsearch" type="submit" title="<?php echo $this->__('Search') ?>" class="ui-button ui-buttonCta strong sel-search-button ss-action"><span><span><?php echo $this->__('Search') ?></span></span></button>
+        <button id="sbhacsearch" type="submit" title="<?php echo $this->__('Search') ?>" class="ui-button ui-buttonCta strong sel-search-button ss-action"><span><span><?php echo $this->__('Tìm kiếm') ?></span></span></button>
         <div id="search_autocomplete" class="search-autocomplete"></div>
         <script type="text/javascript">
         //<![CDATA[

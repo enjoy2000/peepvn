@@ -66,11 +66,13 @@ if ($page == 'cms'):
     <?php foreach ($_productCollection as $_product): ?>
         <li class="unit item <?php if( ++$_iterator == sizeof($_productCollection) ): ?> last<?php endif; ?>">
             <div class="itm hasOverlay   lastrow">
-	            <?php // Product Image ?>
-	            <a onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')" href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" class="itm-link  itm-drk trackingOnClick">
+	            <!-- Bring in gallery Images    -->
+                    <?php $_gallery = Mage::getModel('catalog/product')->load($_product->getId())->getMediaGalleryImages();  ?>
+                    <?php $imgcount = Mage::getModel('catalog/product')->load($_product->getId())->getMediaGalleryImages()->count();?>
+	            <a aaonclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')" href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" class="itm-link  itm-drk trackingOnClick">
 	            	<span class="lazyImage loaded">
 	            		<span>
-	            			<img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135); ?>" width="135" height="135" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" />
+	            			<img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(160); ?>" width="160" height="160" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" />
 	            		</span>
 	            	</span>
 	            	<span class="itm-outOfStock"></span>
@@ -92,6 +94,23 @@ if ($page == 'cms'):
 	            	</span>
 	            	<div style="text-align:left;margin:.3em 0 0 1em;"></div>
 	            </a>
+	            <div class="itm-overlay <?php echo ($imgcount > 1) ? 'itm-group-mainbox-with-group' : 'narrow'; ?>">
+	            	<?php if($imgcount >1): ?>
+	            	<div class="itm-moreImages">
+	            		<div class="itm-group-extra-box">
+		            		<?php foreach($_gallery as $_image): ?>
+		            		<div>
+		            			<a data-placeholder="<?php echo $this->helper('catalog/image')->init($_product, 'thumbnail', $_image->getFile())->resize(160); ?>" class="productImage loadOnCustomEvent loaded" href="#">
+		            				<span class="itm-imageWrapper ll-imageWrapper default-state">
+		            					<img class="itm-img loading" src="<?php echo $this->helper('catalog/image')->init($_product, 'thumbnail', $_image->getFile())->resize(87, 130); ?>" width="44" height="44" alt="<?php echo $this->htmlEscape($_image->getLabel()) ?>" title="<?php echo $this->htmlEscape($_image->getLabel()) ?>" />
+		            				</span>
+		            			</a>
+		            		</div>	
+		            		<?php endforeach; ?>
+	            		</div>
+	            	</div>
+	            	<?php endif; ?>
+	            </div>
             </div>
         </li>
     <?php endforeach; ?>

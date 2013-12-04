@@ -37,13 +37,21 @@
 <body<?php echo $this->getBodyClass()?' class="js thm-core thm-spinbasket thm-local thm-ventures/vn/spinbasket '.$this->getBodyClass().'"':'' ?>>
 <?php echo $this->getChildHtml('after_body_start') ?>
     <?php echo $this->getChildHtml('global_notices') ?>
-    <div id="page">
-        <?php echo $this->getChildHtml('header') ?>
-        <div id="content" class="main-container col1-layout">
-            <div class="l-pageWrapper">
-                <?php echo $this->getChildHtml('global_messages') ?>
-                <?php echo $this->getChildHtml('content') ?>
-            </div>
+    <div id="page" class="cln-3">
+	    <?php echo $this->getChildHtml('header') ?>
+    	<div id="content" role="main">
+	        <div class="l-pageWrapper">
+	            <?php echo $this->getChildHtml('breadcrumbs') ?>
+	            <div class="l-sidebar stickyFilter"><?php echo $this->getChildHtml('left') ?></div>
+	            <div class="l-main">
+	                <div class="col-main">
+	                    <?php echo $this->getChildHtml('global_messages') ?>
+	                    <?php echo $this->getChildHtml('content') ?>
+	                </div>
+                <div class="col-right sidebar"><?php echo $this->getChildHtml('right') ?></div>
+	                
+	            </div>
+	        </div>
         </div>
         <?php echo $this->getChildHtml('footer') ?>
         <?php echo $this->getChildHtml('before_body_end') ?>

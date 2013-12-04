@@ -377,7 +377,8 @@ td {
 	padding-bottom: 100px
 }
 .l-main {
-	width: auto
+	width: auto;
+	float: left;
 }
 .l-hasSidebar .l-main {
 	float: right;
@@ -6662,7 +6663,7 @@ ul.ul-footer > li a {
 	margin-top: 5px
 }
 .thm-spinbasket #content, .thm-spinbasket #footer {
-	width: 966px
+	width: 964px
 }
 .thm-spinbasket .l-hasSidebarAndAside .l-main {
 	width: 478px

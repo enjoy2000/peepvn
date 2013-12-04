@@ -8281,7 +8281,8 @@ a:hover {
 	border-radius: 3px;
 	-webkit-box-shadow: 0 2px 3px #d1d1d1;
 	-moz-box-shadow: 0 2px 3px #d1d1d1;
-	box-shadow: 0 2px 3px #d1d1d1
+	box-shadow: 0 2px 3px #d1d1d1;
+	height: 407px;
 }
 .navSub > li:hover, .navSub > li.hover, .navSub > li.active {
 	background-color: #fff;
@@ -11291,18 +11292,20 @@ li.prd-option-item {
 	font-size: 12px
 }
 .sb-gdv-disc {
-	display: inline
+	position: absolute;
+	top: 45px;
+	left: 0;
 }
-.sb-gdv-disc > div {
-	background-color: #b00;
-	border-radius: 2px 2px 2px 2px;
-	color: #fff;
+.sb-gdv-disc > div.sb-gdv-disc__content {
+	background-color: #b90611;
 	font-weight: bold;
-	padding: 3px 4px;
+	padding: 5px 8px;
 	position: absolute;
 	display: inline;
-	margin: -.5em 0 0 .7em;
-	font-size: .9em
+	margin: -2.5em 0 0 .7em;
+	font-size: .9em;
+	color: #FFF;
+	white-space: nowrap;
 }
 #productBundles h2 {
 	font-size: 15px;
@@ -12345,7 +12348,8 @@ input[type="text"]::-ms-clear {
 	margin-top: 0;
 	padding: 0 10px;
 	text-align: left;
-	font-size: 13px
+	font-size: 13px;
+	text-align: center;
 }
 .itm-brand, .itm-title, .itm-priceBox {
 	font-size: 13px
@@ -12915,6 +12919,9 @@ ul > li > div.itm > a.itm-link > .itm-productInfo > .justBuy {
 }
 .itm-listview-priceBox-col, .itm-listview-priceBox-col:first-child, .itm-price.old {
 	width: 125px
+}
+.itm-price.old{
+	width: 100%;
 }
 .ie8 .itm-listview.itm .itm-quickview {
 	min-width: 80px

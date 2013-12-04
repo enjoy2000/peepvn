@@ -349,12 +349,10 @@
                 </span>
             </p>
         <?php else: // excl. ?>
-            <p class="old-price">
-                <span class="price-label"><?php echo $this->__('Regular Price:') ?></span>
-                <span class="price" id="old-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
+                <div class="price-prefix-listing old"></div>
+                <div class="itm-price old" id="old-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
                     <?php echo $_coreHelper->currency($_regularPrice, true, false) ?>
-                </span>
-            </p>
+                </div>
 
             <?php if ($_taxHelper->displayBothPrices()): ?>
                 <p class="special-price">
@@ -373,12 +371,19 @@
                     </span>
                 </p>
             <?php else: ?>
-            <p class="special-price">
-                <span class="price-label"><?php echo $_specialPriceStoreLabel ?></span>
-                <span class="price" id="product-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
+                <div class="price-prefix-listing special"></div>
+                <div class="itm-price special" id="product-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
                     <?php echo $_coreHelper->currency($_finalPrice, true, false) ?>
-                </span>
-            </p>
+                    <div class="sb-gdv-disc">
+                    	<div class="sb-gdv-disc__content">
+                    	<?php 
+                    	$p = ($_coreHelper->currency($_finalPrice, true, false) - $_coreHelper->currency($_regularPrice, true, false))/$_coreHelper->currency($_finalPrice, true, false); 
+                    	$p = round($p*100,0);
+						echo $p.'%';
+                    	?>
+                    	</div>
+                    </div>
+                </div>
             <?php endif; ?>
         <?php endif; ?>
 

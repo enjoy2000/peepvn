@@ -4,12 +4,16 @@ function menuInit(){
 	$j('ul.navSub').prepend('<li class="multiMenu daily-deal-menu"><a href="http://www.lazada.vn/mega-deals/" title="Mega deals"><span class="navSubTxt">Mega deals <div class="sbm-bge"><div>SALE</div></div></span></a></li>');
 }
 
+function slideInit(){
+	$j('#Slideshow .hpSlideshowSlides').cycle({fx:'scrollHorz',next: '.ui-buttonNextSlide',prev: '.ui-buttonPrevSlide' ,delay: -1000})
+	
+}
 /////////////////////////////////////
 // INIT MENU * DO NOT CHANGE      //
 ///////////////////////////////////\
 $j(document).ready(function(){
 	menuInit();
-	
+	slideInit();
 	//main menu on hover
 	$j('ul.navSub li').hover(function(){
 		$j('.navLayer.sbnyl', this).stop(true,true).css('top',$j(this).index()*(-1)*($j(this).height()+2)).animate({'opacity':1},200);

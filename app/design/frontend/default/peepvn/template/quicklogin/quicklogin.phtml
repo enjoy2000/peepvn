@@ -17,12 +17,14 @@
 			<p><?php echo $this->__('If you have an account with us, please log in.') ?></p>
 			<ul class="form-list">
 			    <li>
-				<label for="email"><?php echo $this->__('Email Address') ?> <span class="required">*</span></label><br />
-				<input name="login[username]" value="<?php echo $this->htmlEscape($this->getUsername()) ?>" id="email" type="text" class="input-text required-entry" title="<?php echo $this->__('Email Address') ?>" />
+					<label for="email"><?php echo $this->__('Email Address') ?> <span class="required">*</span></label>
+					<input name="login[username]" value="<?php echo $this->htmlEscape($this->getUsername()) ?>" id="email" type="text" class="input-text required-entry" title="<?php echo $this->__('Email Address') ?>" />
+					<br />
 			    </li>
 			    <li>
-				<label for="pass"><?php echo $this->__('Password') ?> <span class="required">*</span></label><br />
-				<input name="login[password]" type="password" class="input-text required-entry validate-password" id="pass" title="<?php echo $this->__('Password') ?>" />
+					<label for="pass"><?php echo $this->__('Password') ?> <span class="required">*</span></label>
+					<input name="login[password]" type="password" class="input-text required-entry validate-password" id="pass" title="<?php echo $this->__('Password') ?>" />
+					<br />
 			    </li>
 			</ul>
 			<p class="required"><?php echo $this->__('* Required Fields') ?></p>
@@ -67,27 +69,32 @@
 		        <div class="content">
 				<ul class="form-list">
 				    <li>
-					<label for="email"><?php echo $this->__('First Name') ?> <span class="required">*</span></label><br />
-					<input id="firstname" class="input-text required-entry" type="text" title="First Name" value="" name="firstname" />
+						<label for="email"><?php echo $this->__('First Name') ?> <span class="required">*</span></label>
+						<input id="firstname" class="input-text required-entry" type="text" title="First Name" value="" name="firstname" />
+						<br />
 				    </li>
 				    
 				     <li>
-					<label for="pass"><?php echo $this->__('Last Name') ?> <span class="required">*</span></label><br />
-					<input id="lastname" class="input-text required-entry" type="text" title="Last Name" value="" name="lastname" />
+						<label for="pass"><?php echo $this->__('Last Name') ?> <span class="required">*</span></label>
+						<input id="lastname" class="input-text required-entry" type="text" title="Last Name" value="" name="lastname" />
+						<br />
 				    </li>
 				     <li>
-					<label for="pass"><?php echo $this->__('Email Address') ?> <span class="required">*</span></label><br />
-					<input id="email_address" class="input-text validate-email required-entry" type="text" title="Email Address" value="" name="email" />
-				    </li>
-
-				     <li>
-					<label for="pass"><?php echo $this->__('Password') ?> <span class="required">*</span></label><br />
-					<input id="password" class="input-text required-entry validate-password" type="password" title="Password" name="password"/>
+						<label for="pass"><?php echo $this->__('Email Address') ?> <span class="required">*</span></label>
+						<input id="email_address" class="input-text validate-email required-entry" type="text" title="Email Address" value="" name="email" />
+						<br />
 				    </li>
 
 				     <li>
-					<label for="pass"><?php echo $this->__('Confirm Password') ?> <span class="required">*</span></label><br />
-					<input id="confirmation" class="input-text required-entry validate-password" type="password" title="Password" name="confirmation"/>
+						<label for="pass"><?php echo $this->__('Password') ?> <span class="required">*</span></label>
+						<input id="password" class="input-text required-entry validate-password" type="password" title="Password" name="password"/>
+						<br />
+				    </li>
+
+				     <li>
+						<label for="pass"><?php echo $this->__('Confirm Password') ?> <span class="required">*</span></label>
+						<input id="confirmation" class="input-text required-entry validate-password" type="password" title="Password" name="confirmation"/>
+						<br />
 				    </li>
                       <li class="control">
                     <div class="input-box">

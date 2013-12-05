@@ -15375,3 +15375,13 @@ ul.navSub > li:hover > a:before{
 .cln-2-right .col-main{
 	float: left;
 }
+#quicklogin ul li{
+	margin-top: 10px;
+}
+#quicklogin ul li .input-box{
+	float: left;
+	margin-right: 5px;
+}
+#dropbox{
+	display: none;
+}

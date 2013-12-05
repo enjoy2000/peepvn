@@ -25,6 +25,17 @@ $j(document).ready(function(){
 	menuInit();
 	slideInit();
 	producImagePlaceholder();
+	
+	//fancybox
+	$j("a.fancybox").fancybox({
+        helpers : {
+            overlay : {
+                css : {
+                    'background-color' : 'rgba(32, 30, 30, 0.81)'
+                }
+            }
+        }
+    });
 	//main menu on hover
 	$j('ul.navSub li').hover(function(){
 		$j('.navLayer.sbnyl', this).stop(true,true).css('top',$j(this).index()*(-1)*($j(this).height()+1)).animate({'opacity':1},200);

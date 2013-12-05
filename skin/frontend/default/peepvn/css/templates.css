@@ -151,393 +151,393 @@
 	background-repeat: no-repeat;
 }
 /* phone and tablets */
-li#cat_3 > .navLayer .navLayerSub .sbnc3 {
+li#cat_10 > .navLayer .navLayerSub .sbnc3 {
 	border-top: 10px solid #17b1ed;
 }
-.navSub li#cat_3:hover > .navLayer .navLayerSub .sbnc3 {
+.navSub li#cat_10:hover > .navLayer .navLayerSub .sbnc3 {
 	background-image: url(../images/category/bg-phone.jpg);
 	background-position: 50% 20px;
 }
-li#cat_3 > .navLayer .navLayerSub .brands {
+li#cat_10 > .navLayer .navLayerSub .brands {
 	padding-top: 295px;
 }
-li#cat_3 > .navLayer .navLayerSub .brands .menu-1 {
+li#cat_10 > .navLayer .navLayerSub .brands .menu-1 {
 	width: 50px;
 }
-li#cat_3 > .navLayer .navLayerSub .brands .menu-2 {
+li#cat_10 > .navLayer .navLayerSub .brands .menu-2 {
 	width: 116px;
 	background-position: -50px 0;
 }
-li#cat_3 > .navLayer .navLayerSub .brands .menu-3 {
+li#cat_10 > .navLayer .navLayerSub .brands .menu-3 {
 	width: 93px;
 	background-position: -166px 0;
 }
-li#cat_3 > .navLayer .navLayerSub .brands .menu-4 {
+li#cat_10 > .navLayer .navLayerSub .brands .menu-4 {
 	width: 126px;
 	background-position: 0 -43px;
 }
-li#cat_3 > .navLayer .navLayerSub .brands .menu-5 {
+li#cat_10 > .navLayer .navLayerSub .brands .menu-5 {
 	width: 126px;
 	background-position: -189px -906px;
 }
 
 /* laptops */
-li#cat_7 > .navLayer .navLayerSub .sbnc3 {
+li#cat_35 > .navLayer .navLayerSub .sbnc3 {
 	border-top: 10px solid #15355b;
 }
-.navSub li#cat_7:hover > .navLayer .navLayerSub .sbnc3 {
+.navSub li#cat_35:hover > .navLayer .navLayerSub .sbnc3 {
 	background-image: url(../images/category/bg-laptops.jpg);
 	background-position: 50% 0;
 }
-li#cat_7 > .navLayer .navLayerSub .brands {
+li#cat_35 > .navLayer .navLayerSub .brands {
 	padding-top: 295px;
 }
-li#cat_7 > .navLayer .navLayerSub .brands .menu-1 {
+li#cat_35 > .navLayer .navLayerSub .brands .menu-1 {
 	width: 50px;
 }
-li#cat_7 > .navLayer .navLayerSub .brands .menu-2 {
+li#cat_35 > .navLayer .navLayerSub .brands .menu-2 {
 	width: 109px;
 	background-position: 0 -86px;
 }
-li#cat_7 > .navLayer .navLayerSub .brands .menu-3 {
+li#cat_35 > .navLayer .navLayerSub .brands .menu-3 {
 	width: 104px;
 	background-position: -106px -86px;
 }
-li#cat_7 > .navLayer .navLayerSub .brands .menu-4 {
+li#cat_35 > .navLayer .navLayerSub .brands .menu-4 {
 	width: 109px;
 	background-position: 0 -129px;
 }
-li#cat_7 > .navLayer .navLayerSub .brands .menu-5 {
+li#cat_35 > .navLayer .navLayerSub .brands .menu-5 {
 	width: 112px;
 	background-position: -109px -129px;
 }
 
 /* tv */
-li#cat_6 > .navLayer .navLayerSub .sbnc3 {
+li#cat_20 > .navLayer .navLayerSub .sbnc3 {
 	border-top: 10px solid #17b1ed;
 }
-.navSub li#cat_6:hover > .navLayer .navLayerSub .sbnc3 {
+.navSub li#cat_20:hover > .navLayer .navLayerSub .sbnc3 {
 	background-image: url(../images/category/bg-tv.jpg);
 	background-position: 50% -8px;
 }
-li#cat_6 > .navLayer .navLayerSub .brands {
+li#cat_20 > .navLayer .navLayerSub .brands {
 	padding-top: 295px;
 }
-li#cat_6 > .navLayer .navLayerSub .brands .menu-1 {
+li#cat_20 > .navLayer .navLayerSub .brands .menu-1 {
 	width: 88px;
 	background-position: 0 -172px;
 }
-li#cat_6 > .navLayer .navLayerSub .brands .menu-2 {
+li#cat_20 > .navLayer .navLayerSub .brands .menu-2 {
 	width: 90px;
 	background-position: -90px -172px;
 }
-li#cat_6 > .navLayer .navLayerSub .brands .menu-3 {
+li#cat_20 > .navLayer .navLayerSub .brands .menu-3 {
 	width: 94px;
 	background-position: -187px -172px;
 }
-li#cat_6 > .navLayer .navLayerSub .brands .menu-4 {
+li#cat_20 > .navLayer .navLayerSub .brands .menu-4 {
 	width: 109px;
 	background-position: 0 -215px;
 }
-li#cat_6 > .navLayer .navLayerSub .brands .menu-5 {
+li#cat_20 > .navLayer .navLayerSub .brands .menu-5 {
 	width: 120px;
 	background-position: -117px -215px;
 }
 
 /* cameras */
-li#cat_8 > .navLayer .navLayerSub .sbnc3 {
+li#cat_36 > .navLayer .navLayerSub .sbnc3 {
 	border-top: 10px solid #15355b;
 }
-.navSub li#cat_8:hover > .navLayer .navLayerSub .sbnc3 {
+.navSub li#cat_36:hover > .navLayer .navLayerSub .sbnc3 {
 	background-image: url(http://static.lazada.vn/cms/category_banners/cat-menu/bg-camera-2.jpg);
 	background-position: 50% 6px;
 }
-li#cat_8 > .navLayer .navLayerSub .brands {
+li#cat_36 > .navLayer .navLayerSub .brands {
 	padding-top: 298px;
 }
-li#cat_8 > .navLayer .navLayerSub .brands a {
+li#cat_36 > .navLayer .navLayerSub .brands a {
 	margin: 0 3px;
 }
-li#cat_8 > .navLayer .navLayerSub .brands .menu-2 {
+li#cat_36 > .navLayer .navLayerSub .brands .menu-2 {
 	width: 100px;
 	background-position: -92px -258px;
 }
-li#cat_8 > .navLayer .navLayerSub .brands .menu-3 {
+li#cat_36 > .navLayer .navLayerSub .brands .menu-3 {
 	width: 94px;
 	background-position: -195px -258px;
 }
-li#cat_8 > .navLayer .navLayerSub .brands .menu-4 {
+li#cat_36 > .navLayer .navLayerSub .brands .menu-4 {
 	width: 126px;
 	background-position: -202px -93px;
 }
-li#cat_8 > .navLayer .navLayerSub .brands .menu-5 {
+li#cat_36 > .navLayer .navLayerSub .brands .menu-5 {
 	width: 114px;
 	background-position: -130px -43px;
 }
 
 /* home app */
-li#cat_4 > .navLayer .navLayerSub .sbnc3 {
+li#cat_13 > .navLayer .navLayerSub .sbnc3 {
 	border-top: 10px solid #009f4e;
 }
-.navSub li#cat_4:hover > .navLayer .navLayerSub .sbnc3 {
+.navSub li#cat_13:hover > .navLayer .navLayerSub .sbnc3 {
 	background-image: url(../images/category/bg-home-app.jpg);
 	background-position: 50% 0;
 }
-li#cat_4 > .navLayer .navLayerSub .brands {
+li#cat_13 > .navLayer .navLayerSub .brands {
 	padding-top: 295px;
 }
-li#cat_4 > .navLayer .navLayerSub .brands .menu-1 {
+li#cat_13 > .navLayer .navLayerSub .brands .menu-1 {
 	width: 68px;
 	background-position: -130px -301px;
 }
-li#cat_4 > .navLayer .navLayerSub .brands .menu-2 {
+li#cat_13 > .navLayer .navLayerSub .brands .menu-2 {
 	width: 102px;
 	background-position: -166px -1082px;
 }
-li#cat_4 > .navLayer .navLayerSub .brands .menu-3 {
+li#cat_13 > .navLayer .navLayerSub .brands .menu-3 {
 	width: 116px;
 	background-position: -3px -344px;
 }
-li#cat_4 > .navLayer .navLayerSub .brands .menu-4 {
+li#cat_13 > .navLayer .navLayerSub .brands .menu-4 {
 	width: 120px;
 	background-position: -136px -344px;
 }
-li#cat_4 > .navLayer .navLayerSub .brands .menu-5 {
+li#cat_13 > .navLayer .navLayerSub .brands .menu-5 {
 	width: 110px;
 	background-position: 0 -215px;
 }
 
 /* home living */
-li#cat_10 > .navLayer .navLayerSub .sbnc3 {
+li#cat_38 > .navLayer .navLayerSub .sbnc3 {
 	border-top: 10px solid #17b1ed;
 }
-.navSub li#cat_10:hover > .navLayer .navLayerSub .sbnc3 {
-	background-image: url(../images/category/bg-home-living.jpg);
+.navSub li#cat_38:hover > .navLayer .navLayerSub .sbnc3 {
+	background-image: url(../images/category/bg-books.jpg);
 	background-position: -40px 100%;
 }
-li#cat_10 > .navLayer .navLayerSub .brands {
+li#cat_38 > .navLayer .navLayerSub .brands {
 	padding-top: 105px;
 }
-li#cat_10 > .navLayer .navLayerSub .brands .menu-1 {
+li#cat_38 > .navLayer .navLayerSub .brands .menu-1 {
 	width: 80px;
 	background-position: 0 -387px;
 }
-li#cat_10 > .navLayer .navLayerSub .brands .menu-2 {
+li#cat_38 > .navLayer .navLayerSub .brands .menu-2 {
 	width: 102px;
 	background-position: -91px -387px;
 }
-li#cat_10 > .navLayer .navLayerSub .brands .menu-3 {
+li#cat_38 > .navLayer .navLayerSub .brands .menu-3 {
 	width: 89px;
 	background-position: -200px -387px;
 }
-li#cat_10 > .navLayer .navLayerSub .brands .menu-4 {
+li#cat_38 > .navLayer .navLayerSub .brands .menu-4 {
 	width: 79px;
 	background-position: 0 -430px;
 }
-li#cat_10 > .navLayer .navLayerSub .brands .menu-5 {
+li#cat_38 > .navLayer .navLayerSub .brands .menu-5 {
 	width: 125px;
 	background-position: -99px -430px;
 }
-li#cat_10 > .navLayer .navLayerSub .title {
+li#cat_38 > .navLayer .navLayerSub .title {
 	background-position: 0 -908px;
 	width: 163px;
 	height: 76px
 }
 
 /* books */
-li#cat_11 > .navLayer .navLayerSub .sbnc3 {
+li#cat_39 > .navLayer .navLayerSub .sbnc3 {
 	border-top: 10px solid #dd1471;
 }
-.navSub li#cat_11:hover > .navLayer .navLayerSub .sbnc3 {
-	background-image: url(../images/category/bg-books.jpg);
+.navSub li#cat_39:hover > .navLayer .navLayerSub .sbnc3 {
+	background-image: url(../images/category/bg-health-2.jpg);
 	background-position: 0 100%;
 }
-li#cat_11 > .navLayer .navLayerSub .brands {
+li#cat_39 > .navLayer .navLayerSub .brands {
 	padding-top: 85px;
 }
-li#cat_11 > .navLayer .navLayerSub .brands a {
+li#cat_39 > .navLayer .navLayerSub .brands a {
 	margin: 0 3px 5px;
 }
-li#cat_11 > .navLayer .navLayerSub .brands .menu-1 {
+li#cat_39 > .navLayer .navLayerSub .brands .menu-1 {
 	width: 35px;
 	background-position: -121px -511px;
 }
-li#cat_11 > .navLayer .navLayerSub .brands .menu-2 {
+li#cat_39 > .navLayer .navLayerSub .brands .menu-2 {
 	width: 50px;
 	background-position: -176px -511px;
 }
-li#cat_11 > .navLayer .navLayerSub .brands .menu-3 {
+li#cat_39 > .navLayer .navLayerSub .brands .menu-3 {
 	width: 50px;
 	background-position: -234px -511px;
 }
-li#cat_11 > .navLayer .navLayerSub .brands .menu-4 {
+li#cat_39 > .navLayer .navLayerSub .brands .menu-4 {
 	width: 92px;
 	background-position: 0 -554px;
 }
-li#cat_11 > .navLayer .navLayerSub .brands .menu-5 {
+li#cat_39 > .navLayer .navLayerSub .brands .menu-5 {
 	width: 114px;
 	background-position: -92px -554px;
 }
-li#cat_11 > .navLayer .navLayerSub .brands .menu-6 {
+li#cat_39 > .navLayer .navLayerSub .brands .menu-6 {
 	width: 112px;
 	background-position: -208px -554px;
 }
-li#cat_11 > .navLayer .navLayerSub .title {
+li#cat_39 > .navLayer .navLayerSub .title {
 	background-position: 0 -985px;
 	width: 86px;
 	height: 30px;
 }
 
 /* health */
-li#cat_12 > .navLayer .navLayerSub .sbnc3 {
+li#cat_40 > .navLayer .navLayerSub .sbnc3 {
 	border-top: 10px solid #009f4e;
 }
-.navSub li#cat_12:hover > .navLayer .navLayerSub .sbnc3 {
+.navSub li#cat_40:hover > .navLayer .navLayerSub .sbnc3 {
 	background-image: url(http://static.lazada.vn/cms/category_banners/cat-menu/bg-health-2.jpg);
 	background-position: 100% 0;
 }
-li#cat_12 > .navLayer .navLayerSub .brands {
+li#cat_40 > .navLayer .navLayerSub .brands {
 	padding-top: 300px;
 }
-li#cat_12 > .navLayer .navLayerSub .brands .menu-1 {
+li#cat_40 > .navLayer .navLayerSub .brands .menu-1 {
 	width: 94px;
 	background-position: 0 -597px;
 }
-li#cat_12 > .navLayer .navLayerSub .brands .menu-2 {
+li#cat_40 > .navLayer .navLayerSub .brands .menu-2 {
 	width: 167px;
 	background-position: 0 -1127px;
 }
-li#cat_12 > .navLayer .navLayerSub .brands .menu-3 {
+li#cat_40 > .navLayer .navLayerSub .brands .menu-3 {
 	width: 75px;
 	background-position: -205px -597px;
 }
-li#cat_12 > .navLayer .navLayerSub .brands .menu-4 {
+li#cat_40 > .navLayer .navLayerSub .brands .menu-4 {
 	width: 97px;
 	background-position: 0 -640px;
 }
-li#cat_12 > .navLayer .navLayerSub .brands .menu-5 {
+li#cat_40 > .navLayer .navLayerSub .brands .menu-5 {
 	width: 95px;
 	background-position: -110px -640px;
 }
 
 /* kids */
-li#cat_9 > .navLayer .navLayerSub .sbnc3 {
+li#cat_37 > .navLayer .navLayerSub .sbnc3 {
 	border-top: 10px solid #dd1471;
 }
-.navSub li#cat_9:hover > .navLayer .navLayerSub .sbnc3 {
+.navSub li#cat_37:hover > .navLayer .navLayerSub .sbnc3 {
 	background-image: url(http://static.lazada.vn/cms/category_banners/cat-menu/bg-kids-2.jpg);
 	background-position: 100% 0;
 }
-li#cat_9 > .navLayer .navLayerSub .brands {
+li#cat_37 > .navLayer .navLayerSub .brands {
 	padding-top: 315px;
 }
-li#cat_9 > .navLayer .navLayerSub .brands a {
+li#cat_37 > .navLayer .navLayerSub .brands a {
 	margin: 0 3px;
 }
-li#cat_9 > .navLayer .navLayerSub .brands .menu-1 {
+li#cat_37 > .navLayer .navLayerSub .brands .menu-1 {
 	width: 88px;
 	background-position: 0 -683px;
 }
-li#cat_9 > .navLayer .navLayerSub .brands .menu-2 {
+li#cat_37 > .navLayer .navLayerSub .brands .menu-2 {
 	width: 50px;
 	background-position: -100px -683px;
 }
-li#cat_9 > .navLayer .navLayerSub .brands .menu-3 {
+li#cat_37 > .navLayer .navLayerSub .brands .menu-3 {
 	width: 50px;
 	background-position: -163px -683px;
 }
-li#cat_9 > .navLayer .navLayerSub .brands .menu-4 {
+li#cat_37 > .navLayer .navLayerSub .brands .menu-4 {
 	width: 60px;
 	background-position: -218px -683px;
 }
 
 /* sports */
-li#cat_14 > .navLayer .navLayerSub .sbnc3 {
+li#cat_42 > .navLayer .navLayerSub .sbnc3 {
 	border-top: 10px solid #009f4e;
 }
-.navSub li#cat_14:hover > .navLayer .navLayerSub .sbnc3 {
+.navSub li#cat_42:hover > .navLayer .navLayerSub .sbnc3 {
 	background-image: url(../images/category/bg-sport.jpg);
 	background-position: 50% -5px;
 }
-li#cat_14 > .navLayer .navLayerSub .brands {
+li#cat_42 > .navLayer .navLayerSub .brands {
 	padding-top: 295px;
 }
-li#cat_14 > .navLayer .navLayerSub .brands .menu-1 {
+li#cat_42 > .navLayer .navLayerSub .brands .menu-1 {
 	width: 60px;
 	background-position: 0 -726px;
 }
-li#cat_14 > .navLayer .navLayerSub .brands .menu-2 {
+li#cat_42 > .navLayer .navLayerSub .brands .menu-2 {
 	width: 97px;
 	background-position: -66px -726px;
 }
-li#cat_14 > .navLayer .navLayerSub .brands .menu-3 {
+li#cat_42 > .navLayer .navLayerSub .brands .menu-3 {
 	width: 100px;
 	background-position: -167px -726px;
 }
-li#cat_14 > .navLayer .navLayerSub .brands .menu-4 {
+li#cat_42 > .navLayer .navLayerSub .brands .menu-4 {
 	width: 92px;
 	background-position: 0 -769px;
 }
-li#cat_14 > .navLayer .navLayerSub .brands .menu-5 {
+li#cat_42 > .navLayer .navLayerSub .brands .menu-5 {
 	width: 124px;
 	background-position: -106px -769px;
 }
 
 /* fashion */
-li#cat_5 > .navLayer .navLayerSub .sbnc3 {
+li#cat_18 > .navLayer .navLayerSub .sbnc3 {
 	border-top: 10px solid #dd1670;
 }
-.navSub li#cat_5:hover > .navLayer .navLayerSub .sbnc3 {
-	background-image: url(../images/category/bg-fashion.jpg);
+.navSub li#cat_18:hover > .navLayer .navLayerSub .sbnc3 {
+	background-image: url(../images/category/bg-tv.jpg);
 	background-position: 50% 20px;
 }
-li#cat_5 > .navLayer .navLayerSub .brands {
+li#cat_18 > .navLayer .navLayerSub .brands {
 	padding-top: 282px;
 }
-li#cat_5 > .navLayer .navLayerSub .brands a {
+li#cat_18 > .navLayer .navLayerSub .brands a {
 	margin: 0 7px;
 }
-li#cat_5 > .navLayer .navLayerSub .brands .menu-1 {
+li#cat_18 > .navLayer .navLayerSub .brands .menu-1 {
 	width: 262px;
 	background-position: 0 -1036px;
 }
-li#cat_5 > .navLayer .navLayerSub .brands .menu-2 {
+li#cat_18 > .navLayer .navLayerSub .brands .menu-2 {
 	width: 44px;
 	background-position: 0 -1083px;
 }
-li#cat_5 > .navLayer .navLayerSub .brands .menu-3 {
+li#cat_18 > .navLayer .navLayerSub .brands .menu-3 {
 	width: 86px;
 	background-position: -60px -1083px;
 }
-li#cat_5 > .navLayer .navLayerSub .brands .menu-4 {
+li#cat_18 > .navLayer .navLayerSub .brands .menu-4 {
 	width: 98px;
 	background-position: -191px -948px;
 }
-li#cat_5 > .navLayer .navLayerSub .brands .menu-5 {
+li#cat_18 > .navLayer .navLayerSub .brands .menu-5 {
 	width: 45px;
 	background-position: -219px -990px;
 }
 
 /* motor */
-li#cat_13 > .navLayer .navLayerSub .sbnc3 {
+li#cat_41 > .navLayer .navLayerSub .sbnc3 {
 	border-top: 10px solid #15355b;
 }
-.navSub li#cat_13:hover > .navLayer .navLayerSub .sbnc3 {
+.navSub li#cat_41:hover > .navLayer .navLayerSub .sbnc3 {
 	background-image: url(http://static.lazada.vn/cms/category_banners/cat-menu/bg-motor-2.jpg);
 	background-position: 100% 0;
 }
-li#cat_13 > .navLayer .navLayerSub .brands {
+li#cat_41 > .navLayer .navLayerSub .brands {
 	padding-top: 332px;
 }
-li#cat_13 > .navLayer .navLayerSub .brands .menu-1 {
+li#cat_41 > .navLayer .navLayerSub .brands .menu-1 {
 	width: 85px;
 	background-position: 0 -855px;
 }
-li#cat_13 > .navLayer .navLayerSub .brands .menu-2 {
+li#cat_41 > .navLayer .navLayerSub .brands .menu-2 {
 	width: 94px;
 	background-position: -90px -855px;
 }
-li#cat_13 > .navLayer .navLayerSub .brands .menu-3 {
+li#cat_41 > .navLayer .navLayerSub .brands .menu-3 {
 	width: 108px;
 	background-position: -188px -855px;
 }

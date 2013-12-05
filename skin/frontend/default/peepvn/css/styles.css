@@ -13219,7 +13219,7 @@ a.bsnch:hover {
 	width: 760px !important;
 	min-height: 10em;
 	z-index: 2;
-	min-height: 350px;
+	min-height: 430px;
 }
 .fancybox-wrap, .fancybox-skin, .fancybox-outer, .fancybox-inner, .fancybox-image, .fancybox-wrap iframe, .fancybox-wrap object, .fancybox-nav, .fancybox-nav span, .fancybox-tmp {
 	padding: 0;
@@ -15367,4 +15367,11 @@ ul.navSub > li:hover > a{
 }
 ul.navSub > li:hover > a:before{
 	background: none!important;
+}
+.cln-2-left .col-main{
+	float: left;
+	width: 725px;
+}
+.cln-2-right .col-main{
+	float: left;
 }

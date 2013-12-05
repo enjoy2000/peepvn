@@ -34,6 +34,7 @@
 <?php
     $_productCollection=$this->getLoadedProductCollection();
     $_helper = $this->helper('catalog/output');
+	//echo $_productCollection->count();
 ?>
 <?php if(!$_productCollection->count()): ?>
 <p class="note-msg"><?php echo $this->__('There are no products matching the selection.') ?></p>
@@ -44,6 +45,7 @@ $cat_id = $this->getData('category_id');
 $cat_url = Mage::getModel("catalog/category")->load($cat_id)->getUrl();
 $cat_name = Mage::getModel("catalog/category")->load($cat_id)->getName();
 if ($page == 'cms'):
+$this->setData('column_count',5);
 ?>
 <div class="hpscrow hpspem-minus">
     <?php $_iterator = 0; ?>

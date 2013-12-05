@@ -34,10 +34,11 @@
     $_product = $this->getProduct();
     $_helper = $this->helper('catalog/output');
 ?>
+<div class="prod_img prd-imageBoxLayout">
 <?php if ($_product->getImage() != 'no_selection' && $_product->getImage()): ?>
 <p class="product-image product-image-zoom">
     <?php
-        $_img = '<img id="image" src="'.$this->helper('catalog/image')->init($_product, 'image').'" alt="'.$this->escapeHtml($this->getImageLabel()).'" title="'.$this->escapeHtml($this->getImageLabel()).'" />';
+        $_img = '<img id="image" src="'.$this->helper('catalog/image')->init($_product, 'image')->resize(340).'" alt="'.$this->escapeHtml($this->getImageLabel()).'" title="'.$this->escapeHtml($this->getImageLabel()).'" />';
         echo $_helper->productAttribute($_product, $_img, 'image');
     ?>
 </p>
@@ -76,3 +77,4 @@
     </ul>
 </div>
 <?php endif; ?>
+</div>

@@ -89,7 +89,7 @@
 	-webkit-border-radius: 5px;
 }
 .navSub > li:hover .navLayer, .navSub > li.hover .navLayer {
-	left: 211px;
+	left: 202px;
 }
 .borderDestroyer {
 	left: -5px;
@@ -142,7 +142,7 @@
 }
 
 .navSub .multiMenu:hover .navLayerSub .brands a, .navSub .multiMenu:focus .navLayerSub .brands a, .navSub .multiMenu:hover .navLayerSub .title, .navSub .multiMenu:focus .navLayerSub .title {
-	background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/brands-10.gif);
+	background-image: url(../images/category/brands-10.gif);
 	background-repeat: no-repeat;
 }
 
@@ -155,7 +155,7 @@ li#cat_3 > .navLayer .navLayerSub .sbnc3 {
 	border-top: 10px solid #17b1ed;
 }
 .navSub li#cat_3:hover > .navLayer .navLayerSub .sbnc3 {
-	background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/bg-phone.jpg);
+	background-image: url(../images/category/bg-phone.jpg);
 	background-position: 50% 20px;
 }
 li#cat_3 > .navLayer .navLayerSub .brands {
@@ -186,7 +186,7 @@ li#cat_7 > .navLayer .navLayerSub .sbnc3 {
 	border-top: 10px solid #15355b;
 }
 .navSub li#cat_7:hover > .navLayer .navLayerSub .sbnc3 {
-	background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/bg-laptops.jpg);
+	background-image: url(../images/category/bg-laptops.jpg);
 	background-position: 50% 0;
 }
 li#cat_7 > .navLayer .navLayerSub .brands {
@@ -217,7 +217,7 @@ li#cat_6 > .navLayer .navLayerSub .sbnc3 {
 	border-top: 10px solid #17b1ed;
 }
 .navSub li#cat_6:hover > .navLayer .navLayerSub .sbnc3 {
-	background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/bg-tv.jpg);
+	background-image: url(../images/category/bg-tv.jpg);
 	background-position: 50% -8px;
 }
 li#cat_6 > .navLayer .navLayerSub .brands {
@@ -280,7 +280,7 @@ li#cat_4 > .navLayer .navLayerSub .sbnc3 {
 	border-top: 10px solid #009f4e;
 }
 .navSub li#cat_4:hover > .navLayer .navLayerSub .sbnc3 {
-	background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/bg-home-app.jpg);
+	background-image: url(../images/category/bg-home-app.jpg);
 	background-position: 50% 0;
 }
 li#cat_4 > .navLayer .navLayerSub .brands {
@@ -312,7 +312,7 @@ li#cat_10 > .navLayer .navLayerSub .sbnc3 {
 	border-top: 10px solid #17b1ed;
 }
 .navSub li#cat_10:hover > .navLayer .navLayerSub .sbnc3 {
-	background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/bg-home-living.jpg);
+	background-image: url(../images/category/bg-home-living.jpg);
 	background-position: -40px 100%;
 }
 li#cat_10 > .navLayer .navLayerSub .brands {
@@ -349,7 +349,7 @@ li#cat_11 > .navLayer .navLayerSub .sbnc3 {
 	border-top: 10px solid #dd1471;
 }
 .navSub li#cat_11:hover > .navLayer .navLayerSub .sbnc3 {
-	background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/bg-books.jpg);
+	background-image: url(../images/category/bg-books.jpg);
 	background-position: 0 100%;
 }
 li#cat_11 > .navLayer .navLayerSub .brands {
@@ -456,7 +456,7 @@ li#cat_14 > .navLayer .navLayerSub .sbnc3 {
 	border-top: 10px solid #009f4e;
 }
 .navSub li#cat_14:hover > .navLayer .navLayerSub .sbnc3 {
-	background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/bg-sport.jpg);
+	background-image: url(../images/category/bg-sport.jpg);
 	background-position: 50% -5px;
 }
 li#cat_14 > .navLayer .navLayerSub .brands {
@@ -488,7 +488,7 @@ li#cat_5 > .navLayer .navLayerSub .sbnc3 {
 	border-top: 10px solid #dd1670;
 }
 .navSub li#cat_5:hover > .navLayer .navLayerSub .sbnc3 {
-	background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/bg-fashion.jpg);
+	background-image: url(../images/category/bg-fashion.jpg);
 	background-position: 50% 20px;
 }
 li#cat_5 > .navLayer .navLayerSub .brands {

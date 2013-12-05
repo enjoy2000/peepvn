@@ -1881,7 +1881,7 @@ input.error, select.error, textarea.error {
 	border: none !important
 }
 .ss-lupe {
-	background: url(/media/peepvn/sprite.png) no-repeat -140px -230px !important;
+	background: url('../images/sprite.png') no-repeat -140px -230px !important;
 	width: 35px;
 	height: 30px
 }
@@ -1954,7 +1954,7 @@ input.error, select.error, textarea.error {
 	margin-top: .3em
 }
 .usp-sprite {
-	background: url(/media/peepvn/sprite.png)
+	background: url('../images/sprite.png')
 }
 .usp-sp-ship {
 	background: 0;
@@ -2134,7 +2134,7 @@ input.error, select.error, textarea.error {
 	margin-right: 2px
 }
 .sp_like {
-	background: url(/media/peepvn/sprite.png) no-repeat -340px -200px !important;
+	background: url('../images/sprite.png') no-repeat -340px -200px !important;
 	display: inline-block;
 	height: 14px;
 	width: 14px
@@ -2197,7 +2197,7 @@ input.error, select.error, textarea.error {
 	color: #333
 }
 #multilanguage .language-icon {
-	background: url(/media/peepvn/sprite.png);
+	background: url('../images/sprite.png');
 	display: inline-block;
 	width: 20px;
 	height: 15px;
@@ -2213,7 +2213,7 @@ input.error, select.error, textarea.error {
 	background-position: -350px -100px
 }
 #multilanguage .dropdown-icon {
-	background: url(/media/peepvn/sprite.png) -180px -270px;
+	background: url('../images/sprite.png') -180px -270px;
 	display: inline-block;
 	width: 9px;
 	height: 8px
@@ -2266,7 +2266,7 @@ input.error, select.error, textarea.error {
 	content: ''
 }
 #multilanguage .choose-language .chosen:before {
-	background: url(/media/peepvn/sprite.png) -230px -200px no-repeat
+	background: url('../images/sprite.png') -230px -200px no-repeat
 }
 #multilanguage .choose-language .chosen {
 	filter: grayscale(0);
@@ -3149,7 +3149,7 @@ input.error, select.error, textarea.error {
 	display: inline-block;
 	width: 13px;
 	height: 15px;
-	background: url(/media/peepvn/sprite.png) no-repeat;
+	background: url('../images/sprite.png') no-repeat;
 	margin-left: 10px;
 	margin-bottom: -3px
 }
@@ -3193,7 +3193,7 @@ ul.social_btn > li > .lf.facebook-social.sbps55.social {
 	margin-right: 7px
 }
 #prodinfo .share {
-	background: url(/media/peepvn/sprite.png) -140px -440px no-repeat;
+	background: url('../images/sprite.png') -140px -440px no-repeat;
 	width: 53px;
 	height: 20px;
 	cursor: pointer;
@@ -3201,7 +3201,7 @@ ul.social_btn > li > .lf.facebook-social.sbps55.social {
 	display: block
 }
 #prodinfo .share:hover, #prodinfo .share.clicked {
-	background: url(/media/peepvn/sprite.png) -140px -470px no-repeat
+	background: url('../images/sprite.png') -140px -470px no-repeat
 }
 #prodinfo ul.social_share_btn {
 	width: 405px;
@@ -3219,7 +3219,7 @@ ul.social_btn > li > .lf.facebook-social.sbps55.social {
 	margin-left: 7px
 }
 #prodinfo .email {
-	background: url(/media/peepvn/sprite.png) -200px -440px no-repeat;
+	background: url('../images/sprite.png') -200px -440px no-repeat;
 	width: 65px;
 	height: 22px
 }
@@ -3404,7 +3404,7 @@ ul.social_btn > li > .lf.facebook-social.sbps55.social {
 	vertical-align: middle
 }
 .buy_btn .submit_btn_icon {
-	background: url(/media/peepvn/sprite.png) -250px -200px no-repeat
+	background: url('../images/sprite.png') -250px -200px no-repeat
 }
 .out_of_stock_btn .submit_btn_icon {
 	background-image: url(http://static-02.lazada.vn/images/spinbasket/icons/bulletsSprite2.png.pagespeed.ce.Fa8WsN8yrm.png);
@@ -3499,7 +3499,7 @@ ul.social_btn > li > .lf.facebook-social.sbps55.social {
 	border-bottom: 0
 }
 #prodinfo .promotion_icon {
-	background: url(/media/peepvn/sprite.png) -140px -200px no-repeat;
+	background: url('../images/sprite.png') -140px -200px no-repeat;
 	width: 12px;
 	height: 13px;
 	display: inline-block;
@@ -3785,7 +3785,7 @@ ul.social_btn > li > .lf.facebook-social.sbps55.social {
 	color: #000
 }
 .productTeaserBox .header h1:before, .productTeaserBox .header h2:before {
-	background: url(/media/peepvn/sprite.png) no-repeat -150px -270px;
+	background: url('../images/sprite.png') no-repeat -150px -270px;
 	content: '';
 	width: 10px;
 	height: 10px;
@@ -6288,7 +6288,7 @@ ul.ul-footer > li a {
 	padding-left: 0
 }
 .pay-icon {
-	background: url(/media/peepvn/sprite.png) no-repeat;
+	background: url('../images/sprite.png') no-repeat;
 	width: 60px;
 	height: 44px;
 	float: left;
@@ -6497,7 +6497,7 @@ ul.ul-footer > li a {
 	background: 0
 }
 .cnvicon_i-arrowRightDark:before {
-	background: url(/media/peepvn/sprite.png) -200px -270px no-repeat;
+	background: url('../images/sprite.png') -200px -270px no-repeat;
 	content: '';
 	width: 10px;
 	height: 10px;
@@ -6510,7 +6510,7 @@ ul.ul-footer > li a {
 	background: url(http://static-02.lazada.vn/images/spinbasket/icons/bullet_orange_small.png.pagespeed.ce.mhsGMnBeaA.png) 0 50% no-repeat
 }
 .i-search {
-	background: url(/media/peepvn/sprite.png) -180px -230px no-repeat
+	background: url('../images/sprite.png') -180px -230px no-repeat
 }
 .i-basket {
 	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xhdCart.png.pagespeed.ic.xsxN7HALKK.png) no-repeat scroll 6px 4px transparent;
@@ -6538,7 +6538,7 @@ ul.ul-footer > li a {
 .i-slideSmallPrev, .i-slideSmallNext {
 	height: 17px;
 	width: 10px;
-	background: url(/media/peepvn/sprite.png) no-repeat
+	background: url('../images/sprite.png') no-repeat
 }
 .i-slideSmallPrev {
 	background-position: -430px -210px
@@ -6552,7 +6552,7 @@ ul.ul-footer > li a {
 	background-position: -5px -48px
 }
 .i-slidePrev, .i-slideNext {
-	background: url(/media/peepvn/sprite.png) no-repeat top left !important
+	background: url('../images/sprite.png') no-repeat top left !important
 }
 .i-slidePrev {
 	background-position: -140px -330px !important
@@ -7139,7 +7139,7 @@ ul.ul-footer > li a {
 	vertical-align: middle
 }
 #newfooter .flag {
-	background: url(/media/peepvn/sprite.png);
+	background: url('../images/sprite.png');
 	width: 26px;
 	height: 14px;
 	display: inline-block;
@@ -7174,7 +7174,7 @@ ul.ul-footer > li a {
 #newfooter .social, #newfooter .social:hover {
 	width: 30px;
 	height: 30px;
-	background: url(/media/peepvn/sprite.png) no-repeat;
+	background: url('../images/sprite.png') no-repeat;
 	display: inline-block;
 	margin-left: 3px
 }
@@ -8132,7 +8132,7 @@ a:hover {
 	margin: 0 0 5px 20px;
 	width: 129px;
 	height: 51px;
-	background: transparent url(/media/peepvn/sprite.png) -140px 0 no-repeat
+	background: transparent url('../images/sprite.png') -140px 0 no-repeat
 }
 .ui-box-shadow {
 	-moz-box-shadow: -1px 0 3px 2px #003a70;
@@ -8158,7 +8158,7 @@ a:hover {
 	position: relative
 }
 .hdCart a:before {
-	background: url(/media/peepvn/sprite.png) no-repeat -220px -230px #3af;
+	background: url('../images/sprite.png') no-repeat -220px -230px #3af;
 	content: '';
 	width: 30px;
 	height: 21px;
@@ -8262,7 +8262,7 @@ a:hover {
 	border-left: 1px solid #fdc91e
 }
 .arrow:before {
-	background: url(/media/peepvn/sprite.png) -160px -270px no-repeat;
+	background: url('../images/sprite.png') -160px -270px no-repeat;
 	content: '';
 	position: absolute;
 	top: 13px;
@@ -8301,7 +8301,7 @@ a:hover {
 	position: relative
 }
 .catArrow:before {
-	background: url(/media/peepvn/sprite.png) no-repeat -140px -270px !important;
+	background: url('../images/sprite.png') no-repeat -140px -270px !important;
 	content: '';
 	width: 10px;
 	height: 10px;
@@ -8433,7 +8433,8 @@ a:hover {
 	width: 970px;
 	display: block;
 	text-align: center;
-	overflow: hidden
+	overflow: hidden;
+	margin: 20px auto;
 }
 .bannerLoader {
 	position: relative;
@@ -8991,7 +8992,7 @@ a:hover {
 	margin: 0 0 10px 0
 }
 .ie7 .thm-multistore #checkoutGrandTotal label:before, .prd-ratTitle:before {
-	background: url(/media/peepvn/sprite.png) -470px -200px no-repeat;
+	background: url('../images/sprite.png') -470px -200px no-repeat;
 	width: 20px;
 	height: 20px;
 	content: '';
@@ -9278,7 +9279,7 @@ a:hover {
 	margin-left: 0;
 	width: 18px;
 	height: 11px;
-	background: url(/media/peepvn/sprite.png) no-repeat;
+	background: url('../images/sprite.png') no-repeat;
 	outline: 0;
 	border: 0
 }
@@ -9295,7 +9296,7 @@ a:hover {
 	border: 1px solid #bb8312
 }
 .ui-slider-handle-active, .ui-slider-horizontal .ui-slider-handle.priceRange:hover, .ui-slider-horizontal .ui-slider-handle.priceRange.ui-state-active {
-	background: url(/media/peepvn/sprite.png) no-repeat
+	background: url('../images/sprite.png') no-repeat
 }
 .ui-slider-horizontal .ui-slider-handle.left_hdl.priceRange:hover, .ui-slider-horizontal .ui-slider-handle.left_hdl.priceRange.ui-state-active {
 	background-position: -290px -249px;
@@ -9394,7 +9395,7 @@ a:hover {
 	width: 18px;
 	height: 11px;
 	outline: 0;
-	background: url(/media/peepvn/sprite.png) -290px -238px no-repeat;
+	background: url('../images/sprite.png') -290px -238px no-repeat;
 	left: 0;
 	border: 0
 }
@@ -9418,7 +9419,7 @@ a:hover {
 	display: inline-block;
 	height: 14px;
 	margin-bottom: -2px;
-	background: url(/media/peepvn/sprite.png) -140px -290px no-repeat
+	background: url('../images/sprite.png') -140px -290px no-repeat
 }
 .not-selected {
 	background-position: -140px -310px
@@ -9934,7 +9935,7 @@ td.amount {
 }
 .jquery-selectbox-order .jquery-selectbox-order-moreButton {
 	cursor: pointer;
-	background: url(/media/peepvn/sprite.png) -160px -270px no-repeat;
+	background: url('../images/sprite.png') -160px -270px no-repeat;
 	z-index: 1;
 	float: right;
 	height: 7px;
@@ -10221,7 +10222,7 @@ input[type="checkbox"], input[type="radio"] {
 	z-index: 99
 }
 #AddToCart.ui-buttonCart .new-cartTxt, #OutOfStock.ui-buttonCart .new-cartTxt, .bcr-topline-divider {
-	background: url(/media/peepvn/sprite.png) -400px -200px no-repeat
+	background: url('../images/sprite.png') -400px -200px no-repeat
 }
 #AddToCart.ui-buttonCart .icon {
 	background-position: -8px -75px;
@@ -12246,7 +12247,7 @@ input[type="text"]::-ms-clear {
 	background-image: none
 }
 .cnv .selected > a.cnvicon_i-arrowRightDark:before, .cnv .childSelected > a.cnvicon_i-arrowRightDark:before {
-	background: url(/media/peepvn/sprite.png) -320px -267px no-repeat
+	background: url('../images/sprite.png') -320px -267px no-repeat
 }
 .fct-category .cnv-empty, .fct-category a {
 	line-height: 1.2;
@@ -12425,7 +12426,7 @@ input[type="text"]::-ms-clear {
 	text-align: left
 }
 .itm-newFlag {
-	background: url(/media/peepvn/sprite.png) -340px -230px no-repeat;
+	background: url('../images/sprite.png') -340px -230px no-repeat;
 	width: 56px;
 	color: #fff;
 	text-shadow: 0 1px 0 rgba(0,0,0,.8);
@@ -12495,7 +12496,7 @@ input[type="text"]::-ms-clear {
 	width: 90px
 }
 .itm-ratStars {
-	background: url(/media/peepvn/sprite.png) -250px -310px no-repeat;
+	background: url('../images/sprite.png') -250px -310px no-repeat;
 	width: 84px;
 	height: 20px;
 	margin-right: 5px
@@ -13108,7 +13109,7 @@ ul > li > div.itm > a.itm-link > .itm-productInfo > .justBuy {
 	display: block
 }
 .bsncLink:before {
-	background: url(/media/peepvn/sprite.png) -200px -272px no-repeat;
+	background: url('../images/sprite.png') -200px -272px no-repeat;
 	width: 10px;
 	height: 10px;
 	content: '';
@@ -13137,7 +13138,10 @@ ul > li > div.itm > a.itm-link > .itm-productInfo > .justBuy {
 	font-weight: bold;
 	font-size: 1em;
 	padding-left: .3em;
-	clear: both
+	clear: both;
+	white-space: nowrap;
+	width: 100%;
+	display: block;
 }
 a.bsnch {
 	color: #333;
@@ -15333,4 +15337,34 @@ div.ui-wishlist.wishlist {
 }
 .tinymask{
 	z-index: 1111!important;
+}
+.page-head-alt{
+	margin-top: 20px;
+}
+.block-tags {
+	margin: 15px 0;
+}
+.block-tags ul.tags-list{
+	padding: 15px;
+	padding-bottom: 5px;
+}
+.block-tags .actions{
+	display: block;
+	clear: both;
+	padding-left: 15px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.block-tags ul.tags-list li{
+	float: left; margin-right: 8px;
+}
+.block-tags ul.tags-list li a{
+	float: left;
+	display: block;
+}
+ul.navSub > li:hover > a{
+	width: 191px;
+}
+ul.navSub > li:hover > a:before{
+	background: none!important;
 }

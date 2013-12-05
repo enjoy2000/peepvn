@@ -24,12 +24,10 @@
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
-<div class="block block-tags">
-    <div class="block-title">
-        <strong><span><?php echo $this->__('Popular Tags'); ?></span></strong>
-    </div>
+<div class="block block-tags box-bdr box-bgcolor fsm">
+    <h3 class="h4 fct-hdblue"><?php echo $this->__('Popular Tags'); ?></h3>
     <div class="block-content">
-        <ul class="tags-list">
+        <ul class="tags-list clearfix">
             <?php foreach ($this->getTags() as $_tag): ?>
                 <li><a href="<?php echo $_tag->getTaggedProductsUrl() ?>" style="font-size:<?php echo $_tag->getRatio()*70+75 ?>%;"><?php echo $this->escapeHtml($_tag->getName()) ?></a></li>
             <?php endforeach; ?>

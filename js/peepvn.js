@@ -1,7 +1,7 @@
 $j = jQuery.noConflict();
 //init menu
 function menuInit(){
-	$j('ul.navSub').prepend('<li class="multiMenu daily-deal-menu"><a href="http://www.lazada.vn/mega-deals/" title="Mega deals"><span class="navSubTxt">Mega deals <div class="sbm-bge"><div>SALE</div></div></span></a></li>');
+	$j('ul.navSub').prepend('<li class="multiMenu daily-deal-menu"><a href="/index.php/mega-deals/" title="Mega deals"><span class="navSubTxt">Mega deals <div class="sbm-bge"><div>SALE</div></div></span></a></li>');
 }
 //init slide
 function slideInit(){
@@ -27,7 +27,7 @@ $j(document).ready(function(){
 	producImagePlaceholder();
 	//main menu on hover
 	$j('ul.navSub li').hover(function(){
-		$j('.navLayer.sbnyl', this).stop(true,true).css('top',$j(this).index()*(-1)*($j(this).height()+2)).animate({'opacity':1},200);
+		$j('.navLayer.sbnyl', this).stop(true,true).css('top',$j(this).index()*(-1)*($j(this).height()+1)).animate({'opacity':1},200);
 	},
 	function(){
 		$j('.navLayer.sbnyl', this).stop(true,true).delay(300).css('top', -1000).animate({'opacity':0},200);

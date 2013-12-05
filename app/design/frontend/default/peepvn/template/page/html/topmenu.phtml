@@ -71,7 +71,7 @@ $_menu = $this->getHtml('level-top') ?>
 					foreach($categories as $cat):					
 					?>
 					<?php if($cat->getLevel() == 2): ?>
-					<li id="cat_<?php echo $cat->getId()?>"><a class="cat_<?php echo $cat->getId()?>" href="<?php echo $cat->getUrl()?>"><?php echo $cat->getName(); ?></a>
+					<li id="cat_<?php echo $cat->getId()?>"><a class="catArrow cat_<?php echo $cat->getId()?>" href="<?php echo $cat->getUrl()?>"><?php echo $cat->getName(); ?></a>
 						<?php if(count($cat->getChildrenCategories())>0): ?>
 						<div class="navLayer sbnyl">
 							<div class="navLayerSub clearfix">

@@ -36,3 +36,10 @@
         <?php echo $this->getChildHtml('', true, true) ?>
     </div>
 <?php endif; ?>
+<script>
+(function($){
+	$(".add-to-cart button").click(function(){
+		return false;
+	});
+})(jQuery);
+</script>

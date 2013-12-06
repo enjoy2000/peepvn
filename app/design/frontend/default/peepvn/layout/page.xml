@@ -61,7 +61,8 @@ Default layout, loads most of the pages
                 <action method="addItem"><type>js</type><name>lib/ds-sleight.js</name><params/><if>lt IE 7</if></action>
                 <action method="addItem"><type>skin_js</type><name>js/ie6.js</name><params/><if>lt IE 7</if></action>
                 <action method="addJs"><script>jquery.cycle.all.js</script></action>
-                <action method="addJs"><script>fancybox/jquery.fancybox.js</script></action>
+                <action method="addJs"><script>fancybox/jquery.fancybox.js</script></action>                
+                <action method="addJs"><script>elevatezoom/jquery.elevatezoom.js</script></action>
                 <action method="addJs"><script>peepvn.js</script></action>
             </block>
 

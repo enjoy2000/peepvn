@@ -54,7 +54,7 @@ class Enjoy_AjaxAddToCart_CartController extends Mage_Checkout_CartController
                     $this->_getSession()->addSuccess($message);
                 }
             }
-            echo 1;
+            echo Mage::getSingleton('checkout/cart')->getSummaryQty();
         } catch (Mage_Core_Exception $e) {
             if ($this->_getSession()->getUseNotice(true)) {
                 $this->_getSession()->addNotice(Mage::helper('core')->escapeHtml($e->getMessage()));
@@ -65,7 +65,7 @@ class Enjoy_AjaxAddToCart_CartController extends Mage_Checkout_CartController
                 }
             }
 
-            echo 1;
+            echo Mage::getSingleton('checkout/cart')->getSummaryQty();
         } catch (Exception $e) {
             $this->_getSession()->addException($e, $this->__('Cannot add the item to shopping cart.'));
             Mage::logException($e);

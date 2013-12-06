@@ -134,9 +134,6 @@
 					<a href="/thoi-trang-phu-kien/" title="Fashion by Lazada"><span class="navSubTxt" style="text-transform: none;">Fashion by Lazada</span></a>
 				</li>
 			</ul>
-			<noscript>
-				&lt;img src="//d5nxst8fruw4z.cloudfront.net/atrk.gif?account=obgrh1aMQV00UX" style="display:none" height="1" width="1" alt=""/&gt;
-			</noscript>
 			<!--- End CMS footer_multistore_shipping_list-->
 		</div>
 		<div class="f_col">
@@ -319,128 +316,13 @@
 					<div class="validation error" id="field_20979416_errors">
 						&nbsp;
 					</div>
-
-					<input id="locale_id" name="locale_id" type="hidden" value="26">
-					<input id="set_tags" name="set_tags" type="hidden" value="dropbox">
-					<input id="via_id" name="via_id" type="hidden" value="17">
-					<input id="client" name="client" type="hidden" value="Client: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36">
-					<input id="submitted_from" name="submitted_from" type="hidden" value="http://www.lazada.vn/">
-					<input id="ticket_from_search" name="ticket_from_search" type="hidden" value="">
+					<div>
+						<input id="support-submit" type="submit" name="submit" class="btn-submit"/>
+					</div>
 				</fieldset>
 			</form>
 		</section>
 
-		<section id="ticket_success" class="view" style="display: none;">
-			<div class="body">
-				<span>Message submitted. Thanks!</span>
-			</div>
-		</section>
-
-		<section id="suggestions_form" class="view" style="display: none;">
-			<form accept-charset="UTF-8" action="#/dropbox/suggestions" class="body" data-domain-protocol="http://lazadavn.zendesk.com" data-metric-activity="submit-question" data-remote-url="/categories/search" method="get">
-				<div style="margin:0;padding:0;display:inline">
-					<input name="utf8" type="hidden" value="✓">
-				</div>
-				<fieldset>
-					<label for="suggestions_query">What is your question?</label>
-					<input id="suggestions_query" maxlength="75" name="suggestions_query" placeholder="" required="required" title="Vui lòng điền vào mục này" type="text" value="">
-					<input class="button" id="suggestions_submit" name="commit" type="submit" value="Tiếp tục">
-					<div class="validation error" id="suggestions_query_errors">
-						&nbsp;
-					</div>
-					<input id="page" name="page" type="hidden" value="1">
-					<input id="per_page" name="per_page" type="hidden" value="5">
-					<input id="for_search" name="for_search" type="hidden" value="1">
-					<input id="origin" name="origin" type="hidden" value="dropbox">
-				</fieldset>
-			</form>
-			<footer>
-				<span class="branding"><a href="http://www.zendesk.com/help-desk-software?source=feedbacktab" target="_new">Được cung cấp bởi Zendesk</a></span><span><span class="spacer">&nbsp;</span></span><div class="clearfix"></div>
-			</footer>
-		</section>
-
-		<section id="suggestions_results" class="view search_results" style="display: none;">
-			<div class="body">
-				<div class="you_asked">
-					<span class="label"></span>
-					<span class="question"></span>
-				</div>
-				<p class="results_header">
-					We found the following topics that might be helpful:
-				</p>
-				<div class="content"></div>
-			</div>
-			<footer>
-				<span class="branding"><a href="http://www.zendesk.com/help-desk-software?source=feedbacktab" target="_new">Được cung cấp bởi Zendesk</a></span><span><a href="#/dropbox/suggestions/notHelpful" class="button">None of these are helpful - get in touch</a></span><div class="clearfix"></div>
-			</footer>
-		</section>
-
-		<section id="chat_or_submit_ticket_prompt" class="view" style="display: none;">
-			<div class="body">
-				<h2>Would you like to...</h2>
-				<div class="options">
-					<a href="#/dropbox/chat/new" class="preferChat" data-metric-activity="select-chat"> <img alt="Chat bubbles" src="/external/zenbox/v2.0/chat.png"> <span>Find someone to chat with</span> </a><a href="#/dropbox/tickets/new" class="preferTicket"> <img alt="Ticket form" src="/external/zenbox/v2.0/ticket.png"> <span>Submit a support request</span> </a><span class="or-container"> <span class="or-text">hoặc</span> </span>
-				</div>
-				<div class="clear"></div>
-			</div>
-			<footer>
-				<span class="branding"><a href="http://www.zendesk.com/help-desk-software?source=feedbacktab" target="_new">Được cung cấp bởi Zendesk</a></span><span><span class="spacer">&nbsp;</span></span><div class="clearfix"></div>
-			</footer>
-		</section>
-
-		<section id="chat_user_info" class="view" style="display: none;">
-			<form accept-charset="UTF-8" action="#/dropbox/chat" data-domain-protocol="http://lazadavn.zendesk.com" data-metric-activity="open-chat" data-remote-url="/chat" method="post" target="_new">
-				<div style="margin:0;padding:0;display:inline">
-					<input name="utf8" type="hidden" value="✓">
-					<input name="authenticity_token" type="hidden" value="l0YM6UqNdN7OVaFzm2qfca9PcIZYAu/H+J8ZHVHycHs=">
-				</div>
-				<fieldset class="body">
-					<input id="dropboxID" name="dropboxID" type="hidden" value="20122091">
-					<input id="dropboxLocale" name="dropboxLocale" type="hidden" value="26">
-
-					<label for="user_name">Tên: <abbr title="Required">*</abbr></label>
-					<input id="user_name" name="user[name]" required="required" title="Vui lòng điền vào mục này" type="text">
-					<div class="validation error" id="user_name_errors">
-						&nbsp;
-					</div>
-
-					<label for="user_email">Email người dùng <abbr title="Required">*</abbr></label>
-					<input data-type="email" id="user_email" name="user[email]" required="required" title="Vui lòng điền vào mục này" type="email">
-					<div class="validation error" id="user_email_errors">
-						&nbsp;
-					</div>
-
-					<label for="chat_subject">Question <abbr title="Required">*</abbr></label>
-					<input id="chat_subject" name="chat[subject]" required="required" title="Vui lòng điền vào mục này" type="text">
-					<div class="validation error" id="chat_subject_errors">
-						&nbsp;
-					</div>
-
-				</fieldset>
-				<footer>
-					<span class="branding"><a href="http://www.zendesk.com/help-desk-software?source=feedbacktab" target="_new">Được cung cấp bởi Zendesk</a></span><span>
-						<input class="button" name="commit" type="submit" value="Begin chat">
-					</span><div class="clearfix"></div>
-				</footer>
-			</form>
-		</section>
-
-		<section id="knowledge_base_search_results" class="view search_results" style="display: none;">
-			<div class="body">
-				<div class="content"></div>
-			</div>
-			<footer>
-				<span class="branding"><a href="http://www.zendesk.com/help-desk-software?source=feedbacktab" target="_new">Được cung cấp bởi Zendesk</a></span><span><a href="#/dropbox/tickets/new" class="button">None of these are helpful - get in touch</a></span><div class="clearfix"></div>
-			</footer>
-		</section>
-
-		<section class="view" id="waiting" style="display: none;">
-			<div class="body">
-				<img alt="Load_large" src="/images/load_large.gif" title="Loading Spinner">
-			</div>
-			<footer>
-				<span class="branding"><a href="http://www.zendesk.com/help-desk-software?source=feedbacktab" target="_new">Được cung cấp bởi Zendesk</a></span><span><span class="spacer">&nbsp;</span></span><div class="clearfix"></div>
-			</footer>
-		</section>
+		<section id="form-submit-mess"></section>
 	</div>
 </div>

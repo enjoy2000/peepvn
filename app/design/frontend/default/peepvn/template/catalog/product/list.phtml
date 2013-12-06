@@ -45,7 +45,6 @@ $cat_id = $this->getData('category_id');
 $cat_url = Mage::getModel("catalog/category")->load($cat_id)->getUrl();
 $cat_name = Mage::getModel("catalog/category")->load($cat_id)->getName();
 if ($page == 'cms'):
-$this->setData('column_count',5);
 ?>
 <div class="hpscrow hpspem-minus">
     <?php $_iterator = 0; ?>
@@ -71,7 +70,7 @@ $this->setData('column_count',5);
 	            <!-- Bring in gallery Images    -->
                     <?php $_gallery = Mage::getModel('catalog/product')->load($_product->getId())->getMediaGalleryImages();  ?>
                     <?php $imgcount = Mage::getModel('catalog/product')->load($_product->getId())->getMediaGalleryImages()->count();?>
-	            <a aaonclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')" href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" class="itm-link  itm-drk trackingOnClick">
+	            <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" class="itm-link  itm-drk trackingOnClick">
 	            	<span class="lazyImage loaded">
 	            		<span>
 	            			<img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(160); ?>" width="160" height="160" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" />
@@ -80,7 +79,10 @@ $this->setData('column_count',5);
 	            	<span class="itm-outOfStock"></span>
 	            	<span class="itm-productInfo">
 	            		<div class="ipihi">
-	            			<span class="<?php echo ($_product->isSaleable()) ? 'quickbuyAc' : 'outOfStock' ?> itm-quickview gtgu3 ui-button">Mua ngay</span>
+	            			<span onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')" 
+	            				class="<?php echo ($_product->isSaleable()) ? 'button btn-cart quickbuyAc' : 'outOfStock' ?> itm-quickview gtgu3 ui-button">
+	            				Mua ngay
+	            			</span>
 	            		</div>
 	            		<em class="itm-title"><?php echo $_helper->productAttribute($_product, $_product->getName() , 'name'); ?></em>
 	            		<div class="itm-stock-hint">	            			
@@ -128,8 +130,8 @@ $this->setData('column_count',5);
     <?php // List mode ?>
     <?php if($this->getMode()!='grid'): ?>
     <?php $_iterator = 0; ?>
-    <section class="box clearfix productTeaserBox">
-    <ul class="subGroupProducts clearfix products-list" id="products-list">
+    <section class="catalog-products-section box-bd pan mtm">
+    <ul class="productsCatalog clearfix products-list" id="productsCatalog" data-role="catealog_<?php echo $this->getMode() ?>">
     <?php foreach ($_productCollection as $_product): ?>
         <li class="item <?php if( ++$_iterator == sizeof($_productCollection) ): ?> last<?php endif; ?>">
             <?php // Product Image ?>
@@ -171,41 +173,73 @@ $this->setData('column_count',5);
     <?php else: ?>
 
     <?php // Grid Mode ?>
-
+	<section class="catalog-products-section box-bd pan mtm">		
+        <ul class="productsCatalog clearfix products-list" id="productsCatalog" data-role="catealog_<?php echo $this->getMode() ?>">
     <?php $_collectionSize = $_productCollection->count() ?>
-    <?php $_columnCount = $this->getColumnCount(); ?>
+    <?php $_columnCount = 4; ?>
     <?php $i=0; foreach ($_productCollection as $_product): ?>
         <?php if ($i++%$_columnCount==0): ?>
-        <ul class="products-grid">
+        <ul class="subGroupProducts clearfix">
         <?php endif ?>
-            <li class="item<?php if(($i-1)%$_columnCount==0): ?> first<?php elseif($i%$_columnCount==0): ?> last<?php endif; ?>">
-                <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135); ?>" width="135" height="135" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" /></a>
-                <h2 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($_product->getName(), null, true) ?>"><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></a></h2>
-                <?php if($_product->getRatingSummary()): ?>
-                <?php echo $this->getReviewsSummaryHtml($_product, 'short') ?>
-                <?php endif; ?>
-                <?php echo $this->getPriceHtml($_product, true) ?>
-                <div class="actions">
-                    <?php if($_product->isSaleable()): ?>
-                        <button type="button" title="<?php echo $this->__('Add to Cart') ?>" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button>
-                    <?php else: ?>
-                        <p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
-                    <?php endif; ?>
-                    <ul class="add-to-links">
-                        <?php if ($this->helper('wishlist')->isAllow()) : ?>
-                            <li><a href="<?php echo $this->helper('wishlist')->getAddUrl($_product) ?>" class="link-wishlist"><?php echo $this->__('Add to Wishlist') ?></a></li>
-                        <?php endif; ?>
-                        <?php if($_compareUrl=$this->getAddToCompareUrl($_product)): ?>
-                            <li><span class="separator">|</span> <a href="<?php echo $_compareUrl ?>" class="link-compare"><?php echo $this->__('Add to Compare') ?></a></li>
-                        <?php endif; ?>
-                    </ul>
-                </div>
-            </li>
+            <li class="unit item <?php if( ++$_iterator == sizeof($_productCollection) ): ?> last<?php endif; ?>">
+            <div class="itm hasOverlay   lastrow">
+	            <!-- Bring in gallery Images    -->
+                    <?php $_gallery = Mage::getModel('catalog/product')->load($_product->getId())->getMediaGalleryImages();  ?>
+                    <?php $imgcount = Mage::getModel('catalog/product')->load($_product->getId())->getMediaGalleryImages()->count();?>
+	            <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" class="itm-link  itm-drk trackingOnClick">
+	            	<span class="lazyImage loaded">
+	            		<span>
+	            			<img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(160); ?>" width="160" height="160" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" />
+	            		</span>
+	            	</span>
+	            	<span class="itm-outOfStock"></span>
+	            	<span class="itm-productInfo">
+	            		<div class="ipihi">
+	            			<span onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')" 
+	            				class="<?php echo ($_product->isSaleable()) ? 'button btn-cart quickbuyAc' : 'outOfStock' ?> itm-quickview gtgu3 ui-button">
+	            				Mua ngay
+	            			</span>
+	            		</div>
+	            		<em class="itm-title"><?php echo $_helper->productAttribute($_product, $_product->getName() , 'name'); ?></em>
+	            		<div class="itm-stock-hint">	            			
+	                    <?php if($_product->isSaleable()): ?>
+	                        Con hang
+	                    <?php else: ?>
+	                        Het hang
+	                    <?php endif; ?>
+	            		</div>
+	            		<span class="itm-priceBox itm-priceBox-block">	            			
+                   			<?php echo $this->getPriceHtml($_product, true) ?>
+	            		</span>
+	            	</span>
+	            	<div style="text-align:left;margin:.3em 0 0 1em;"></div>
+	            </a>
+	            <div class="itm-overlay <?php echo ($imgcount > 1) ? 'itm-group-mainbox-with-group' : 'narrow'; ?>">
+	            	<?php if($imgcount >1): ?>
+	            	<div class="itm-moreImages">
+	            		<div class="itm-group-extra-box">
+		            		<?php foreach($_gallery as $_image): ?>
+		            		<div>
+		            			<a data-placeholder="<?php echo $this->helper('catalog/image')->init($_product, 'thumbnail', $_image->getFile())->resize(160); ?>" class="productImage loadOnCustomEvent loaded" href="#">
+		            				<span class="itm-imageWrapper ll-imageWrapper default-state">
+		            					<img class="itm-img loading" src="<?php echo $this->helper('catalog/image')->init($_product, 'thumbnail', $_image->getFile())->resize(87, 130); ?>" width="44" height="44" alt="<?php echo $this->htmlEscape($_image->getLabel()) ?>" title="<?php echo $this->htmlEscape($_image->getLabel()) ?>" />
+		            				</span>
+		            			</a>
+		            		</div>	
+		            		<?php endforeach; ?>
+	            		</div>
+	            	</div>
+	            	<?php endif; ?>
+	            </div>
+            </div>
+        </li>
         <?php if ($i%$_columnCount==0 || $i==$_collectionSize): ?>
         </ul>
         <?php endif ?>
         <?php endforeach ?>
         <script type="text/javascript">decorateGeneric($$('ul.products-grid'), ['odd','even','first','last'])</script>
+       </ul>
+    </section>
     <?php endif; ?>
 
     <div class="toolbar-bottom">

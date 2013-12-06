@@ -26,6 +26,20 @@ $j(document).ready(function(){
 	slideInit();
 	producImagePlaceholder();
 	
+	//show cart button
+	$j('#hdCartLink').click(function(e){
+		e.preventDefault();			
+		$j.fancybox.showLoading();
+		$j.ajax({
+			url : BASE_URL + 'ajaxaddtocart/cart/index',
+			success: function(cart){	
+				$j.fancybox({
+				    'content' : cart
+				  });
+				$j.fancybox.hideLoading();
+			}
+		});
+	});
 	//fancybox
 	$j("a.fancybox").fancybox({
         helpers : {

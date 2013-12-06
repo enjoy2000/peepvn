@@ -6917,7 +6917,21 @@ ul.ul-footer > li a {
 	position: relative;
 	float: right;
 	text-align: right;
-	padding: 6px 8px 4px 10px
+	margin-left: 20px;
+	padding-left: 20px;
+	border-left: solid 1px #000;
+}
+.paging .pgn-sortWrapper label{
+	display: inline;
+	font-weight: normal;
+}
+.paging .pgn-sortWrapper select{
+	display: inline;
+	margin: 0 5px;
+}
+.paging .pgn-sortWrapper a{
+	display: inline;
+	margin-right: 5px;
 }
 .paging .pgn-sortWrapper label, .paging .pgn-label {
 	color: #333;
@@ -6925,7 +6939,7 @@ ul.ul-footer > li a {
 	margin: 3px 5px 0 0
 }
 .paging .pgn-label {
-	float: left;
+	display: inline;
 	margin: 0 10px 0 0;
 	line-height: 1em
 }
@@ -6949,10 +6963,26 @@ ul.ul-footer > li a {
 	padding: 1px
 }
 .paging .pgn-pagingWrapper {
-	xwidth: 45%;
+	width: 45%;
 	float: right !important;
 	padding: 3px 10px 0 0;
 	display: inline-block !important
+}
+.paging .pgn-pagingWrapper .pages strong{
+	display: inline-block;
+}
+.paging .pgn-pagingWrapper .pages ol{
+	display: inline-block;
+}
+.paging .pgn-pagingWrapper .pages ol li{
+	display: inline;
+	margin-left: 10px;
+}
+.paging .pgn-pagingWrapper .pages ol li.current{
+	color: #ffb319;
+}
+.paging .pgn-pagingWrapper .pages ol li a:hover{
+	color: #ffb319;
 }
 .paging .pgn-bottom-wrapper {
 	border-top: 3px solid #e6e6e6
@@ -6997,9 +7027,12 @@ ul.ul-footer > li a {
 	padding-top: 4px
 }
 .pgn-viewType-list {
-	float: left;
+	display: inline;
 	line-height: 1;
 	height: 20px
+}
+.pgn-viewType-list li{
+	margin: 0;
 }
 .ie7 .pgn-viewType-list {
 	position: relative
@@ -11293,12 +11326,14 @@ li.prd-option-item {
 .small-font {
 	font-size: 12px
 }
-.sb-gdv-disc {
+.hpscrow .sb-gdv-disc,
+li.item .sb-gdv-disc {
 	position: absolute;
 	top: 45px;
 	left: 0;
 }
-.sb-gdv-disc > div.sb-gdv-disc__content {
+.hpscrow .sb-gdv-disc > div.sb-gdv-disc__content,
+li.item .sb-gdv-disc > div.sb-gdv-disc__content {
 	background-color: #b90611;
 	font-weight: bold;
 	padding: 5px 8px;
@@ -13277,7 +13312,8 @@ a.bsnch:hover {
 	max-height: 100%
 }
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-	background-image: url(http://static-02.lazada.vn/images/local/fancybox/fancybox_sprite.png)
+	background-image: url(../js/fancybox/fancybox_sprite.png);
+	
 }
 #fancybox-loading {
 	position: fixed;
@@ -13293,7 +13329,7 @@ a.bsnch:hover {
 #fancybox-loading div {
 	width: 44px;
 	height: 44px;
-	background: url(http://static-02.lazada.vn/images/local/fancybox/fancybox_loading.gif) center center no-repeat
+	background: url(../js/fancybox/fancybox_loading.gif) center center no-repeat
 }
 .fancybox-close {
 	position: absolute;
@@ -13311,7 +13347,7 @@ a.bsnch:hover {
 	height: 100%;
 	cursor: pointer;
 	text-decoration: none;
-	background: transparent url(http://static-02.lazada.vn/images/local/fancybox/blank.gif);
+	background: transparent url(../js/fancybox/blank.gif);
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	z-index: 8040
 }
@@ -13358,7 +13394,7 @@ a.bsnch:hover {
 	overflow: hidden;
 	display: none;
 	z-index: 8010;
-	background: url(http://static-02.lazada.vn/images/local/fancybox/fancybox_overlay.png)
+	background: url(../js/fancybox/fancybox_overlay.png);
 }
 .fancybox-overlay-fixed {
 	position: fixed;
@@ -13423,6 +13459,20 @@ body {
 	font-size: 13px;
 	font-family: Tahoma, Arial, sans-serif;
 	line-height: 120%
+}
+#three_step_checkout ul.messages .success-msg ul li span{
+	color: #17ac22;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 120%;
+}
+#three_step_checkout ul.messages .success-msg ul li span:before{
+	content: '';
+	background: url("/media/peepvn/success_icon.png") no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: text-bottom;
 }
 #three_step_checkout .logo {
 	margin-left: 18px
@@ -13753,7 +13803,8 @@ body {
 	color: #bbb
 }
 #three_step_checkout select, #three_step_checkout textarea {
-	padding: 3px
+	padding: 3px;
+	margin: 0 auto;
 }
 #three_step_checkout .width_10 {
 	width: 10%
@@ -13771,7 +13822,10 @@ body {
 #three_step_checkout .width_100 {
 	width: 100%
 }
-.nyroModalCont #three_step_checkout {
+#three_step_checkout td.center{
+	text-align: center;
+}
+.fancybox-inner #three_step_checkout {
 	width: 740px
 }
 #three_step_checkout .new_cart {
@@ -14610,7 +14664,7 @@ table.returnTable td {
 	width: 720px
 }
 .item, .successHeader {
-	background-color: #f0f0f0
+	background-color: #fff;
 }
 .questions {
 	background-color: #fff
@@ -15384,4 +15438,36 @@ ul.navSub > li:hover > a:before{
 }
 #dropbox{
 	display: none;
+}
+dl.productdetails dt{
+	float: left;
+	margin-right: 5px;
+}
+dl.productdetails dd{
+	color: #0ca245;
+}
+#prdMedia .more-views ul li{
+	float: left;
+}
+#prdMedia .more-views ul li img{
+	border: 1px solid #f2f2f2;
+}
+.product-image-zoom #wrap{
+	z-index: 1!important;
+}
+#cloud-zoom-big.cloud-zoom-big{
+	width: 666px!important;
+	height: 450px!important;
+	border: solid 1px #f2f2f2!important;
+	top: -1px!important;
+	z-index: 2!important;
+}
+ul li.item{
+	margin-right: 0;
+}
+
+#support-submit{
+	width: auto!important;
+	margin: auto;
+	margin-top: 20px;
 }

@@ -106,4 +106,18 @@ $_menu = $this->getHtml('level-top') ?>
 		</div>
 	</div>
 </nav>
+<div id="hdCartCo" class="hdCart ui-hdCart">
+<input type="hidden" id="headerCartName" value="Giỏ hàng">
+<a id="hdCartLink" class="strong sel-cart-empty" href="/cart/" title="Xem giỏ hàng">
+	<?php 
+	$total =  Mage::getSingleton('checkout/cart')->getSummaryQty();
+	if($total == 0){
+		echo $this->__('Giỏ hàng ');
+	}else{
+		echo '('.$total.')';
+	}
+	?>
+	
+</a>
+</div>
 <?php endif ?>

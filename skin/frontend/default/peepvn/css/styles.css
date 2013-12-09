@@ -1823,7 +1823,7 @@ input.error, select.error, textarea.error {
 	width: 115px
 }
 .hdCart a.hasItems {
-	background: url(http://static-02.lazada.vn/images/multistore/icons/hdCartFilled.png.pagespeed.ce.rOcRrGhTMr.png) 6px 5px no-repeat
+	background: url(http://static-02.Peep.vn/images/multistore/icons/hdCartFilled.png.pagespeed.ce.rOcRrGhTMr.png) 6px 5px no-repeat
 }
 .hdCart a img {
 	padding-right: 2px
@@ -1917,12 +1917,19 @@ input.error, select.error, textarea.error {
 	width: 85px;
 	min-width: 85px
 }
+div.peepvn{
+	height: 55px;
+	display: table-cell;
+	vertical-align: baseline;
+	font-size: 50px;
+	line-height: 30px;
+}
 .sb-sp-lg-px {
 	float: left;
 	color: #ffb319;
 	font-weight: bold;
 	letter-spacing: .07em;
-	margin: 27px 0 0 0
+	margin: 22px 0 0 0
 }
 .sb-sp-lg-co {
 	display: block;
@@ -3254,7 +3261,7 @@ ul.social_btn > li > .lf.facebook-social.sbps55.social {
 	overflow: hidden
 }
 #prodinfo .prod_details ul li:before {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/disc3.png.pagespeed.ce.ZGStGqViSC.png) no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/disc3.png.pagespeed.ce.ZGStGqViSC.png) no-repeat;
 	width: 10px;
 	height: 6px;
 	content: '';
@@ -3324,14 +3331,14 @@ ul.social_btn > li > .lf.facebook-social.sbps55.social {
 }
 #prodinfo .info_icon {
 	display: inline-block;
-	background: url(http://static-02.lazada.vn/images/spinbasket/sprites/xsprite_info_icon.png.pagespeed.ic.k5ZTHaSDhB.png) -1px -2px no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/sprites/xsprite_info_icon.png.pagespeed.ic.k5ZTHaSDhB.png) -1px -2px no-repeat;
 	width: 10px;
 	height: 10px;
 	margin: 0 5px 0 3px
 }
 #prodinfo .gift_icon {
 	display: inline-block;
-	background: url(http://static-02.lazada.vn/images/spinbasket/sprites/xsprite_info_icon.png.pagespeed.ic.k5ZTHaSDhB.png) -11px 0 no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/sprites/xsprite_info_icon.png.pagespeed.ic.k5ZTHaSDhB.png) -11px 0 no-repeat;
 	width: 13px;
 	height: 13px;
 	margin: 0 5px 0 3px
@@ -3342,7 +3349,7 @@ ul.social_btn > li > .lf.facebook-social.sbps55.social {
 #prodinfo .price_highlight {
 	font-weight: bold
 }
-#prodinfo .lazada_credit {
+#prodinfo .Peep.vn_credit {
 	font-weight: bold;
 	color: #004688
 }
@@ -3407,11 +3414,11 @@ ul.social_btn > li > .lf.facebook-social.sbps55.social {
 	background: url('../images/sprite.png') -250px -200px no-repeat
 }
 .out_of_stock_btn .submit_btn_icon {
-	background-image: url(http://static-02.lazada.vn/images/spinbasket/icons/bulletsSprite2.png.pagespeed.ce.Fa8WsN8yrm.png);
+	background-image: url(http://static-02.Peep.vn/images/spinbasket/icons/bulletsSprite2.png.pagespeed.ce.Fa8WsN8yrm.png);
 	background-position: -10px -121px
 }
 .product_invisible_btn .submit_btn_icon {
-	background-image: url(http://static-02.lazada.vn/images/spinbasket/icons/bulletsSprite2.png.pagespeed.ce.Fa8WsN8yrm.png);
+	background-image: url(http://static-02.Peep.vn/images/spinbasket/icons/bulletsSprite2.png.pagespeed.ce.Fa8WsN8yrm.png);
 	background-position: -10px -121px
 }@-moz-document url-prefix(){#prodinfo .submit_btn_text{margin-top:-5px!important}#prodinfo .submit_btn_icon{margin-top:-4px}}
 #prodinfo .instock .submit_btn {
@@ -3531,7 +3538,7 @@ ul.social_btn > li > .lf.facebook-social.sbps55.social {
 	margin-bottom: 10px
 }
 #prodinfo .close_popup {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xclose_popup.png.pagespeed.ic.1Bmdw1ugk-.png);
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xclose_popup.png.pagespeed.ic.1Bmdw1ugk-.png);
 	width: 12px;
 	height: 11px;
 	float: right;
@@ -3689,7 +3696,7 @@ ul.social_btn > li > .lf.facebook-social.sbps55.social {
 	margin-top: 10px
 }
 .add-warranty .arrow_icon {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xarrow-warranty.png.pagespeed.ic.IXjFxv0nbg.png) 0 0 no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xarrow-warranty.png.pagespeed.ic.IXjFxv0nbg.png) 0 0 no-repeat;
 	width: 21px;
 	height: 13px;
 	margin: 20px 0 20px 80px
@@ -3709,7 +3716,7 @@ ul.social_btn > li > .lf.facebook-social.sbps55.social {
 }
 .add-warranty label {
 	display: inline-block;
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xwarranty-radio.png.pagespeed.ic.8iTbEWEPEk.png) 0 0 no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xwarranty-radio.png.pagespeed.ic.8iTbEWEPEk.png) 0 0 no-repeat;
 	width: 12px;
 	height: 13px;
 	margin: 2px 7px 0 0;
@@ -3720,7 +3727,7 @@ ul.social_btn > li > .lf.facebook-social.sbps55.social {
 	width: 330px
 }
 .add-warranty input[type="radio"]:checked+ label {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xwarranty-radio-checked.png.pagespeed.ic.0Ec-5g-9eU.png) 0 0 no-repeat
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xwarranty-radio-checked.png.pagespeed.ic.0Ec-5g-9eU.png) 0 0 no-repeat
 }
 .add-warranty ul li {
 	color: #7d7d7d;
@@ -3793,7 +3800,7 @@ ul.social_btn > li > .lf.facebook-social.sbps55.social {
 	vertical-align: 1px
 }
 .productTeaserBox .header a.more {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/arrow_orange.png.pagespeed.ce.w-dvcCBJoS.png) no-repeat 0 50% !important;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/arrow_orange.png.pagespeed.ce.w-dvcCBJoS.png) no-repeat 0 50% !important;
 	padding-left: 10px;
 	font-size: 12px !important;
 	float: right;
@@ -4059,7 +4066,7 @@ ul.social_btn > li > .lf.facebook-social.sbps55.social {
 #NewsletterSignupForm {
 	display: none
 }
-.lazadamy-newsletter-additional-popup {
+.Peep.vnmy-newsletter-additional-popup {
 	width: 600px;
 	position: fixed;
 	left: 400px;
@@ -4075,35 +4082,35 @@ ul.social_btn > li > .lf.facebook-social.sbps55.social {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box
 }
-.lazadamy-newsletter-sticky-footer-title {
+.Peep.vnmy-newsletter-sticky-footer-title {
 	margin-bottom: 20px
 }
-.lazadamy-newsletter-additional-popup dt {
+.Peep.vnmy-newsletter-additional-popup dt {
 	text-align: left;
 	width: 110px;
 	display: inline-block;
 	margin-bottom: 2px
 }
-.lazadamy-newsletter-additional-popup dd {
+.Peep.vnmy-newsletter-additional-popup dd {
 	text-align: left;
 	display: inline-block;
 	margin-bottom: 10px;
 	box-sizing: border-box
 }
-.lazadamy-newsletter-additional-popup dd:last-child {
+.Peep.vnmy-newsletter-additional-popup dd:last-child {
 	vertical-align: top;
 	margin-bottom: 0
 }
-.lazadamy-newsletter-additional-popup ul {
+.Peep.vnmy-newsletter-additional-popup ul {
 	-moz-column-count: 2;
 	-webkit-column-count: 2;
 	column-count: 2
 }
-.lazadamy-newsletter-additional-popup li {
+.Peep.vnmy-newsletter-additional-popup li {
 	line-height: 18px;
 	width: 400px
 }
-.lazadamy-newsletter-additional-popup input[type="text"] {
+.Peep.vnmy-newsletter-additional-popup input[type="text"] {
 	border-radius: 3px;
 	border: 1px solid #d9d9d9;
 	height: 26px;
@@ -4117,16 +4124,16 @@ ul.social_btn > li > .lf.facebook-social.sbps55.social {
 	transition: box-shadow .4s linear 0s;
 	padding: 1px 0 1px 5px
 }
-.lazadamy-newsletter-additional-popup input[type="text"]:focus {
+.Peep.vnmy-newsletter-additional-popup input[type="text"]:focus {
 	-moz-box-shadow: 0 0 2px 1px #93d4fd;
 	-webkit-box-shadow: 0 0 2px 1px #93d4fd;
 	box-shadow: 0 0 2px 1px #93d4fd;
 	border: 0
 }
-.lazadamy-newsletter-additional-popup *:focus {
+.Peep.vnmy-newsletter-additional-popup *:focus {
 	outline: 0
 }
-.lazadamy-newsletter-additional-popup .submit_btn {
+.Peep.vnmy-newsletter-additional-popup .submit_btn {
 	margin: 0 0 0 115px;
 	cursor: pointer;
 	text-align: left;
@@ -4143,7 +4150,7 @@ ul.social_btn > li > .lf.facebook-social.sbps55.social {
 	background: linear-gradient(to bottom,#e2760f 0,#e56315 100%);
 	filter: progid:DXImageTransform #three_step_checkout .Microsoft#three_step_checkout .gradient(startColorstr='#e2760f',endColorstr='#e56315',GradientType=0)
 }
-.lazadamy-newsletter-additional-popup .submit_btn:hover {
+.Peep.vnmy-newsletter-additional-popup .submit_btn:hover {
 	background: #f88e11;
 	background: -moz-linear-gradient(top,#f88e11 0,#f06015 100%);
 	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#f88e11),color-stop(100%,#e56315));
@@ -4153,7 +4160,7 @@ ul.social_btn > li > .lf.facebook-social.sbps55.social {
 	background: linear-gradient(to bottom,#f88e11 0,#f06015 100%);
 	filter: progid:DXImageTransform #three_step_checkout .Microsoft#three_step_checkout .gradient(startColorstr='#F88E11',endColorstr='#F06015',GradientType=0)
 }
-.lazadamy-newsletter-additional-popup .submit_btn_text {
+.Peep.vnmy-newsletter-additional-popup .submit_btn_text {
 	display: inline-block;
 	font-size: 16px;
 	color: #fff;
@@ -4163,8 +4170,8 @@ ul.social_btn > li > .lf.facebook-social.sbps55.social {
 	width: 135px;
 	text-align: center
 }
-.lazadamy-newsletter-additional-popup .submit_btn_icon {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/bulletsSprite2.png.pagespeed.ce.Fa8WsN8yrm.png) no-repeat scroll -10px -83px transparent;
+.Peep.vnmy-newsletter-additional-popup .submit_btn_icon {
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/bulletsSprite2.png.pagespeed.ce.Fa8WsN8yrm.png) no-repeat scroll -10px -83px transparent;
 	height: 21px;
 	width: 21px;
 	cursor: pointer;
@@ -4344,7 +4351,7 @@ ul.social_btn > li > .lf.facebook-social.sbps55.social {
 	text-align: center
 }
 .cart-product-actions-tellafriend {
-	background: url(http://static-02.lazada.vn/images/multistore/cart/xlink-tellafriend.png.pagespeed.ic.6x2W9C0Mfy.png) left center no-repeat
+	background: url(http://static-02.Peep.vn/images/multistore/cart/xlink-tellafriend.png.pagespeed.ic.6x2W9C0Mfy.png) left center no-repeat
 }
 .cart-product-actions-list {
 	margin: 20px 0 0 0;
@@ -4427,7 +4434,7 @@ ul.social_btn > li > .lf.facebook-social.sbps55.social {
 }
 .cart-promocode-title {
 	padding: 0 0 8px 22px;
-	background: url(http://static-02.lazada.vn/images/spinbasket/cart/xicon-title-coupon.png.pagespeed.ic.8UnmHL7f1G.png) left 0 no-repeat
+	background: url(http://static-02.Peep.vn/images/spinbasket/cart/xicon-title-coupon.png.pagespeed.ic.8UnmHL7f1G.png) left 0 no-repeat
 }
 .cart-promocode-name {
 	display: block;
@@ -5302,7 +5309,7 @@ a, button.as-link {
 .hdLogo {
 	width: 143px;
 	height: 59px;
-	background: transparent url(http://static-02.lazada.vn/images/core/header/xlogo.gif.png.pagespeed.ic.RyErqoz44p.jpg) 0 0 no-repeat;
+	background: transparent url(http://static-02.Peep.vn/images/core/header/xlogo.gif.png.pagespeed.ic.RyErqoz44p.jpg) 0 0 no-repeat;
 	margin-top: 0
 }
 .hdLogo.hasSpecialLogo {
@@ -5778,7 +5785,7 @@ a, button.as-link {
 	width: 12px;
 	height: 12px;
 	text-indent: -9999em;
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xround_close.png.pagespeed.ic.Gz4qZll8Wo.png)
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xround_close.png.pagespeed.ic.Gz4qZll8Wo.png)
 }
 .nyroModalTitle {
 	top: -26px;
@@ -5841,7 +5848,7 @@ a, button.as-link {
 	position: absolute;
 	width: 100px;
 	height: 100px;
-	background: #fff url(http://static-02.lazada.vn/images/spinbasket/icons/ajaxLoader.gif.pagespeed.ce.DAILKS5iIY.gif) no-repeat center;
+	background: #fff url(http://static-02.Peep.vn/images/spinbasket/icons/ajaxLoader.gif.pagespeed.ce.DAILKS5iIY.gif) no-repeat center;
 	padding: 0
 }
 .nyroModalPrev, .nyroModalNext {
@@ -5865,7 +5872,7 @@ a, button.as-link {
 	left: 0
 }
 .nyroModalPrev:hover {
-	background-image: url(http://static-02.lazada.vn/images/spinbasket/icons/xprev.gif.pagespeed.ic.U_ABltc28-.png)
+	background-image: url(http://static-02.Peep.vn/images/spinbasket/icons/xprev.gif.pagespeed.ic.U_ABltc28-.png)
 }
 .nyroModalNext {
 	right: 0;
@@ -5873,7 +5880,7 @@ a, button.as-link {
 }
 .nyroModalNext:hover {
 	background-position: right 20%;
-	background-image: url(http://static-02.lazada.vn/images/spinbasket/icons/xnext.gif.pagespeed.ic.k0-0jJ1p6J.png)
+	background-image: url(http://static-02.Peep.vn/images/spinbasket/icons/xnext.gif.pagespeed.ic.k0-0jJ1p6J.png)
 }
 .clear {
 	clear: both
@@ -5895,7 +5902,7 @@ a, button.as-link {
 	line-height: 28px
 }
 .nyroModalCloseButton {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xround_close.png.pagespeed.ic.Gz4qZll8Wo.png);
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xround_close.png.pagespeed.ic.Gz4qZll8Wo.png);
 	width: 18px;
 	height: 18px;
 	top: 6px;
@@ -5904,7 +5911,7 @@ a, button.as-link {
 }
 .nyroModalCont .myaccountLogin .nyroModalLoad {
 	display: none;
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/ajax_loader_popup.gif.pagespeed.ce.NJBhx6NIei.gif);
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/ajax_loader_popup.gif.pagespeed.ce.NJBhx6NIei.gif);
 	top: 178px;
 	right: 148px;
 	width: 43px;
@@ -6105,7 +6112,7 @@ ul.ul-footer > li a {
 	border-bottom: 0
 }
 #myorder .order-box .arrow-icon {
-	background: url(http://static-02.lazada.vn/images/spinbasket/sprites/xarrow-icon.png.pagespeed.ic.579GMT6NC1.png) 0 0 no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/sprites/xarrow-icon.png.pagespeed.ic.579GMT6NC1.png) 0 0 no-repeat;
 	width: 15px;
 	height: 15px;
 	display: inline-block;
@@ -6116,7 +6123,7 @@ ul.ul-footer > li a {
 	cursor: pointer
 }
 #myorder .current .arrow-icon {
-	background: url(http://static-02.lazada.vn/images/spinbasket/sprites/xarrow-icon.png.pagespeed.ic.579GMT6NC1.png) -15px 0 no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/sprites/xarrow-icon.png.pagespeed.ic.579GMT6NC1.png) -15px 0 no-repeat;
 	width: 15px;
 	height: 15px;
 	display: inline-block;
@@ -6225,7 +6232,7 @@ ul.ul-footer > li a {
 	padding-left: 0
 }
 .i-payVisa, .i-payMasterCard, .i-payCOD, .i-payPayPal, .i-payBankTransferMandiri {
-	background: url(http://static-02.lazada.vn/images/spinbasket/sprites/xsprite_payments.png.pagespeed.ic.9SRndcH2h2.png) no-repeat top left;
+	background: url(http://static-02.Peep.vn/images/spinbasket/sprites/xsprite_payments.png.pagespeed.ic.9SRndcH2h2.png) no-repeat top left;
 	width: 0
 }
 .i-payVisa {
@@ -6235,40 +6242,40 @@ ul.ul-footer > li a {
 	background-position: 0 -293px !important
 }
 .i-payAmEx {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/payAmEx.png.pagespeed.ce.s3MlYu46AX.png) no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/payAmEx.png.pagespeed.ce.s3MlYu46AX.png) no-repeat;
 	width: 0
 }
 .i-payCOD {
 	background-position: 2px -429px !important
 }
 .i-payBankTransfer {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xpayBankTransfer.png.pagespeed.ic.CiRMDRYF0Y.png) no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xpayBankTransfer.png.pagespeed.ic.CiRMDRYF0Y.png) no-repeat;
 	width: 0
 }
 .i-shipDHL {
 	width: 80px;
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/shipDHL.png.pagespeed.ce.utE9GLE1LH.png) no-repeat
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/shipDHL.png.pagespeed.ce.utE9GLE1LH.png) no-repeat
 }
 .i-shipFedEx {
 	width: 74px;
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/shipFedEx.png.pagespeed.ce.mCaLyn9Tyo.png) no-repeat
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/shipFedEx.png.pagespeed.ce.mCaLyn9Tyo.png) no-repeat
 }
 .i-payBankTransferBca {
-	background: url(http://static-02.lazada.vn/images/ventures/id/spinbasket/icons/payBankTransferBca.png.pagespeed.ce.GHzKsCd0_m.png) no-repeat scroll 0 0 transparent !important
+	background: url(http://static-02.Peep.vn/images/ventures/id/spinbasket/icons/payBankTransferBca.png.pagespeed.ce.GHzKsCd0_m.png) no-repeat scroll 0 0 transparent !important
 }
 .i-payDragonPay {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xpayDragonPay.jpg.pagespeed.ic._sVkgGJKgX.jpg) no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xpayDragonPay.jpg.pagespeed.ic._sVkgGJKgX.jpg) no-repeat;
 	width: 0
 }
 .i-payCod {
-	background: url(http://static-02.lazada.vn/images/footer/xcod.png.pagespeed.ic.GnyEM55Geh.jpg) no-repeat scroll 0 0 transparent
+	background: url(http://static-02.Peep.vn/images/footer/xcod.png.pagespeed.ic.GnyEM55Geh.jpg) no-repeat scroll 0 0 transparent
 }
 .i-payOnePay {
-	background: url(http://static-02.lazada.vn/images/multistore/icons/xpayOnePay.png.pagespeed.ic.92HVTgWr9u.png) no-repeat;
+	background: url(http://static-02.Peep.vn/images/multistore/icons/xpayOnePay.png.pagespeed.ic.92HVTgWr9u.png) no-repeat;
 	width: 0
 }
 .i-payNganLuong {
-	background: url(http://static-02.lazada.vn/images/multistore/icons/xpayNganLuong.png.pagespeed.ic.QRtZUacP1j.jpg) no-repeat;
+	background: url(http://static-02.Peep.vn/images/multistore/icons/xpayNganLuong.png.pagespeed.ic.QRtZUacP1j.jpg) no-repeat;
 	width: 30px
 }
 .i-payBDO {
@@ -6277,7 +6284,7 @@ ul.ul-footer > li a {
 	padding-left: 0
 }
 .img_bdo_active {
-	background: url(http://static-02.lazada.vn/images/lazada/icons/xbdo_logo_small.png.pagespeed.ic.uwDVKDfwJ8.png) 0 4px no-repeat
+	background: url(http://static-02.Peep.vn/images/Peep.vn/icons/xbdo_logo_small.png.pagespeed.ic.uwDVKDfwJ8.png) 0 4px no-repeat
 }
 .i-payPayPal {
 	background-position: -1px -557px !important
@@ -6353,7 +6360,7 @@ ul.ul-footer > li a {
 	width: 50%
 }
 .i-socFacebook, .i-socTwitter, .i-socGooglePlus, .i-socialLinkedInLogo, .i-socYoutube, .i-socZingMe, .i-socPinterest, .i-socBlog, .i-socInstagram, .i-socTumblr {
-	background: url(http://static-02.lazada.vn/images/spinbasket/sprites/sprite_social.png.pagespeed.ce.bVMCom6Dzq.png) no-repeat top left;
+	background: url(http://static-02.Peep.vn/images/spinbasket/sprites/sprite_social.png.pagespeed.ce.bVMCom6Dzq.png) no-repeat top left;
 	height: 32px
 }
 .i-socFacebook {
@@ -6366,13 +6373,13 @@ ul.ul-footer > li a {
 	background-position: 0 -210px
 }
 .i-socVkontakte {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xfooter-social-vk.png.pagespeed.ic.AFLRG_K-MV.png) no-repeat
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xfooter-social-vk.png.pagespeed.ic.AFLRG_K-MV.png) no-repeat
 }
 .i-socOdno {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xfooter-social-odno.png.pagespeed.ic.7orM4Q9CAa.png) no-repeat
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xfooter-social-odno.png.pagespeed.ic.7orM4Q9CAa.png) no-repeat
 }
 .i-socLiveJournal {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xfooter-social-live-journal.png.pagespeed.ic.noQZ6_1a9x.png) no-repeat
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xfooter-social-live-journal.png.pagespeed.ic.noQZ6_1a9x.png) no-repeat
 }
 .i-socYoutube {
 	background-position: 0 -42px
@@ -6381,7 +6388,7 @@ ul.ul-footer > li a {
 	background-position: 0 -84px
 }
 .i-socialLinkedIn {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/socLinkedIn.png.pagespeed.ce.g7v3p6BlXR.png) no-repeat
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/socLinkedIn.png.pagespeed.ce.g7v3p6BlXR.png) no-repeat
 }
 .i-socialLinkedInLogo {
 	background-position: 0 -252px
@@ -6399,13 +6406,13 @@ ul.ul-footer > li a {
 	background-position: 0 -382px
 }
 .i-flagMalaysia {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/flagMalaysia.png.pagespeed.ce.bFnWWjLTP8.png) no-repeat
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/flagMalaysia.png.pagespeed.ce.bFnWWjLTP8.png) no-repeat
 }
 .i-flagThailand {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/flagThailand.png.pagespeed.ce.ChcbnG2Lox.png) no-repeat
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/flagThailand.png.pagespeed.ce.ChcbnG2Lox.png) no-repeat
 }
 .i-flagVietnam {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xflagVietnam.png.pagespeed.ic.HSyE1LdZaY.png) no-repeat
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xflagVietnam.png.pagespeed.ic.HSyE1LdZaY.png) no-repeat
 }
 #footer .i-socFacebook, #footer .i-socTwitter, #footer .i-socGooglePlus, #footer .i-socBlog, #footer .i-socPinterest, #footer .i-socialLinkedIn, #footer .i-socYoutube, #footer .i-flagMalaysia, #footer .i-flagThailand, #footer .i-flagVietnam, #footer .i-payVisa, #footer .i-payMasterCard, #footer .i-payCOD, #footer .i-payBankTransferBca, #footer .i-payBankTransferMandiri {
 	padding-left: 42px
@@ -6420,18 +6427,18 @@ ul.ul-footer > li a {
 	line-height: 2.5 rem
 }
 .i-verifiedTuv {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xverifiedTuv.png.pagespeed.ic.06EvpD3x1-.png) no-repeat
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xverifiedTuv.png.pagespeed.ic.06EvpD3x1-.png) no-repeat
 }
 .i-verifiedEtrust {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xverifiedEtrust.png.pagespeed.ic.4isQPLHccI.png) no-repeat
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xverifiedEtrust.png.pagespeed.ic.4isQPLHccI.png) no-repeat
 }
 .i-verifiedPci {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xverifiedPci.png.pagespeed.ic.QGOcBAi0st.png) no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xverifiedPci.png.pagespeed.ic.QGOcBAi0st.png) no-repeat;
 	height: 56px;
 	width: 56px
 }
 .i-verifiedNorton {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xverifiedNorton.png.pagespeed.ic.g5TnpYABff.png) no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xverifiedNorton.png.pagespeed.ic.g5TnpYABff.png) no-repeat;
 	width: 98px !important
 }
 .i-usp {
@@ -6456,13 +6463,13 @@ ul.ul-footer > li a {
 	margin-right: 0
 }
 .i-uspHotline {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/uspHotline.png.pagespeed.ce.CazKMJiNse.png) 0 50% no-repeat
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/uspHotline.png.pagespeed.ce.CazKMJiNse.png) 0 50% no-repeat
 }
 .i-uspShipping {
-	background: url(http://static-02.lazada.vn/css/live/images/spinbasket/icons/uspShipping.png) 0 50% no-repeat
+	background: url(http://static-02.Peep.vn/css/live/images/spinbasket/icons/uspShipping.png) 0 50% no-repeat
 }
 .i-uspWarranty {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/uspCustomerWarranty.png.pagespeed.ce.cWDbAM4hap.png) 0 50% no-repeat
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/uspCustomerWarranty.png.pagespeed.ce.cWDbAM4hap.png) 0 50% no-repeat
 }
 .ie7 .i-uspWarranty {
 	padding-left: 30px
@@ -6471,19 +6478,19 @@ ul.ul-footer > li a {
 	margin-left: 15px
 }
 .i-uspSelection {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/uspLargeSelection.png.pagespeed.ce.R63zYTt_7e.png) 0 50% no-repeat
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/uspLargeSelection.png.pagespeed.ce.R63zYTt_7e.png) 0 50% no-repeat
 }
 .i-cart {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xicon-cart-button.png.pagespeed.ic.E_VxwHHwrX.png) 17px 7px no-repeat
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xicon-cart-button.png.pagespeed.ic.E_VxwHHwrX.png) 17px 7px no-repeat
 }
 .i-cartFastLane {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xcartFastLane.png.pagespeed.ic.n-Mk4zwybr.png) -28px -15px no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xcartFastLane.png.pagespeed.ic.n-Mk4zwybr.png) -28px -15px no-repeat;
 	min-height: 42px;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px
 }
 .i-recommend, .i-wishlist, .i-phone {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xinfoSprite2.png.pagespeed.ic.uXfRYDemAo.png) no-repeat scroll 0 0 transparent
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xinfoSprite2.png.pagespeed.ic.uXfRYDemAo.png) no-repeat scroll 0 0 transparent
 }
 .i-wishlist {
 	background-position: -5px 1px;
@@ -6504,23 +6511,23 @@ ul.ul-footer > li a {
 	display: inline-block
 }
 .cnvicon_i-arrowRightDarkDown {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/arrow_down_orange_small.png.pagespeed.ce.Zfu8CZ9tYN.png) 0 50% no-repeat
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/arrow_down_orange_small.png.pagespeed.ce.Zfu8CZ9tYN.png) 0 50% no-repeat
 }
 .i-bullet, .cnvicon_i-bullet, .i-bulletDark, .cnvicon_i-bulletDark {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/bullet_orange_small.png.pagespeed.ce.mhsGMnBeaA.png) 0 50% no-repeat
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/bullet_orange_small.png.pagespeed.ce.mhsGMnBeaA.png) 0 50% no-repeat
 }
 .i-search {
 	background: url('../images/sprite.png') -180px -230px no-repeat
 }
 .i-basket {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xhdCart.png.pagespeed.ic.xsxN7HALKK.png) no-repeat scroll 6px 4px transparent;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xhdCart.png.pagespeed.ic.xsxN7HALKK.png) no-repeat scroll 6px 4px transparent;
 	padding: 0 8px 0 34px
 }
 .i-checked {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/greenCheck.png.pagespeed.ce.lHAHskR8KN.png) no-repeat transparent
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/greenCheck.png.pagespeed.ce.lHAHskR8KN.png) no-repeat transparent
 }
 .i-remove {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/remove.png.pagespeed.ce.5h1IE0S6Ko.png) no-repeat transparent;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/remove.png.pagespeed.ce.5h1IE0S6Ko.png) no-repeat transparent;
 	height: 14px;
 	display: block;
 	line-height: 1em;
@@ -6571,12 +6578,12 @@ ul.ul-footer > li a {
 	display: block
 }
 .i-quickViewLeft {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/quickViewLeft.png.pagespeed.ce.myUiYeyozh.png) no-repeat scroll 0 16px transparent;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/quickViewLeft.png.pagespeed.ce.myUiYeyozh.png) no-repeat scroll 0 16px transparent;
 	padding: 10px 0 0 13px;
 	display: block
 }
 .i-quickViewRight {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/quickViewRight.png.pagespeed.ce.eCADlRMJlA.png) no-repeat scroll right 16px transparent;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/quickViewRight.png.pagespeed.ce.eCADlRMJlA.png) no-repeat scroll right 16px transparent;
 	padding: 10px 13px 0 0;
 	display: block
 }
@@ -6603,12 +6610,12 @@ ul.ul-footer > li a {
 }
 .i-gridView-active, .i-gridView {
 	top: 1px;
-	background-image: url(http://static-02.lazada.vn/images/spinbasket/icons/xviewtype_gridView.png.pagespeed.ic.HiLZQNxOUn.png);
+	background-image: url(http://static-02.Peep.vn/images/spinbasket/icons/xviewtype_gridView.png.pagespeed.ic.HiLZQNxOUn.png);
 	margin-right: 9px
 }
 .i-listView-active, .i-listView {
 	height: 15px;
-	background-image: url(http://static-02.lazada.vn/images/spinbasket/icons/viewtype_listView.png.pagespeed.ce.EdC04awY7D.png)
+	background-image: url(http://static-02.Peep.vn/images/spinbasket/icons/viewtype_listView.png.pagespeed.ce.EdC04awY7D.png)
 }
 .i-gridView {
 	background-position: 0 -16px
@@ -6629,13 +6636,13 @@ ul.ul-footer > li a {
 	display: inline-block
 }
 .i-service-xl {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/i-service-xl.png.pagespeed.ce.zaZQwzodZI.png) no-repeat 0 0 scroll
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/i-service-xl.png.pagespeed.ce.zaZQwzodZI.png) no-repeat 0 0 scroll
 }
 .i-warranty-xl {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/i-warranty-xl.png.pagespeed.ce.DQy57SjEV5.png) no-repeat 0 0 scroll
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/i-warranty-xl.png.pagespeed.ce.DQy57SjEV5.png) no-repeat 0 0 scroll
 }
 .i-shipping-xl {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/i-shipping-xl.png.pagespeed.ce.36G7ioc1d9.png) no-repeat 0 0 scroll
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/i-shipping-xl.png.pagespeed.ce.36G7ioc1d9.png) no-repeat 0 0 scroll
 }
 .i-payVisa, .i-payMasterCard, .i-payAmEx, .i-diners, .i-payPayPal, .i-payDinersClub {
 	width: auto
@@ -6659,7 +6666,7 @@ ul.ul-footer > li a {
 	background-position: 0 -195px !important
 }
 .i-payMegalink {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xmegalink_logo.png.pagespeed.ic.-CUD07XWmb.png) no-repeat scroll 0 0 transparent;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xmegalink_logo.png.pagespeed.ic.-CUD07XWmb.png) no-repeat scroll 0 0 transparent;
 	margin-top: 5px
 }
 .thm-spinbasket #content, .thm-spinbasket #footer {
@@ -7121,7 +7128,7 @@ ul.ul-footer > li a {
 	margin: 2em 0 0
 }
 .loading-placeholder {
-	background: url(http://static-02.lazada.vn/images/imgLoader.gif.pagespeed.ce.vhzt6XKJwT.gif) no-repeat;
+	background: url(http://static-02.Peep.vn/images/imgLoader.gif.pagespeed.ce.vhzt6XKJwT.gif) no-repeat;
 	background-position: 50%
 }
 .sidebarfixed {
@@ -7290,13 +7297,13 @@ h4.hdl, h4.hd1 {
 	font-weight: bold
 }
 #newfooter .verified_visa {
-	background: url(http://static-02.lazada.vn/images/spinbasket/sprites/xsprite_payments.png.pagespeed.ic.9SRndcH2h2.png) 0 -489px no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/sprites/xsprite_payments.png.pagespeed.ic.9SRndcH2h2.png) 0 -489px no-repeat;
 	width: 56px;
 	height: 30px;
 	display: block
 }
 #newfooter .verified_master {
-	background: url(http://static-02.lazada.vn/css/live/images/spinbasket/sprites/sprite_payments.png) 0 -524px no-repeat;
+	background: url(http://static-02.Peep.vn/css/live/images/spinbasket/sprites/sprite_payments.png) 0 -524px no-repeat;
 	width: 56px;
 	height: 30px;
 	display: block
@@ -7329,7 +7336,7 @@ h4.hdl, h4.hd1 {
 	margin-top: 10px
 }
 .checkout_info_list1 li {
-	background: url(http://static-02.lazada.vn/images/lazada/xcheckout_icon.png.pagespeed.ic.uaoCsJFMx8.png) left top no-repeat;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/xcheckout_icon.png.pagespeed.ic.uaoCsJFMx8.png) left top no-repeat;
 	padding-left: 25px;
 	margin: 8px 0;
 	min-height: 20px;
@@ -7342,7 +7349,7 @@ h4.hdl, h4.hd1 {
 	margin: 10px 0 0 30px
 }
 .checkout_info_list2 li {
-	background: url(http://static-02.lazada.vn/images/lazada/xcheckout_icon.png.pagespeed.ic.uaoCsJFMx8.png) left top no-repeat;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/xcheckout_icon.png.pagespeed.ic.uaoCsJFMx8.png) left top no-repeat;
 	padding-left: 25px;
 	margin: 8px 0;
 	min-height: 20px;
@@ -7352,12 +7359,12 @@ h4.hdl, h4.hd1 {
 	margin-left: 10px
 }
 .checkout_icon1 li {
-	background: url(http://static-02.lazada.vn/images/lazada/xcheckoutIcon1.jpg.pagespeed.ic.l8s7z11ijT.jpg) left 5px no-repeat;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/xcheckoutIcon1.jpg.pagespeed.ic.l8s7z11ijT.jpg) left 5px no-repeat;
 	font-size: 12px;
 	padding: 5px 0 5px 20px
 }
 .checkout_step_bg {
-	background: url(http://static-02.lazada.vn/images/lazada/xcheckout_step.jpg.pagespeed.ic.PToOBcfWZH.jpg) left center no-repeat;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/xcheckout_step.jpg.pagespeed.ic.PToOBcfWZH.jpg) left center no-repeat;
 	width: 268px;
 	height: 68px;
 	margin: 20px 0 0 94px
@@ -7369,35 +7376,35 @@ h4.hdl, h4.hd1 {
 	width: 32px
 }
 .i-payCod {
-	background: url(http://static-02.lazada.vn/images/footer/xcod.png.pagespeed.ic.GnyEM55Geh.jpg) no-repeat scroll 0 0 transparent
+	background: url(http://static-02.Peep.vn/images/footer/xcod.png.pagespeed.ic.GnyEM55Geh.jpg) no-repeat scroll 0 0 transparent
 }
 .i-uspsealBig {
-	background: url(http://static-02.lazada.vn/images/lazada/xseal_big.png.pagespeed.ic.UyeQ3FwS9p.png) no-repeat;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/xseal_big.png.pagespeed.ic.UyeQ3FwS9p.png) no-repeat;
 	height: 76px;
 	width: 76px;
 	display: inline-block
 }
 .i-payOnePay {
-	background: url(http://static-02.lazada.vn/images/multistore/icons/xpayOnePay.png.pagespeed.ic.92HVTgWr9u.png) no-repeat
+	background: url(http://static-02.Peep.vn/images/multistore/icons/xpayOnePay.png.pagespeed.ic.92HVTgWr9u.png) no-repeat
 }
 .i-payNganLuong {
-	background: url(http://static-02.lazada.vn/images/multistore/icons/xpayNganLuong.png.pagespeed.ic.QRtZUacP1j.jpg) no-repeat;
+	background: url(http://static-02.Peep.vn/images/multistore/icons/xpayNganLuong.png.pagespeed.ic.QRtZUacP1j.jpg) no-repeat;
 	width: 69px
 }
 .i-payBDO {
-	background: url(http://static-02.lazada.vn/images/lazada/icons/xbdo-cartpage.PNG.pagespeed.ic.l-MfPVPVSw.png) no-repeat scroll 0 0 transparent;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/icons/xbdo-cartpage.PNG.pagespeed.ic.l-MfPVPVSw.png) no-repeat scroll 0 0 transparent;
 	width: 68px;
 	padding-left: 0
 }
 .i-uspseal {
-	background: url(http://static-02.lazada.vn/images/lazada/xseal.png.pagespeed.ic.xbFb09mFMp.png) no-repeat;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/xseal.png.pagespeed.ic.xbFb09mFMp.png) no-repeat;
 	height: 46px;
 	width: 46px;
 	display: inline-block;
 	float: left
 }
 .i-uspsealSmall {
-	background: url(http://static-02.lazada.vn/images/lazada/xseal_small.png.pagespeed.ic.uFUTq7whet.png) no-repeat;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/xseal_small.png.pagespeed.ic.uFUTq7whet.png) no-repeat;
 	height: 40px;
 	width: 40px;
 	display: inline-block;
@@ -7409,29 +7416,29 @@ h4.hdl, h4.hd1 {
 	margin-top: 5px
 }
 .uspseal_info li {
-	background: url(http://static-02.lazada.vn/images/lazada/xcheckedLogin.png.pagespeed.ic.e5I_xJ2Sor.png) left 5px no-repeat;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/xcheckedLogin.png.pagespeed.ic.e5I_xJ2Sor.png) left 5px no-repeat;
 	line-height: 18px;
 	padding-left: 15px
 }
 .i-shipAramex {
-	background: url(http://static-02.lazada.vn/images/content/xaramex.gif.pagespeed.ic.uptGHArsHT.png) no-repeat scroll 0 0 transparent;
+	background: url(http://static-02.Peep.vn/images/content/xaramex.gif.pagespeed.ic.uptGHArsHT.png) no-repeat scroll 0 0 transparent;
 	display: block;
 	height: 52px;
 	text-indent: -9999px
 }
 .i-shipSkycom {
-	background: url(http://static-02.lazada.vn/images/lazada/skycom.gif) no-repeat scroll 0 0 transparent;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/skycom.gif) no-repeat scroll 0 0 transparent;
 	display: block;
 	height: 52px;
 	text-indent: -9999px
 }
 .i-uspCod {
 	padding-left: 42px;
-	background: url(http://static-02.lazada.vn/images/lazada/uspcod.png) no-repeat;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/uspcod.png) no-repeat;
 	height: 28px
 }
 .i-cash {
-	background: url(http://static-02.lazada.vn/images/footer/xcod.png.pagespeed.ic.GnyEM55Geh.jpg) no-repeat;
+	background: url(http://static-02.Peep.vn/images/footer/xcod.png.pagespeed.ic.GnyEM55Geh.jpg) no-repeat;
 	height: 23px;
 	width: 32px
 }
@@ -7459,19 +7466,19 @@ h4.hdl, h4.hd1 {
 	text-decoration: none
 }
 .productTeaserSidebar h1 {
-	background: url(http://static-02.lazada.vn/images/lazada/icons/mainpage-cart.png.pagespeed.ce.etULYBJUf8.png) no-repeat scroll left center transparent;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/icons/mainpage-cart.png.pagespeed.ce.etULYBJUf8.png) no-repeat scroll left center transparent;
 	line-height: 19px;
 	font-size: 1.3 rem;
 	padding: 6px 0 6px 32px
 }
 .i-uspnorton {
-	background: url(http://static-02.lazada.vn/images/lazada/header-usp-verisignseal.png) no-repeat;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/header-usp-verisignseal.png) no-repeat;
 	height: 38px;
 	width: 75px;
 	display: inline-block
 }
 .i-uspseal {
-	background: url(http://static-02.lazada.vn/images/lazada/xseal.png.pagespeed.ic.xbFb09mFMp.png) no-repeat;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/xseal.png.pagespeed.ic.xbFb09mFMp.png) no-repeat;
 	height: 46px;
 	width: 46px;
 	display: inline-block
@@ -7482,7 +7489,7 @@ h4.hdl, h4.hd1 {
 	right: 0
 }
 .i-uspsealBig {
-	background: url(http://static-02.lazada.vn/images/lazada/xseal_big.png.pagespeed.ic.UyeQ3FwS9p.png) no-repeat;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/xseal_big.png.pagespeed.ic.UyeQ3FwS9p.png) no-repeat;
 	height: 76px;
 	width: 76px;
 	display: inline-block
@@ -7493,7 +7500,7 @@ h4.hdl, h4.hd1 {
 	margin-top: 5px
 }
 .uspseal_info li {
-	background: url(http://static-02.lazada.vn/images/lazada/xcheckedLogin.png.pagespeed.ic.e5I_xJ2Sor.png) left 5px no-repeat;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/xcheckedLogin.png.pagespeed.ic.e5I_xJ2Sor.png) left 5px no-repeat;
 	line-height: 18px;
 	padding-left: 15px
 }
@@ -7603,44 +7610,44 @@ h4.hdl, h4.hd1 {
 #checkout .payment-method span.i-payCOD {
 	width: 54px;
 	height: 22px;
-	background: url(http://static-02.lazada.vn/images/core/icons/xpaycod.png.pagespeed.ic.5tt51KO3gr.jpg) no-repeat;
+	background: url(http://static-02.Peep.vn/images/core/icons/xpaycod.png.pagespeed.ic.5tt51KO3gr.jpg) no-repeat;
 	background-position: 0 0 !important
 }
 #checkout .payment-method span.i-mastercard {
 	width: 27px;
 	height: 22px;
-	background: url(http://static-02.lazada.vn/images/lazada/payment-mastercard.png) no-repeat 0 3px
+	background: url(http://static-02.Peep.vn/images/Peep.vn/payment-mastercard.png) no-repeat 0 3px
 }
 #checkout .payment-method span.i-visa {
 	width: 27px;
 	height: 22px;
-	background: url(http://static-02.lazada.vn/images/lazada/payment-visa.png) no-repeat 0 3px
+	background: url(http://static-02.Peep.vn/images/Peep.vn/payment-visa.png) no-repeat 0 3px
 }
 #checkout .payment-method span.i-cimbbank {
 	width: 92px;
 	height: 22px;
-	background: url(http://static-02.lazada.vn/images/lazada/payment-cimbbank.png) no-repeat 5px 5px
+	background: url(http://static-02.Peep.vn/images/Peep.vn/payment-cimbbank.png) no-repeat 5px 5px
 }
 #checkout .payment-method div.i-hong-leong {
-	background: url(http://static-02.lazada.vn/images/lazada/payment-hong-leong.png) no-repeat
+	background: url(http://static-02.Peep.vn/images/Peep.vn/payment-hong-leong.png) no-repeat
 }
 #checkout .payment-method div.i-maybank {
-	background: url(http://static-02.lazada.vn/images/lazada/payment-maybank.png) no-repeat
+	background: url(http://static-02.Peep.vn/images/Peep.vn/payment-maybank.png) no-repeat
 }
 #checkout .payment-method div.i-rhb {
-	background: url(http://static-02.lazada.vn/images/lazada/payment-rhb.png) no-repeat
+	background: url(http://static-02.Peep.vn/images/Peep.vn/payment-rhb.png) no-repeat
 }
 #checkout .payment-method div.i-alliance {
-	background: url(http://static-02.lazada.vn/images/lazada/payment-alliance-bank.png) no-repeat
+	background: url(http://static-02.Peep.vn/images/Peep.vn/payment-alliance-bank.png) no-repeat
 }
 #checkout .payment-method div.i-ambank {
-	background: url(http://static-02.lazada.vn/images/lazada/payment-ambank.png) no-repeat
+	background: url(http://static-02.Peep.vn/images/Peep.vn/payment-ambank.png) no-repeat
 }
 #checkout .payment-method div.i-cimbclicks {
-	background: url(http://static-02.lazada.vn/images/lazada/payment-cimb-clicks.png) no-repeat
+	background: url(http://static-02.Peep.vn/images/Peep.vn/payment-cimb-clicks.png) no-repeat
 }
 #checkout .payment-method div.i-fpx {
-	background: url(http://static-02.lazada.vn/images/lazada/payment-fpx.png) no-repeat
+	background: url(http://static-02.Peep.vn/images/Peep.vn/payment-fpx.png) no-repeat
 }
 ul.hdCountrySelect li a {
 	display: block
@@ -7687,22 +7694,22 @@ ul.hdCountrySelect {
 	font-size: 12px
 }
 #campaign-signup.en.ae {
-	background: #ccc url(http://static-02.lazada.vn/images/lazada/landing/signup-campaign-background-en-ae.jpg) no-repeat top center
+	background: #ccc url(http://static-02.Peep.vn/images/Peep.vn/landing/signup-campaign-background-en-ae.jpg) no-repeat top center
 }
 #campaign-signup.en.eg {
-	background: #ccc url(http://static-02.lazada.vn/images/lazada/landing/signup-campaign-background-en-eg.jpg) no-repeat top center
+	background: #ccc url(http://static-02.Peep.vn/images/Peep.vn/landing/signup-campaign-background-en-eg.jpg) no-repeat top center
 }
 #campaign-signup.en.sa {
-	background: #ccc url(http://static-02.lazada.vn/images/lazada/landing/signup-campaign-background-en-sa.jpg) no-repeat top center
+	background: #ccc url(http://static-02.Peep.vn/images/Peep.vn/landing/signup-campaign-background-en-sa.jpg) no-repeat top center
 }
 #campaign-signup.ar.ae {
-	background: #ccc url(http://static-02.lazada.vn/images/lazada/landing/signup-campaign-background-ar-ae.jpg) no-repeat top center
+	background: #ccc url(http://static-02.Peep.vn/images/Peep.vn/landing/signup-campaign-background-ar-ae.jpg) no-repeat top center
 }
 #campaign-signup.ar.eg {
-	background: #ccc url(http://static-02.lazada.vn/images/lazada/landing/signup-campaign-background-ar-eg.jpg) no-repeat top center
+	background: #ccc url(http://static-02.Peep.vn/images/Peep.vn/landing/signup-campaign-background-ar-eg.jpg) no-repeat top center
 }
 #campaign-signup.ar.sa {
-	background: #ccc url(http://static-02.lazada.vn/images/lazada/landing/signup-campaign-background-ar-sa.jpg) no-repeat top center
+	background: #ccc url(http://static-02.Peep.vn/images/Peep.vn/landing/signup-campaign-background-ar-sa.jpg) no-repeat top center
 }
 .nav-sub > li:hover #cat_2018+ .nav-layer, .nav-sub > li:hover #cat_2018 .nav-layer {
 	min-width: 250px
@@ -7739,10 +7746,10 @@ ul.hdCountrySelect {
 	padding-top: 0 !important
 }
 .i-cart {
-	background: url(http://static-02.lazada.vn/images/lazada/icons/addToCart.png.pagespeed.ce.stVOfMPsIP.png) no-repeat scroll 11px 4px transparent
+	background: url(http://static-02.Peep.vn/images/Peep.vn/icons/addToCart.png.pagespeed.ce.stVOfMPsIP.png) no-repeat scroll 11px 4px transparent
 }
 .div-separate {
-	background: url(http://static-02.lazada.vn/images/lazada/icons/xseparate.png.pagespeed.ic.Ny8uJCF7Ut.png) no-repeat scroll center center transparent;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/icons/xseparate.png.pagespeed.ic.Ny8uJCF7Ut.png) no-repeat scroll center center transparent;
 	border: 0 none;
 	clear: both;
 	font-size: 0;
@@ -7752,7 +7759,7 @@ ul.hdCountrySelect {
 	min-height: 1px
 }
 .i-cart-outOfStock {
-	background: url(http://static-02.lazada.vn/images/lazada/icons/outOfStock.png.pagespeed.ce.vp1Ao_H5Ai.png) no-repeat scroll 11px 4px transparent
+	background: url(http://static-02.Peep.vn/images/Peep.vn/icons/outOfStock.png.pagespeed.ce.vp1Ao_H5Ai.png) no-repeat scroll 11px 4px transparent
 }
 .i-cart, .i-cart-outOfStock {
 	display: block;
@@ -7787,7 +7794,7 @@ ul.hdCountrySelect {
 	border-radius: 5px
 }
 .i-upsealHeader {
-	background: url(http://static-02.lazada.vn/images/lazada/xseal_small.png.pagespeed.ic.uFUTq7whet.png) no-repeat;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/xseal_small.png.pagespeed.ic.uFUTq7whet.png) no-repeat;
 	height: 40px;
 	width: 40px;
 	display: inline-block;
@@ -8222,7 +8229,7 @@ a:hover {
 .ie7 .ui-searchInput input, .ie8 .ui-searchInput input, .ie9 .ui-searchInput input {
 	height: 21px;
 	line-height: 21px;
-	background: #fff url(http://static-02.lazada.vn/images/spinbasket/icons/searchLoupe.png.pagespeed.ce.3fv32fVX5j.png) 0 -1px no-repeat
+	background: #fff url(http://static-02.Peep.vn/images/spinbasket/icons/searchLoupe.png.pagespeed.ce.3fv32fVX5j.png) 0 -1px no-repeat
 }
 .ie8 .ui-searchInput input, .ie9 .ui-searchInput input {
 	height: 30px;
@@ -8438,7 +8445,7 @@ a:hover {
 .bannerMultiLink {
 	display: block;
 	margin-top: 10px;
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/menu_arrow_right.png.pagespeed.ce.Jw_Zu7pDG_.png) no-repeat scroll 0 50% transparent;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/menu_arrow_right.png.pagespeed.ce.Jw_Zu7pDG_.png) no-repeat scroll 0 50% transparent;
 	padding-left: 11px
 }
 .box-bdr {
@@ -8528,20 +8535,20 @@ a:hover {
 	color: #666
 }
 .i-uspsealBig {
-	background: url(http://static-02.lazada.vn/images/lazada/xseal_big.png.pagespeed.ic.UyeQ3FwS9p.png) no-repeat;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/xseal_big.png.pagespeed.ic.UyeQ3FwS9p.png) no-repeat;
 	height: 76px;
 	width: 76px;
 	display: inline-block
 }
 .i-uspseal {
-	background: url(http://static-02.lazada.vn/images/lazada/xseal.png.pagespeed.ic.xbFb09mFMp.png) no-repeat;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/xseal.png.pagespeed.ic.xbFb09mFMp.png) no-repeat;
 	height: 46px;
 	width: 46px;
 	display: inline-block;
 	float: left
 }
 .i-uspsealSmall {
-	background: url(http://static-02.lazada.vn/images/lazada/xseal_small.png.pagespeed.ic.uFUTq7whet.png) no-repeat;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/xseal_small.png.pagespeed.ic.uFUTq7whet.png) no-repeat;
 	height: 40px;
 	width: 40px;
 	display: inline-block;
@@ -8554,7 +8561,7 @@ a:hover {
 	width: 200px
 }
 .uspseal_info li {
-	background: url(http://static-02.lazada.vn/images/lazada/xcheckedLogin.png.pagespeed.ic.e5I_xJ2Sor.png) left 5px no-repeat;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/xcheckedLogin.png.pagespeed.ic.e5I_xJ2Sor.png) left 5px no-repeat;
 	line-height: 18px;
 	padding-left: 15px
 }
@@ -8938,13 +8945,13 @@ a:hover {
 	display: inline-block;
 	width: 10px;
 	height: 9px;
-	background-image: url(http://static-02.lazada.vn/images/spinbasket/checkout/xvalidation.png.pagespeed.ic.EBG7JMKWlg.png);
+	background-image: url(http://static-02.Peep.vn/images/spinbasket/checkout/xvalidation.png.pagespeed.ic.EBG7JMKWlg.png);
 	margin-left: 6px
 }
 .error-icon-validate {
 	width: 10px;
 	height: 9px;
-	background-image: url(http://static-02.lazada.vn/images/spinbasket/checkout/invalid_icon.png.pagespeed.ce.iRAh4VKXmQ.png);
+	background-image: url(http://static-02.Peep.vn/images/spinbasket/checkout/invalid_icon.png.pagespeed.ce.iRAh4VKXmQ.png);
 	display: inline-block;
 	margin-left: 6px;
 	vertical-align: middle
@@ -9107,7 +9114,7 @@ a:hover {
 	margin: 8px auto
 }
 #bcard_logo {
-	background: url(http://static-02.lazada.vn/images/lazada/xBCard_logo.jpg.pagespeed.ic.9mRACcQDcl.jpg) no-repeat;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/xBCard_logo.jpg.pagespeed.ic.9mRACcQDcl.jpg) no-repeat;
 	width: 180px;
 	height: 84px;
 	padding: 10px
@@ -9553,7 +9560,7 @@ body {
 	overflow: hidden
 }
 .list-step li {
-	background: url(http://static-02.lazada.vn/css/live/static/images/arrow.gif) no-repeat 100% 0;
+	background: url(http://static-02.Peep.vn/css/live/static/images/arrow.gif) no-repeat 100% 0;
 	padding: 0 25px 0 0;
 	float: left;
 	margin: 0 6px 0 0 !important;
@@ -9863,7 +9870,7 @@ td.amount {
 	border: 0 solid #ccc
 }
 .order_process_bar .bar {
-	background: url(http://opsfe.lazada.com/html_ordertracking/loading_process_bar.png) repeat-x;
+	background: url(http://opsfe.Peep.vn.com/html_ordertracking/loading_process_bar.png) repeat-x;
 	height: 20px
 }
 .jquery-selectbox {
@@ -9909,7 +9916,7 @@ td.amount {
 }
 .jquery-selectbox .jquery-selectbox-moreButton {
 	cursor: pointer;
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/menu_arrow.png.pagespeed.ce.b0ymsZuji4.png) no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/menu_arrow.png.pagespeed.ce.b0ymsZuji4.png) no-repeat;
 	z-index: 1;
 	float: right;
 	height: 7px;
@@ -10161,7 +10168,7 @@ input[type="checkbox"], input[type="radio"] {
 	font-weight: bold;
 	line-height: 38px !important;
 	color: #fff;
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/buy_product_just-bullets.png.pagespeed.ce.OTjSVU_p9T.png) no-repeat 120px 5px;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/buy_product_just-bullets.png.pagespeed.ce.OTjSVU_p9T.png) no-repeat 120px 5px;
 	background-color: none;
 	padding-left: 0;
 	text-transform: capitalize;
@@ -10406,7 +10413,7 @@ input[type="checkbox"], input[type="radio"] {
 	line-height: 22px
 }
 #sizechart .close_popup {
-	background: url(http://static-02.lazada.vn/images/spinbasket/sprites/xclose_popup.png.pagespeed.ic.1Bmdw1ugk-.png);
+	background: url(http://static-02.Peep.vn/images/spinbasket/sprites/xclose_popup.png.pagespeed.ic.1Bmdw1ugk-.png);
 	width: 12px;
 	height: 11px;
 	float: right;
@@ -10492,7 +10499,7 @@ input[type="checkbox"], input[type="radio"] {
 	color: #ffb319
 }
 #wishlist-dropdown a:before {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xwishlist-icon.png.pagespeed.ic.WZUslCa21_.png) no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xwishlist-icon.png.pagespeed.ic.WZUslCa21_.png) no-repeat;
 	width: 11px;
 	height: 10px;
 	display: inline-block;
@@ -10626,7 +10633,7 @@ input[type="checkbox"], input[type="radio"] {
 	padding: 0;
 	margin: 0;
 	text-indent: -100000px;
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/email_social_btn.png.pagespeed.ce.Qhjo0k73Jo.png) no-repeat
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/email_social_btn.png.pagespeed.ce.Qhjo0k73Jo.png) no-repeat
 }
 .prd-socialLinksBox li {
 	height: 20px
@@ -10774,7 +10781,7 @@ input[type="checkbox"], input[type="radio"] {
 	padding-right: 5px !important
 }
 .prd-shortdescr li {
-	list-style-image: url(http://static-02.lazada.vn/images/spinbasket/icons/disc3.png.pagespeed.ce.ZGStGqViSC.png);
+	list-style-image: url(http://static-02.Peep.vn/images/spinbasket/icons/disc3.png.pagespeed.ce.ZGStGqViSC.png);
 	margin-left: 1em;
 	line-height: 16px;
 	font-size: 13px
@@ -10937,7 +10944,7 @@ li.prd-option-item {
 	width: 100%
 }
 .quickviewNavBar {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xquickviewNavBg.png.pagespeed.ic.h8fI_gbMWU.png) 50% 50% no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xquickviewNavBg.png.pagespeed.ic.h8fI_gbMWU.png) 50% 50% no-repeat;
 	height: 46px;
 	width: auto
 }
@@ -11114,7 +11121,7 @@ li.prd-option-item {
 	width: 20px
 }
 .prd-ratingOptionLabel > span {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xstars.png.pagespeed.ic.xYuVjA_H5p.png) repeat-x scroll 0 -2px transparent;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xstars.png.pagespeed.ic.xYuVjA_H5p.png) repeat-x scroll 0 -2px transparent;
 	padding: 0 8px
 }
 .prd-ratingOptionLabel > span.active, .prd-ratingOptionLabel > span.fill {
@@ -11250,7 +11257,7 @@ li.prd-option-item {
 	border-left: none
 }
 .prd-ratingBarInner {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/diagonal_percentage_overlay.png.pagespeed.ce.tAfvHyIVvt.png) repeat-x;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/diagonal_percentage_overlay.png.pagespeed.ce.tAfvHyIVvt.png) repeat-x;
 	border-top: 0;
 	border-bottom: 1px solid #91b537;
 	border-right: 0;
@@ -11293,7 +11300,7 @@ li.prd-option-item {
 	cursor: pointer
 }
 .i-payBDO-detail {
-	background: url(http://static-02.lazada.vn/images/lazada/icons/xbdo-cartpage.PNG.pagespeed.ic.l-MfPVPVSw.png) no-repeat scroll 0 0 transparent;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/icons/xbdo-cartpage.PNG.pagespeed.ic.l-MfPVPVSw.png) no-repeat scroll 0 0 transparent;
 	height: 26px !important;
 	width: 100% !important
 }
@@ -11498,7 +11505,7 @@ li.item .sb-gdv-disc > div.sb-gdv-disc__content {
 	width: 100%;
 	height: 48px;
 	display: block;
-	background: url(http://static-02.lazada.vn/images/lazada/icons/xhomepage-slider-control.png.pagespeed.ic.bpggeUYBSx.png) -48px 0 no-repeat;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/icons/xhomepage-slider-control.png.pagespeed.ic.bpggeUYBSx.png) -48px 0 no-repeat;
 	overflow: hidden
 }
 .bundle_products_container .bundle_prev {
@@ -11513,7 +11520,7 @@ li.item .sb-gdv-disc > div.sb-gdv-disc__content {
 	width: 100%;
 	height: 48px;
 	display: block;
-	background: url(http://static-02.lazada.vn/images/lazada/icons/xhomepage-slider-control.png.pagespeed.ic.bpggeUYBSx.png) 0 0 no-repeat;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/icons/xhomepage-slider-control.png.pagespeed.ic.bpggeUYBSx.png) 0 0 no-repeat;
 	overflow: hidden
 }
 .bundle_products_container .bundle_prev a:hover {
@@ -11544,7 +11551,7 @@ li.item .sb-gdv-disc > div.sb-gdv-disc__content {
 	margin-bottom: 1em
 }
 .sb-pd-pm-img {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xsb-pd-pm.jpg.pagespeed.ic.FgB1wz-lWx.jpg);
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xsb-pd-pm.jpg.pagespeed.ic.FgB1wz-lWx.jpg);
 	width: 206px;
 	height: 22px;
 	margin: auto
@@ -11582,23 +11589,23 @@ li.item .sb-gdv-disc > div.sb-gdv-disc__content {
 .sb-pd-tt-i1 {
 	width: 53px;
 	height: 44px;
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xsbidwr-i1.jpg.pagespeed.ic.SbMcrp4-Xw.jpg)
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xsbidwr-i1.jpg.pagespeed.ic.SbMcrp4-Xw.jpg)
 }
 .sb-pd-tt-i2 {
 	width: 39px;
 	height: 42px;
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xsbidwr-i2.jpg.pagespeed.ic.Qj5MMm4iHi.jpg)
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xsbidwr-i2.jpg.pagespeed.ic.Qj5MMm4iHi.jpg)
 }
 .sb-pd-tt-i3 {
 	width: 39px;
 	height: 40px;
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xsbidwr-i3.jpg.pagespeed.ic._7E4nC8J0Z.jpg)
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xsbidwr-i3.jpg.pagespeed.ic._7E4nC8J0Z.jpg)
 }
 .sb-pd-is {
 	margin: auto;
 	width: 30px;
 	height: 31px;
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/uspSprite.png.pagespeed.ce.3HQ5eG5uex.png) no-repeat
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/uspSprite.png.pagespeed.ce.3HQ5eG5uex.png) no-repeat
 }
 .is1 {
 	background-position: -56px 0;
@@ -11642,7 +11649,7 @@ li.item .sb-gdv-disc > div.sb-gdv-disc__content {
 .sb-qb-img {
 	width: 55px;
 	height: 38px;
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xsb-pd-qb.jpg.pagespeed.ic.9ibPqHh5CU.jpg)
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xsb-pd-qb.jpg.pagespeed.ic.9ibPqHh5CU.jpg)
 }
 .qbbx2 {
 	float: left;
@@ -11867,25 +11874,25 @@ li > .fb_iframe_widget iframe {
 	background-color: #ffc0c0;
 	margin-top: 0 !important
 }
-#lazadamy-stamp-visa-big {
+#Peep.vnmy-stamp-visa-big {
 	width: 80px;
 	height: 80px;
 	position: absolute;
 	top: 8px;
 	right: 8px;
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xVISA_Deals_Stamp_big.png.pagespeed.ic.BCbqQekKr7.png) no-repeat center center;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xVISA_Deals_Stamp_big.png.pagespeed.ic.BCbqQekKr7.png) no-repeat center center;
 	cursor: pointer
 }
-#lazadaph-best-stamp-big {
+#Peep.vnph-best-stamp-big {
 	width: 90px;
 	height: 89px;
 	position: absolute;
 	top: 12px;
 	right: 12px;
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/BigBadge2.png) no-repeat scroll center center transparent;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/BigBadge2.png) no-repeat scroll center center transparent;
 	cursor: pointer
 }
-#lazadaph_lazada_promise_terms {
+#Peep.vnph_Peep.vn_promise_terms {
 	margin-left: 7em;
 	margin-top: 1.2em;
 	line-height: 23px;
@@ -11898,13 +11905,13 @@ li > .fb_iframe_widget iframe {
 	width: 195px;
 	color: #000
 }
-.lazadaph-best-stamp-small {
+.Peep.vnph-best-stamp-small {
 	width: 60px;
 	height: 59px;
 	position: absolute;
 	top: 2px;
 	right: 3px;
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/SmallBadge.png) no-repeat scroll center center transparent
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/SmallBadge.png) no-repeat scroll center center transparent
 }
 #ui-visaPriceBoxPrice {
 	color: #0b53a3;
@@ -12448,7 +12455,7 @@ input[type="text"]::-ms-clear {
 	color: #333
 }
 .itm-saleFlagPercent, .itm-newFlag, .itm-saleFlag {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/icon-flag-sales.png.pagespeed.ce.t-w3qXt3su.png) no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/icon-flag-sales.png.pagespeed.ce.t-w3qXt3su.png) no-repeat;
 	width: 52px;
 	height: 21px;
 	color: #ec1b23;
@@ -12469,7 +12476,7 @@ input[type="text"]::-ms-clear {
 	padding-top: .5px
 }
 .itm-saleFlagPercent {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/icon-flag-reduction45.png.pagespeed.ce.YqmMeFAZoA.png) no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/icon-flag-reduction45.png.pagespeed.ce.YqmMeFAZoA.png) no-repeat;
 	width: 44px;
 	height: 21px;
 	line-height: 19px;
@@ -12480,10 +12487,10 @@ input[type="text"]::-ms-clear {
 	text-shadow: 0 1px 0 rgba(0,0,0,.8)
 }
 .itm-saleFlagPercent.low {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/icon-flag-reduction15.png.pagespeed.ce.tqtoEfNPcA.png) no-repeat
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/icon-flag-reduction15.png.pagespeed.ce.tqtoEfNPcA.png) no-repeat
 }
 .itm-saleFlagPercent.middle {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/icon-flag-reduction25.png.pagespeed.ce.ohWIjNrVMj.png) no-repeat
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/icon-flag-reduction25.png.pagespeed.ce.ohWIjNrVMj.png) no-repeat
 }
 .itm-saleFlagPercentSp {
 	background-color: #b00;
@@ -12514,7 +12521,7 @@ input[type="text"]::-ms-clear {
 .itm-ratPercentageOverlay {
 	margin: -1px -1px 0 0;
 	height: 14px;
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/diagonal_percentage_overlay.png.pagespeed.ce.tAfvHyIVvt.png) repeat-x scroll 0 0 transparent;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/diagonal_percentage_overlay.png.pagespeed.ce.tAfvHyIVvt.png) repeat-x scroll 0 0 transparent;
 	border-top-left-radius: 3px;
 	-moz-border-radius-topleft: 3px;
 	-webkit-top-bottom-left-radius: 3px;
@@ -12735,7 +12742,7 @@ input[type="text"]::-ms-clear {
 	cursor: pointer
 }
 .itm-listview-shortdesc li {
-	list-style-image: url(http://static-02.lazada.vn/images/spinbasket/icons/disc.png.pagespeed.ce.De2DzLIaf4.png);
+	list-style-image: url(http://static-02.Peep.vn/images/spinbasket/icons/disc.png.pagespeed.ce.De2DzLIaf4.png);
 	font-size: 11px;
 	line-height: 15px
 }
@@ -12771,7 +12778,7 @@ input[type="text"]::-ms-clear {
 	cursor: pointer
 }
 .itm-installmentIcon {
-	background: url(http://static-02.lazada.vn/images/lazada/icons/x3months.PNG.pagespeed.ic.qsonvLkzBi.png) no-repeat scroll 0 0 transparent;
+	background: url(http://static-02.Peep.vn/images/Peep.vn/icons/x3months.PNG.pagespeed.ic.qsonvLkzBi.png) no-repeat scroll 0 0 transparent;
 	display: block;
 	height: 51px;
 	left: 5px;
@@ -12811,7 +12818,7 @@ input[type="text"]::-ms-clear {
 	xborder: 1px solid #ccc
 }
 .prsc {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xhomepage-slider-control.png.pagespeed.ic.bpggeUYBSx.png);
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xhomepage-slider-control.png.pagespeed.ic.bpggeUYBSx.png);
 	width: 48px;
 	height: 48px;
 	position: absolute;
@@ -12977,13 +12984,13 @@ ul > li > div.itm > a.itm-link > .itm-productInfo > .justBuy {
 	width: 720px !important
 }
 .nyroModalLoad {
-	background: #fff url(http://static-02.lazada.vn/images/spinbasket/icons/ajaxLoader.gif.pagespeed.ce.DAILKS5iIY.gif) no-repeat center
+	background: #fff url(http://static-02.Peep.vn/images/spinbasket/icons/ajaxLoader.gif.pagespeed.ce.DAILKS5iIY.gif) no-repeat center
 }
 .nyroModalPrev:hover {
-	background-image: url(http://static-02.lazada.vn/images/spinbasket/icons/xprev.gif.pagespeed.ic.U_ABltc28-.png)
+	background-image: url(http://static-02.Peep.vn/images/spinbasket/icons/xprev.gif.pagespeed.ic.U_ABltc28-.png)
 }
 .nyroModalNext:hover {
-	background-image: url(http://static-02.lazada.vn/images/spinbasket/icons/xnext.gif.pagespeed.ic.k0-0jJ1p6J.png)
+	background-image: url(http://static-02.Peep.vn/images/spinbasket/icons/xnext.gif.pagespeed.ic.k0-0jJ1p6J.png)
 }
 .clear {
 	clear: both
@@ -13005,7 +13012,7 @@ ul > li > div.itm > a.itm-link > .itm-productInfo > .justBuy {
 	line-height: 28px
 }
 .nyroModalCloseButton {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xround_close.png.pagespeed.ic.Gz4qZll8Wo.png);
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xround_close.png.pagespeed.ic.Gz4qZll8Wo.png);
 	width: 29px;
 	height: 29px;
 	top: -14px;
@@ -13014,7 +13021,7 @@ ul > li > div.itm > a.itm-link > .itm-productInfo > .justBuy {
 }
 .nyroModalCont .myaccountLogin .nyroModalLoad {
 	display: none;
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/ajax_loader_popup.gif.pagespeed.ce.NJBhx6NIei.gif);
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/ajax_loader_popup.gif.pagespeed.ce.NJBhx6NIei.gif);
 	top: 178px;
 	right: 148px;
 	width: 43px;
@@ -13034,7 +13041,7 @@ ul > li > div.itm > a.itm-link > .itm-productInfo > .justBuy {
 	left: 0
 }
 .columnImg {
-	background: #fff url(http://static-02.lazada.vn/images/spinbasket/navigation/subnav.png.pagespeed.ce.TlqrQkg6C5.png) repeat-y top left !important
+	background: #fff url(http://static-02.Peep.vn/images/spinbasket/navigation/subnav.png.pagespeed.ce.TlqrQkg6C5.png) repeat-y top left !important
 }
 .columnWidthMenuImg {
 	width: 533px !important
@@ -13091,7 +13098,7 @@ ul > li > div.itm > a.itm-link > .itm-productInfo > .justBuy {
 .submenu_textblock ul li {
 	margin: 0;
 	padding-left: 13px;
-	background: url(http://static-02.lazada.vn/images/multistore/icons/triangleRightOrangeSmall.png.pagespeed.ce.v0HFm2LpNW.png) no-repeat scroll 0 5px transparent
+	background: url(http://static-02.Peep.vn/images/multistore/icons/triangleRightOrangeSmall.png.pagespeed.ce.v0HFm2LpNW.png) no-repeat scroll 0 5px transparent
 }
 .navLayerSub .navLayerSubColumn.navLayerSubLeft {
 	padding: 20px
@@ -13162,7 +13169,7 @@ ul > li > div.itm > a.itm-link > .itm-productInfo > .justBuy {
 	float: left;
 	width: 4px;
 	height: 6px;
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/arrow_right_orange_small.png.pagespeed.ce.bfn8qhxfoT.png) no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/arrow_right_orange_small.png.pagespeed.ce.bfn8qhxfoT.png) no-repeat;
 	margin: .6em .5em 0 0
 }
 .bsnca {
@@ -13638,7 +13645,7 @@ body {
 	width: 160px
 }
 #three_step_checkout .submit_btn_icon {
-	background-image: url(http://static-02.lazada.vn/images/spinbasket/cart/xsubmit_btn_icon.png.pagespeed.ic.mA3Y4aHXUP.png);
+	background-image: url(http://static-02.Peep.vn/images/spinbasket/cart/xsubmit_btn_icon.png.pagespeed.ic.mA3Y4aHXUP.png);
 	height: 21px;
 	width: 21px;
 	cursor: pointer;
@@ -13953,7 +13960,7 @@ body {
 	margin-top: 8px
 }
 #three_step_checkout .cart_submit_icon {
-	background-image: url(http://static-02.lazada.vn/images/spinbasket/cart/xsubmit_btn_icon.png.pagespeed.ic.mA3Y4aHXUP.png);
+	background-image: url(http://static-02.Peep.vn/images/spinbasket/cart/xsubmit_btn_icon.png.pagespeed.ic.mA3Y4aHXUP.png);
 	height: 21px;
 	width: 21px;
 	cursor: pointer;
@@ -14008,7 +14015,7 @@ body {
 	margin-top: 0
 }
 #three_step_checkout .bdo_icon {
-	background-image: url(http://static-02.lazada.vn/images/spinbasket/checkout/xhandingfee_icon.png.pagespeed.ic.QXizPCVQON.png);
+	background-image: url(http://static-02.Peep.vn/images/spinbasket/checkout/xhandingfee_icon.png.pagespeed.ic.QXizPCVQON.png);
 	display: inline-block;
 	position: relative;
 	height: 15px;
@@ -14023,7 +14030,7 @@ body {
 	margin-top: 10px
 }
 #three_step_checkout .success_icon {
-	background-image: url(http://static-02.lazada.vn/images/spinbasket/checkout/xsuccess_icon.png.pagespeed.ic.8AVP-ciCFb.png);
+	background-image: url(http://static-02.Peep.vn/images/spinbasket/checkout/xsuccess_icon.png.pagespeed.ic.8AVP-ciCFb.png);
 	width: 20px;
 	height: 20px;
 	display: inline-block;
@@ -14056,7 +14063,7 @@ body {
 #reminder_page #msg_innerwrapper {
 	margin: 0 10px;
 	padding: 10px 30px 20px;
-	background: url(http://static-02.lazada.vn/images/spinbasket/girl.png.pagespeed.ce.lDoGpA6hkq.png) bottom right no-repeat #fff;
+	background: url(http://static-02.Peep.vn/images/spinbasket/girl.png.pagespeed.ce.lDoGpA6hkq.png) bottom right no-repeat #fff;
 	border-radius: 10px
 }
 #reminder_page h1 {
@@ -14125,7 +14132,7 @@ body {
 	text-align: center
 }
 #reminder_page .submit_btn_icon {
-	background-image: url(http://static-02.lazada.vn/images/spinbasket/icons/xsubmit_btn_icon.png.pagespeed.ic.mA3Y4aHXUP.png);
+	background-image: url(http://static-02.Peep.vn/images/spinbasket/icons/xsubmit_btn_icon.png.pagespeed.ic.mA3Y4aHXUP.png);
 	height: 21px;
 	width: 21px;
 	cursor: pointer;
@@ -14228,7 +14235,7 @@ body {
 	margin-top: 12px
 }
 #marketplace .linktotab3_icon {
-	background-image: url(http://static-02.lazada.vn/images/spinbasket/marketplace/xsubmit_btn_icon.png.pagespeed.ic.mA3Y4aHXUP.png);
+	background-image: url(http://static-02.Peep.vn/images/spinbasket/marketplace/xsubmit_btn_icon.png.pagespeed.ic.mA3Y4aHXUP.png);
 	height: 21px;
 	width: 21px;
 	cursor: pointer;
@@ -14237,7 +14244,7 @@ body {
 	margin-top: 12px
 }
 #marketplace .shop_icon {
-	background: url(http://static-02.lazada.vn/images/spinbasket/marketplace/xshop_icon.png.pagespeed.ic.saRpdAgxwh.png) 0 0 no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/marketplace/xshop_icon.png.pagespeed.ic.saRpdAgxwh.png) 0 0 no-repeat;
 	width: 58px;
 	height: 58px
 }
@@ -14272,7 +14279,7 @@ body {
 	float: left
 }
 #marketplace .shop {
-	background: url(http://static-02.lazada.vn/images/spinbasket/marketplace/xshop.png.pagespeed.ic.UQu10wYaIC.png);
+	background: url(http://static-02.Peep.vn/images/spinbasket/marketplace/xshop.png.pagespeed.ic.UQu10wYaIC.png);
 	width: 312px;
 	height: 117px;
 	float: right;
@@ -14345,7 +14352,7 @@ body {
 	display: block
 }
 #marketplace #content_tab1 {
-	background: url(http://static-02.lazada.vn/images/spinbasket/marketplace/marketplace_img1.png.pagespeed.ce.T4KPTcojO0.png) right top no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/marketplace/marketplace_img1.png.pagespeed.ce.T4KPTcojO0.png) right top no-repeat;
 	padding-top: 60px
 }
 #marketplace #content_tab1 .title {
@@ -14359,7 +14366,7 @@ body {
 	margin-left: 155px
 }
 #marketplace #content_tab1 .check_icon {
-	background: url(http://static-02.lazada.vn/images/spinbasket/marketplace/xcheck.png.pagespeed.ic.EBG7JMKWlg.png) bottom no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/marketplace/xcheck.png.pagespeed.ic.EBG7JMKWlg.png) bottom no-repeat;
 	height: 11px;
 	width: 10px;
 	display: inline-block;
@@ -14381,7 +14388,7 @@ body {
 	background-position: 0 -58px
 }
 #marketplace #content_tab2 {
-	background: url(http://static-02.lazada.vn/images/spinbasket/marketplace/xmarketplace_img2.png.pagespeed.ic.rEyiHrYInC.png) right top no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/marketplace/xmarketplace_img2.png.pagespeed.ic.rEyiHrYInC.png) right top no-repeat;
 	padding-top: 40px
 }
 #marketplace #content_tab2 .title {
@@ -14426,7 +14433,7 @@ body {
 	margin-top: 30px
 }
 #marketplace #content_tab3 {
-	background: url(http://static-02.lazada.vn/images/spinbasket/marketplace/xmarketplace_img3.png.pagespeed.ic.rh5Vl7P1r_.png) 568px 0 no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/marketplace/xmarketplace_img3.png.pagespeed.ic.rh5Vl7P1r_.png) 568px 0 no-repeat;
 	padding-top: 40px
 }
 #marketplace #content_tab3 .tab_title {
@@ -14439,7 +14446,7 @@ body {
 #marketplace .content_title {
 	font-weight: bold;
 	font-size: 15px;
-	background: url(http://static-02.lazada.vn/images/spinbasket/marketplace/xseller_list.png.pagespeed.ic.kPzSZ6PqhF.png) 0 3px no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/marketplace/xseller_list.png.pagespeed.ic.kPzSZ6PqhF.png) 0 3px no-repeat;
 	padding-left: 20px;
 	line-height: 20px
 }
@@ -14485,7 +14492,7 @@ body {
 	position: relative
 }
 #marketplace .column li:before {
-	background: url(http://static-02.lazada.vn/images/spinbasket/marketplace/xseller_list.png.pagespeed.ic.kPzSZ6PqhF.png) 0 3px no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/marketplace/xseller_list.png.pagespeed.ic.kPzSZ6PqhF.png) 0 3px no-repeat;
 	content: '';
 	height: 16px;
 	width: 16px;
@@ -14494,7 +14501,7 @@ body {
 	top: 0
 }
 #marketplace .column li.expanded:before {
-	background: url(http://static-02.lazada.vn/images/spinbasket/marketplace/xseller_list.png.pagespeed.ic.kPzSZ6PqhF.png) 0 -12px no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/marketplace/xseller_list.png.pagespeed.ic.kPzSZ6PqhF.png) 0 -12px no-repeat;
 	height: 20px;
 	width: 20px;
 	position: absolute;
@@ -14524,7 +14531,7 @@ body {
 #marketplace #popup {
 	width: 590px;
 	height: 240px;
-	background: url(http://static-02.lazada.vn/images/spinbasket/marketplace/xwhite_transparent.png.pagespeed.ic.ufcg3Ivic-.png);
+	background: url(http://static-02.Peep.vn/images/spinbasket/marketplace/xwhite_transparent.png.pagespeed.ic.ufcg3Ivic-.png);
 	padding: 10px
 }
 #marketplace .wrapper {
@@ -14533,7 +14540,7 @@ body {
 	height: 240px
 }
 #marketplace .close_btn {
-	background: url(http://static-02.lazada.vn/images/spinbasket/marketplace/xclose_popup.png.pagespeed.ic.1Bmdw1ugk-.png);
+	background: url(http://static-02.Peep.vn/images/spinbasket/marketplace/xclose_popup.png.pagespeed.ic.1Bmdw1ugk-.png);
 	width: 12px;
 	height: 11px;
 	margin: 5px 5px 0 0;
@@ -14541,7 +14548,7 @@ body {
 	display: block
 }
 #marketplace .logo {
-	background: url(http://static-02.lazada.vn/images/spinbasket/marketplace/xlazada_logo.png.pagespeed.ic.r7ltx6C-bi.png);
+	background: url(http://static-02.Peep.vn/images/spinbasket/marketplace/xPeep.vn_logo.png.pagespeed.ic.r7ltx6C-bi.png);
 	width: 148px;
 	height: 57px;
 	display: inline-block;
@@ -14585,7 +14592,7 @@ body {
 .invalid_icon {
 	width: 10px;
 	height: 9px;
-	background-image: url(http://static-02.lazada.vn/images/spinbasket/checkout/invalid_icon.png.pagespeed.ce.iRAh4VKXmQ.png);
+	background-image: url(http://static-02.Peep.vn/images/spinbasket/checkout/invalid_icon.png.pagespeed.ce.iRAh4VKXmQ.png);
 	display: inline-block;
 	margin-left: 6px;
 	vertical-align: middle
@@ -14598,7 +14605,7 @@ body {
 	display: inline-block;
 	width: 10px;
 	height: 9px;
-	background-image: url(http://static-02.lazada.vn/images/spinbasket/checkout/xvalidation.png.pagespeed.ic.EBG7JMKWlg.png);
+	background-image: url(http://static-02.Peep.vn/images/spinbasket/checkout/xvalidation.png.pagespeed.ic.EBG7JMKWlg.png);
 	margin-left: 6px
 }
 .clear {
@@ -14909,14 +14916,14 @@ table td.line {
 	margin-right: 3px
 }
 #myreturn .return-box .arrow-icon {
-	background: url(http://static-02.lazada.vn/images/spinbasket/sprites/xarrow-icon.png.pagespeed.ic.579GMT6NC1.png) no-repeat scroll 0 0 transparent;
+	background: url(http://static-02.Peep.vn/images/spinbasket/sprites/xarrow-icon.png.pagespeed.ic.579GMT6NC1.png) no-repeat scroll 0 0 transparent;
 	display: inline-block;
 	height: 15px;
 	margin-bottom: -2px;
 	width: 15px
 }
 #myreturn .current .arrow-icon {
-	background: url(http://static-02.lazada.vn/images/spinbasket/sprites/xarrow-icon.png.pagespeed.ic.579GMT6NC1.png) -15px 0 no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/sprites/xarrow-icon.png.pagespeed.ic.579GMT6NC1.png) -15px 0 no-repeat;
 	width: 15px;
 	height: 15px;
 	display: inline-block;
@@ -15118,7 +15125,7 @@ table td.line {
 	width: 97%
 }
 #fashion-landing #hz-menu .hz-menu-item .vt-menu a:before {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xarrow_orange_4_7.png.pagespeed.ic.dRZtD8X0U7.png) 0 0 no-repeat;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xarrow_orange_4_7.png.pagespeed.ic.dRZtD8X0U7.png) 0 0 no-repeat;
 	width: 4px;
 	height: 7px;
 	content: '';
@@ -15193,7 +15200,7 @@ table td.line {
 	height: 38px
 }
 #fashion-landing .i-slidePrev, #fashion-landing .i-slideNext {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xnav-icon.png.pagespeed.ic.89VcO4LENZ.png) no-repeat !important;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xnav-icon.png.pagespeed.ic.89VcO4LENZ.png) no-repeat !important;
 	width: 38px;
 	height: 38px
 }
@@ -15255,7 +15262,7 @@ table td.line {
 	position: relative
 }
 #fashion-landing .fashion-carousel .prev {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xnav-icon.png.pagespeed.ic.89VcO4LENZ.png) 0 0;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xnav-icon.png.pagespeed.ic.89VcO4LENZ.png) 0 0;
 	width: 38px;
 	height: 38px;
 	position: absolute;
@@ -15266,7 +15273,7 @@ table td.line {
 	background-position: 0 -40px
 }
 #fashion-landing .fashion-carousel .next {
-	background: url(http://static-02.lazada.vn/images/spinbasket/icons/xnav-icon.png.pagespeed.ic.89VcO4LENZ.png) -40px 0;
+	background: url(http://static-02.Peep.vn/images/spinbasket/icons/xnav-icon.png.pagespeed.ic.89VcO4LENZ.png) -40px 0;
 	width: 38px;
 	height: 38px;
 	position: absolute;
@@ -15470,4 +15477,44 @@ ul li.item{
 	width: auto!important;
 	margin: auto;
 	margin-top: 20px;
+}
+div.float-ads{
+	width: 140px;
+	height: 400px;
+	position: fixed;
+	bottom: 50px;
+}
+div.float-ads img{
+	max-width: 100%;
+	max-height: 100%;
+}
+div#left-banner{
+	left: 20px;
+	text-align: right;
+}
+div#right-banner{
+	right: 20px;
+	text-align: left;
+}
+
+/* SINGLE PRODUCT PAGE */
+div.product-collateral > div{
+	margin-top: 20px;
+}
+div.product-collateral > div > h2{
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 15px;
+	color: #000;
+	border-bottom: 3px solid #f2f2f2;
+	padding: 10px 0;
+}
+div.product-collateral > div.box-collateral.box-tags{
+	margin-bottom: 30px;
+}
+div.product-collateral > div.box-collateral.box-tags ul{
+	margin: 15px 0;
+}
+div.product-collateral > div.box-collateral.box-tags ul li{
+	display: inline;
 }

@@ -1,5 +1,5 @@
 /* css ********************/
-/* intro lazada in homepage */
+/* intro Peep.vn in homepage */
 .intro-text {
 	line-height: 1.4;
 	border-top: 1px solid #E5E5E5;
@@ -12,11 +12,11 @@
 	font-weight: bold;
 	margin: 0 0 10px;
 	color: #DE7B2A;
-	background: url(http://static-prod.lazada.vn/cms/icons/arrow-2.png) 100% 0 no-repeat;
+	background: url(http://static-prod.Peep.vn/cms/icons/arrow-2.png) 100% 0 no-repeat;
 	cursor: pointer;
 }
 .intro-text .current {
-	background: url(http://static-prod.lazada.vn/cms/icons/arrow-3.png) 100% 0 no-repeat;
+	background: url(http://static-prod.Peep.vn/cms/icons/arrow-3.png) 100% 0 no-repeat;
 }
 .intro-text p {
 	margin: 0 0 10px;
@@ -42,7 +42,7 @@
 	text-transform: uppercase;
 }
 .navSub > li.daily-deal-menu:hover a {
-	background: url(http://www.lazada.vn/images/spinbasket/sprites/sprite_general.png) no-repeat scroll 206px -261px transparent !important;
+	background: url(http://www.Peep.vn/images/spinbasket/sprites/sprite_general.png) no-repeat scroll 206px -261px transparent !important;
 }
 .sbm-bge > div {
 	font-size: 0.65em;
@@ -51,14 +51,14 @@
 	margin-top: 5px;
 }
 .navSub > li.corp-menu a {
-	background: url(http://static-prod.lazada.vn/cms/icons/arrow.png) 98% 8px no-repeat #aeae9e !important;
+	background: url(http://static-prod.Peep.vn/cms/icons/arrow.png) 98% 8px no-repeat #aeae9e !important;
 	color: #22221f;
 }
 .navSub > li.corp-menu:hover {
 	background: none;
 }
 .navSub > li.corp-menu:hover a {
-	background: url(http://static-prod.lazada.vn/cms/icons/arrow.png) 98% 8px no-repeat #FFB319 !important;
+	background: url(http://static-prod.Peep.vn/cms/icons/arrow.png) 98% 8px no-repeat #FFB319 !important;
 	color: #fff;
 }
 
@@ -97,10 +97,10 @@
 
 .navLayerSub .sbncco, .navLayerSub .sbnc3t {
 	margin: 0;/* css ********************/
-/* intro lazada in homepage */
+/* intro Peep.vn in homepage */
 .intro-text { line-height: 1.4; border-top: 1px solid #E5E5E5; padding-top: 20px; }
-.intro-text dt { border-bottom: 1px solid #e6e6e6; padding: 0 30px 9px 0; font-size: 14px; font-weight:bold; margin: 0 0 10px; color:#DE7B2A; background: url(http://static-prod.lazada.vn/cms/icons/arrow-2.png) 100% 0 no-repeat; cursor: pointer; }
-.intro-text .current { background: url(http://static-prod.lazada.vn/cms/icons/arrow-3.png) 100% 0 no-repeat; }
+.intro-text dt { border-bottom: 1px solid #e6e6e6; padding: 0 30px 9px 0; font-size: 14px; font-weight:bold; margin: 0 0 10px; color:#DE7B2A; background: url(http://static-prod.Peep.vn/cms/icons/arrow-2.png) 100% 0 no-repeat; cursor: pointer; }
+.intro-text .current { background: url(http://static-prod.Peep.vn/cms/icons/arrow-3.png) 100% 0 no-repeat; }
 .intro-text p { margin: 0 0 10px; }
 .intro-text-inner{ margin: 0 0 10px; }
 .intro-text h1 { color: #312B2B; font-size: 16px;  margin-bottom: 5px;}
@@ -109,12 +109,12 @@
 /* navigation */
 .navSub > li { font-size:12px; }
 .navSub > li.daily-deal-menu a {text-transform: uppercase; }
-.navSub > li.daily-deal-menu:hover a {  background: url(http://www.lazada.vn/images/spinbasket/sprites/sprite_general.png) no-repeat scroll 206px -261px transparent !important;}
+.navSub > li.daily-deal-menu:hover a {  background: url(http://www.Peep.vn/images/spinbasket/sprites/sprite_general.png) no-repeat scroll 206px -261px transparent !important;}
 .sbm-bge > div { font-size: 0.65em; }
 .navSub > li.corp-menu { margin-top: 5px;}
-.navSub > li.corp-menu a { background: url(http://static-prod.lazada.vn/cms/icons/arrow.png) 98% 8px no-repeat #aeae9e !important; color:#22221f; }
+.navSub > li.corp-menu a { background: url(http://static-prod.Peep.vn/cms/icons/arrow.png) 98% 8px no-repeat #aeae9e !important; color:#22221f; }
 .navSub > li.corp-menu:hover { background: none; }
-.navSub > li.corp-menu:hover a { background: url(http://static-prod.lazada.vn/cms/icons/arrow.png) 98% 8px no-repeat #FFB319 !important; color:#fff; }
+.navSub > li.corp-menu:hover a { background: url(http://static-prod.Peep.vn/cms/icons/arrow.png) 98% 8px no-repeat #FFB319 !important; color:#fff; }
 
 .navLayerSub .bsncr { margin-bottom: 3px; }
 .navLayerSub .bsncr:after { clear: both; }
@@ -140,12 +140,12 @@
 .navSub .multiMenu:hover .navLayerSub .brands a, 
 .navSub .multiMenu:focus .navLayerSub .brands a,
 .navSub .multiMenu:hover .navLayerSub .title, 
-.navSub .multiMenu:focus .navLayerSub .title { background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/brands-10.gif); background-repeat: no-repeat; } 
+.navSub .multiMenu:focus .navLayerSub .title { background-image: url(http://static-prod.Peep.vn/cms/category_banners/cat-menu/brands-10.gif); background-repeat: no-repeat; } 
 
 .navLayerSub .sbnc3 { background-color: #f2f2f2; background-repeat: no-repeat; }
 /* phone and tablets */
 #navLayer_4402 .navLayerSub .sbnc3 { border-top: 10px solid #17b1ed; }
-.navSub .multiMenu:hover #navLayer_4402 .navLayerSub .sbnc3 { background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/bg-phone.jpg); background-position: 50% 20px; }
+.navSub .multiMenu:hover #navLayer_4402 .navLayerSub .sbnc3 { background-image: url(http://static-prod.Peep.vn/cms/category_banners/cat-menu/bg-phone.jpg); background-position: 50% 20px; }
 #navLayer_4402 .navLayerSub .brands { padding-top: 295px; }
 #navLayer_4402 .navLayerSub .brands .menu-1 { width: 50px; }
 #navLayer_4402 .navLayerSub .brands .menu-2 { width: 116px; background-position: -50px 0; }
@@ -155,7 +155,7 @@
 
 /* laptops */
 #navLayer_4401 .navLayerSub .sbnc3 { border-top: 10px solid #15355b; }
-.navSub .multiMenu:hover #navLayer_4401 .navLayerSub .sbnc3 { background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/bg-laptops.jpg); background-position: 50% 0; }
+.navSub .multiMenu:hover #navLayer_4401 .navLayerSub .sbnc3 { background-image: url(http://static-prod.Peep.vn/cms/category_banners/cat-menu/bg-laptops.jpg); background-position: 50% 0; }
 #navLayer_4401 .navLayerSub .brands { padding-top: 295px; }
 #navLayer_4401 .navLayerSub .brands .menu-1 { width: 50px; }
 #navLayer_4401 .navLayerSub .brands .menu-2 { width: 109px; background-position: 0 -86px; }
@@ -165,7 +165,7 @@
 
 /* tv */
 #navLayer_4403 .navLayerSub .sbnc3 { border-top: 10px solid #17b1ed; }
-.navSub .multiMenu:hover #navLayer_4403 .navLayerSub .sbnc3 { background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/bg-tv.jpg); background-position: 50% -8px; }
+.navSub .multiMenu:hover #navLayer_4403 .navLayerSub .sbnc3 { background-image: url(http://static-prod.Peep.vn/cms/category_banners/cat-menu/bg-tv.jpg); background-position: 50% -8px; }
 #navLayer_4403 .navLayerSub .brands { padding-top: 295px; }
 #navLayer_4403 .navLayerSub .brands .menu-1 { width: 88px; background-position: 0 -172px; }
 #navLayer_4403 .navLayerSub .brands .menu-2 { width: 90px; background-position: -90px -172px; }
@@ -175,7 +175,7 @@
 
 /* cameras */
 #navLayer_4404 .navLayerSub .sbnc3 { border-top: 10px solid #15355b; }
-.navSub .multiMenu:hover #navLayer_4404 .navLayerSub .sbnc3 { background-image: url(http://static.lazada.vn/cms/category_banners/cat-menu/bg-camera-2.jpg); background-position: 50% 6px; }
+.navSub .multiMenu:hover #navLayer_4404 .navLayerSub .sbnc3 { background-image: url(http://static.Peep.vn/cms/category_banners/cat-menu/bg-camera-2.jpg); background-position: 50% 6px; }
 #navLayer_4404 .navLayerSub .brands { padding-top: 298px; }
 #navLayer_4404 .navLayerSub .brands a { margin: 0 3px; }
 #navLayer_4404 .navLayerSub .brands .menu-2 { width: 100px; background-position: -92px -258px; }
@@ -185,7 +185,7 @@
 
 /* home app */
 #navLayer_4400 .navLayerSub .sbnc3 { border-top: 10px solid #009f4e; }
-.navSub .multiMenu:hover #navLayer_4400 .navLayerSub .sbnc3 { background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/bg-home-app.jpg); background-position: 50% 0; }
+.navSub .multiMenu:hover #navLayer_4400 .navLayerSub .sbnc3 { background-image: url(http://static-prod.Peep.vn/cms/category_banners/cat-menu/bg-home-app.jpg); background-position: 50% 0; }
 #navLayer_4400 .navLayerSub .brands { padding-top: 295px; }
 #navLayer_4400 .navLayerSub .brands .menu-1 { width: 68px; background-position: -130px -301px; }
 #navLayer_4400 .navLayerSub .brands .menu-2 { width: 102px; background-position: -166px -1082px; }
@@ -195,7 +195,7 @@
 
 /* home living */
 #navLayer_5035 .navLayerSub .sbnc3 { border-top: 10px solid #17b1ed; }
-.navSub .multiMenu:hover #navLayer_5035 .navLayerSub .sbnc3 { background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/bg-home-living.jpg); background-position: -40px 100%; }
+.navSub .multiMenu:hover #navLayer_5035 .navLayerSub .sbnc3 { background-image: url(http://static-prod.Peep.vn/cms/category_banners/cat-menu/bg-home-living.jpg); background-position: -40px 100%; }
 #navLayer_5035 .navLayerSub .brands { padding-top: 105px; }
 #navLayer_5035 .navLayerSub .brands .menu-1 { width: 80px; background-position: 0 -387px; }
 #navLayer_5035 .navLayerSub .brands .menu-2 { width: 102px; background-position: -91px -387px; }
@@ -206,7 +206,7 @@
 
 /* books */
 #navLayer_3194 .navLayerSub .sbnc3 { border-top: 10px solid #dd1471; }
-.navSub .multiMenu:hover #navLayer_3194 .navLayerSub .sbnc3 { background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/bg-books.jpg); background-position: 0 100%; }
+.navSub .multiMenu:hover #navLayer_3194 .navLayerSub .sbnc3 { background-image: url(http://static-prod.Peep.vn/cms/category_banners/cat-menu/bg-books.jpg); background-position: 0 100%; }
 #navLayer_3194 .navLayerSub .brands { padding-top: 85px; }
 #navLayer_3194 .navLayerSub .brands a { margin: 0 3px 5px; }
 #navLayer_3194 .navLayerSub .brands .menu-1 { width: 35px; background-position: -121px -511px; }
@@ -219,7 +219,7 @@
 
 /* health */
 #navLayer_4405 .navLayerSub .sbnc3 { border-top: 10px solid #009f4e; }
-.navSub .multiMenu:hover #navLayer_4405 .navLayerSub .sbnc3 { background-image: url(http://static.lazada.vn/cms/category_banners/cat-menu/bg-health-2.jpg); background-position: 100% 0; }
+.navSub .multiMenu:hover #navLayer_4405 .navLayerSub .sbnc3 { background-image: url(http://static.Peep.vn/cms/category_banners/cat-menu/bg-health-2.jpg); background-position: 100% 0; }
 #navLayer_4405 .navLayerSub .brands { padding-top: 300px; }
 #navLayer_4405 .navLayerSub .brands .menu-1 { width: 94px; background-position: 0 -597px; }
 #navLayer_4405 .navLayerSub .brands .menu-2 { width: 167px; background-position: 0 -1127px; }
@@ -230,7 +230,7 @@
 
 /* kids */
 #navLayer_4406 .navLayerSub .sbnc3 { border-top: 10px solid #dd1471; }
-.navSub .multiMenu:hover #navLayer_4406 .navLayerSub .sbnc3 { background-image: url(http://static.lazada.vn/cms/category_banners/cat-menu/bg-kids-2.jpg); background-position: 100% 0; }
+.navSub .multiMenu:hover #navLayer_4406 .navLayerSub .sbnc3 { background-image: url(http://static.Peep.vn/cms/category_banners/cat-menu/bg-kids-2.jpg); background-position: 100% 0; }
 #navLayer_4406 .navLayerSub .brands { padding-top: 315px; }
 #navLayer_4406 .navLayerSub .brands a { margin: 0 3px; }
 #navLayer_4406 .navLayerSub .brands .menu-1 { width: 88px; background-position: 0 -683px; }
@@ -240,7 +240,7 @@
 
 /* sports */
 #navLayer_1355 .navLayerSub .sbnc3 { border-top: 10px solid #009f4e; }
-.navSub .multiMenu:hover #navLayer_1355 .navLayerSub .sbnc3 { background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/bg-sport.jpg); background-position: 50% -5px; }
+.navSub .multiMenu:hover #navLayer_1355 .navLayerSub .sbnc3 { background-image: url(http://static-prod.Peep.vn/cms/category_banners/cat-menu/bg-sport.jpg); background-position: 50% -5px; }
 #navLayer_1355 .navLayerSub .brands { padding-top: 295px; }
 #navLayer_1355 .navLayerSub .brands .menu-1 { width: 60px; background-position: 0 -726px; }
 #navLayer_1355 .navLayerSub .brands .menu-2 { width: 97px; background-position: -66px -726px; }
@@ -250,7 +250,7 @@
 
 /* fashion */
 #navLayer_4308 .navLayerSub .sbnc3 { border-top: 10px solid #dd1670; }
-.navSub .multiMenu:hover #navLayer_4308 .navLayerSub .sbnc3 { background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/bg-fashion.jpg); background-position: 50% 20px; }
+.navSub .multiMenu:hover #navLayer_4308 .navLayerSub .sbnc3 { background-image: url(http://static-prod.Peep.vn/cms/category_banners/cat-menu/bg-fashion.jpg); background-position: 50% 20px; }
 #navLayer_4308 .navLayerSub .brands { padding-top: 282px; }
 #navLayer_4308 .navLayerSub .brands a { margin: 0 7px; }
 #navLayer_4308 .navLayerSub .brands .menu-1 { width: 262px; background-position: 0 -1036px; }
@@ -261,7 +261,7 @@
 
 /* motor */
 #navLayer_4303 .navLayerSub .sbnc3 { border-top: 10px solid #15355b; }
-.navSub .multiMenu:hover #navLayer_4303 .navLayerSub .sbnc3 { background-image: url(http://static.lazada.vn/cms/category_banners/cat-menu/bg-motor-2.jpg); background-position: 100% 0; }
+.navSub .multiMenu:hover #navLayer_4303 .navLayerSub .sbnc3 { background-image: url(http://static.Peep.vn/cms/category_banners/cat-menu/bg-motor-2.jpg); background-position: 100% 0; }
 #navLayer_4303 .navLayerSub .brands { padding-top: 332px; }
 #navLayer_4303 .navLayerSub .brands .menu-1 { width: 85px; background-position: 0 -855px; }
 #navLayer_4303 .navLayerSub .brands .menu-2 { width: 94px; background-position: -90px -855px; }
@@ -273,7 +273,7 @@
 
 /* check order popup */
 .check-order-popup { width: 500px; background: #fff; padding: 20px; border-radius: 5px; -webkit-border-radius: 5px; position: absolute; left: 0; top: -999em; font-size: 12px; }
-.check-order-popup .btn-close { position: absolute; right: 10px; top: 10px; width: 18px; height: 18px; display: block; overflow: hidden; background: url(http://static-prod.lazada.vn/cms/icons/btn-close.gif) 0 0 no-repeat; text-indent: -999em; }
+.check-order-popup .btn-close { position: absolute; right: 10px; top: 10px; width: 18px; height: 18px; display: block; overflow: hidden; background: url(http://static-prod.Peep.vn/cms/icons/btn-close.gif) 0 0 no-repeat; text-indent: -999em; }
 .check-order-inner h2 { border-bottom: 1px solid #e6e6e6; margin-bottom: 20px; padding: 0 0 7px;}
 .check-order-inner p { overflow: hidden; margin: 0 0 10px; }
 .check-order-inner label { display: block; float:left; width: 130px; margin: 0 5px 0 0; padding: 3px 0 0 0; }
@@ -313,7 +313,7 @@
 #popup-register { z-index: 1001; height: 25px; background: #004688; position: fixed; left:0; right:0; bottom: 0; width: 100%; }
 .register-button { width: 252px; height: 20px; background: #004688; cursor: pointer; position: fixed; left: 20px; bottom: 0; z-index: 9999; border-radius: 0; color:#fff; padding-left: 50px; padding-top: 5px; font-size:11px; font-weight: bold; }
 .register-button span { background: url(http://www.lzada.vn/static/images/icons/ico-mail.png) 0 0 no-repeat; display: block; height: 37px; width: 37px; position: absolute; left: 0; bottom: 0; }
-.register-form { width: 300px; height: 0; background: url(http://static.lazada.vn/cms/subscriber/bg-subcriber-2.png) 0 0 no-repeat; position: fixed; left: 20px; bottom: 0; z-index: 998; border: 1px solid #c3c3c3; border-bottom: none; border-top-left-radius: 10px;
+.register-form { width: 300px; height: 0; background: url(http://static.Peep.vn/cms/subscriber/bg-subcriber-2.png) 0 0 no-repeat; position: fixed; left: 20px; bottom: 0; z-index: 998; border: 1px solid #c3c3c3; border-bottom: none; border-top-left-radius: 10px;
 border-top-right-radius: 10px; -webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px;}
 .register-form  .btn-close { position: absolute; right: 9px; top: 4px;}
 .register-form  .btn-close a { display: block; width: 11px; height: 11px; }
@@ -380,25 +380,25 @@ border-top-right-radius: 10px; -webkit-border-top-left-radius: 10px; -webkit-bor
 .floating-banner { position:absolute; left: -145px; top: 0px; width: 140px; display: block; height: 400px; }
 .floating-banner-2 { right: -145px; left:auto; }
 
-.abs-3 { background: url(http://static-prod.lazada.vn/cms/floating-banner/floating-canon-eos-600d.jpg) 0 0 no-repeat; height: 400px; }
-.abs-4 { right: -145px; left:auto; background: url(http://static-prod.lazada.vn/cms/floating-banner/floating-nikon_l27.jpg) 0 0 no-repeat; height: 400px; }
-.abs-5 { background: url(http://static.lazada.vn/cms/floating-banner/skin-watcher.jpg) 0 0 no-repeat; height: 400px; }
-.abs-6 { right: -145px; left:auto; background: url(http://static.lazada.vn/cms/floating-banner/fruit-of-earth.jpg) 0 0 no-repeat; height: 400px; }
-.abs-7 { background: url(http://static.lazada.vn/cms/floating-banner/floating-banner_bag.jpg) 0 0 no-repeat; height: 400px; }
-.abs-8 { right: -145px; left:auto; background: url(http://static.lazada.vn/cms/floating-banner/floating-banner_shoes.jpg) 0 0 no-repeat; height: 400px; }
+.abs-3 { background: url(http://static-prod.Peep.vn/cms/floating-banner/floating-canon-eos-600d.jpg) 0 0 no-repeat; height: 400px; }
+.abs-4 { right: -145px; left:auto; background: url(http://static-prod.Peep.vn/cms/floating-banner/floating-nikon_l27.jpg) 0 0 no-repeat; height: 400px; }
+.abs-5 { background: url(http://static.Peep.vn/cms/floating-banner/skin-watcher.jpg) 0 0 no-repeat; height: 400px; }
+.abs-6 { right: -145px; left:auto; background: url(http://static.Peep.vn/cms/floating-banner/fruit-of-earth.jpg) 0 0 no-repeat; height: 400px; }
+.abs-7 { background: url(http://static.Peep.vn/cms/floating-banner/floating-banner_bag.jpg) 0 0 no-repeat; height: 400px; }
+.abs-8 { right: -145px; left:auto; background: url(http://static.Peep.vn/cms/floating-banner/floating-banner_shoes.jpg) 0 0 no-repeat; height: 400px; }
 /*
-.abs-7 { background: url(http://static-prod.lazada.vn/cms/floating-banner/Floating-banner_handbag.jpg) 0 0 no-repeat; height: 400px; }
-.abs-8 { right: -145px; left:auto; background: url(http://static-prod.lazada.vn/cms/floating-banner/floating-banner_balo-sankos.jpg) 0 0 no-repeat; height: 400px; }*/
-.abs-13 { background: url(http://static-prod.lazada.vn/cms/floating-banner/re-la-mua-western.jpg) 0 0 no-repeat; height: 400px; }
-.abs-14 { right: -145px; left:auto; background: url(http://static-prod.lazada.vn/cms/floating-banner/re-la-mua-asus.jpg) 0 0 no-repeat; height: 400px; }
+.abs-7 { background: url(http://static-prod.Peep.vn/cms/floating-banner/Floating-banner_handbag.jpg) 0 0 no-repeat; height: 400px; }
+.abs-8 { right: -145px; left:auto; background: url(http://static-prod.Peep.vn/cms/floating-banner/floating-banner_balo-sankos.jpg) 0 0 no-repeat; height: 400px; }*/
+.abs-13 { background: url(http://static-prod.Peep.vn/cms/floating-banner/re-la-mua-western.jpg) 0 0 no-repeat; height: 400px; }
+.abs-14 { right: -145px; left:auto; background: url(http://static-prod.Peep.vn/cms/floating-banner/re-la-mua-asus.jpg) 0 0 no-repeat; height: 400px; }
 
 /*.abs-17 { background: url(http://www.lzada.vn/static/static-page/kington/floating_kingston_1.jpg) 0 0 no-repeat; height: 400px; }
 .abs-18 { right: -145px; left:auto; background: url(http://www.lzada.vn/static/static-page/kington/floating_kingston_2.jpg) 0 0 no-repeat; height: 400px; }*/
-.abs-19 { background: url(http://static-prod.lazada.vn/cms/floating-banner/floating-citisport.jpg) 0 0 no-repeat; height: 400px; }
-.abs-20 { right: -145px; left:auto; background: url(http://static-prod.lazada.vn/cms/floating-banner/floating-citisport.jpg) 0 0 no-repeat; height: 400px; }
+.abs-19 { background: url(http://static-prod.Peep.vn/cms/floating-banner/floating-citisport.jpg) 0 0 no-repeat; height: 400px; }
+.abs-20 { right: -145px; left:auto; background: url(http://static-prod.Peep.vn/cms/floating-banner/floating-citisport.jpg) 0 0 no-repeat; height: 400px; }
 
-.abs-23 { background: url(http://static.lazada.vn/cms/floating-banner/quangvan-floating.jpg) 0 0 no-repeat; height: 400px; }
-.abs-24 { right: -145px; left:auto; background: url(http://static.lazada.vn/cms/floating-banner/quangvan-floating.jpg) 0 0 no-repeat; height: 400px; }
+.abs-23 { background: url(http://static.Peep.vn/cms/floating-banner/quangvan-floating.jpg) 0 0 no-repeat; height: 400px; }
+.abs-24 { right: -145px; left:auto; background: url(http://static.Peep.vn/cms/floating-banner/quangvan-floating.jpg) 0 0 no-repeat; height: 400px; }
 
 
 
@@ -408,7 +408,7 @@ border-top-right-radius: 10px; -webkit-border-top-left-radius: 10px; -webkit-bor
 .itm.hasOverlay .outOfStock.itm-quickview,
 .js .itm.itm-listview:hover .outOfStock.listView, 
 .itm.itm-listview .outOfStock.listView, 
-.js .itm.hasOverlay:hover .outOfStock.itm-quickview { background: url(http://static.lazada.vn/cms/icons/out-of-stock-2.png) 50% 0 no-repeat !important; border: none !important; width: 160px; height: 18px; overflow:hidden; text-indent: -999em; margin: 0 0 0 -3px; padding: 0;  box-shadow: none; }
+.js .itm.hasOverlay:hover .outOfStock.itm-quickview { background: url(http://static.Peep.vn/cms/icons/out-of-stock-2.png) 50% 0 no-repeat !important; border: none !important; width: 160px; height: 18px; overflow:hidden; text-indent: -999em; margin: 0 0 0 -3px; padding: 0;  box-shadow: none; }
 .itm-productInfo .ipihi { z-index: 5; } 
 
 /* product comparision */
@@ -419,7 +419,7 @@ border-top-right-radius: 10px; -webkit-border-top-left-radius: 10px; -webkit-bor
 .compare-block em { font-style: italic; font-size: 11px; }
 
 /* oppo */
-.oppo-content:before {background-image: url(http://static-prod.lazada.vn/cms/icons/oppo_find_piano_left.jpg);
+.oppo-content:before {background-image: url(http://static-prod.Peep.vn/cms/icons/oppo_find_piano_left.jpg);
     content: " ";
     display: block;
     height: 559px;
@@ -428,7 +428,7 @@ border-top-right-radius: 10px; -webkit-border-top-left-radius: 10px; -webkit-bor
     top: 0;
     width: 192px; background-repeat: no-repeat;}
 .oppo-content:after {
-    background-image: url(http://static-prod.lazada.vn/cms/icons/oppo_find_piano_right.jpg);
+    background-image: url(http://static-prod.Peep.vn/cms/icons/oppo_find_piano_right.jpg);
     content: " " !important;
     display: block !important;
     height: 559px;
@@ -439,7 +439,7 @@ border-top-right-radius: 10px; -webkit-border-top-left-radius: 10px; -webkit-bor
 }
 
 /* visa */
-.visa-info { width: 139px; height: 20px; padding: 18px 5px 0 55px; margin: 15px 0 0 0; font-size: 15px; color:#fff; font-weight: bold; text-align: center; background:url(http://static-prod.lazada.vn/cms/icons/visa.jpg) 0 0 no-repeat;}
+.visa-info { width: 139px; height: 20px; padding: 18px 5px 0 55px; margin: 15px 0 0 0; font-size: 15px; color:#fff; font-weight: bold; text-align: center; background:url(http://static-prod.Peep.vn/cms/icons/visa.jpg) 0 0 no-repeat;}
 
 /* price range */
 .price-range-list { background: #ebebeb; padding: 10px 10px 3px; margin-bottom: 10px; }
@@ -463,16 +463,16 @@ border-top-right-radius: 10px; -webkit-border-top-left-radius: 10px; -webkit-bor
 .highstreet { position: fixed; bottom: 0; z-index: 1000; height: 0; right: 20px; overflow: visible !important;  }
 .highstreet-inner { width: 966px; margin: 0 auto; }
 .highstreet-inner .btn-highstreet { overflow: hidden; }
-.highstreet-inner .btn-highstreet a { width: 309px; height: 58px; display: block; float: right; background: url(http://static.lazada.vn/cms/high-street/bg-btn-3.gif) 0 0 no-repeat; border: 3px solid #b0adad; border-bottom: none; border-top-left-radius: 3px;
+.highstreet-inner .btn-highstreet a { width: 309px; height: 58px; display: block; float: right; background: url(http://static.Peep.vn/cms/high-street/bg-btn-3.gif) 0 0 no-repeat; border: 3px solid #b0adad; border-bottom: none; border-top-left-radius: 3px;
 border-top-right-radius: 3px; -webkit-border-top-left-radius: 3px; -webkit-border-top-right-radius: 3px; }
-.highstreet-inner .btn-highstreet a span { display: block; width: 38px; height: 42px; background: url(http://static.lazada.vn/cms/high-street/btn-1.png) 0 0 no-repeat; float: right; margin: 10px 10px 0 0; }
+.highstreet-inner .btn-highstreet a span { display: block; width: 38px; height: 42px; background: url(http://static.Peep.vn/cms/high-street/btn-1.png) 0 0 no-repeat; float: right; margin: 10px 10px 0 0; }
 .highstreet-inner .btn-highstreet a:hover, .highstreet-inner .btn-highstreet .open { background-position: 0 -58px; }
 .highstreet-inner .btn-highstreet .open span{ background-position: 0 -42px;} 
-.highsteet-gallery { border: 3px solid #b0adad; border-bottom: none; position: relative; height: 150px; padding: 18px 10px; background: url(http://static.lazada.vn/cms/high-street/bg-1.jpg) 0 0 no-repeat #fff; }
+.highsteet-gallery { border: 3px solid #b0adad; border-bottom: none; position: relative; height: 150px; padding: 18px 10px; background: url(http://static.Peep.vn/cms/high-street/bg-1.jpg) 0 0 no-repeat #fff; }
 .highsteet-gallery .btn-prev { width: 27px; position: absolute; left: -20px; top: 72px; }
-.highsteet-gallery .btn-prev a { width: 100%; height: 54px; display: block; background: url(http://static.lazada.vn/cms/high-street/btn-controls.png) 0 0 no-repeat; }
+.highsteet-gallery .btn-prev a { width: 100%; height: 54px; display: block; background: url(http://static.Peep.vn/cms/high-street/btn-controls.png) 0 0 no-repeat; }
 .highsteet-gallery .btn-next { width: 27px; position: absolute; right: -20px; top: 72px; }
-.highsteet-gallery .btn-next a { width: 100%; height: 54px; display: block; background: url(http://static.lazada.vn/cms/high-street/btn-controls.png) -27px 0 no-repeat; }
+.highsteet-gallery .btn-next a { width: 100%; height: 54px; display: block; background: url(http://static.Peep.vn/cms/high-street/btn-controls.png) -27px 0 no-repeat; }
 .highsteet-gallery-inner { width: 940px; height: 150px; overflow: hidden; position: relative; }
 .highsteet-gallery-inner ul { width: 5000px; }
 .highsteet-gallery-inner li { width: 180px; padding: 0 4px; display: block; float:left; }
@@ -482,31 +482,31 @@ border-top-right-radius: 3px; -webkit-border-top-left-radius: 3px; -webkit-borde
 .g_p .itm-outOfStock, .q_d .itm-outOfStock, .p_m .itm-outOfStock, .p_g .itm-outOfStock, .f_s .itm-outOfStock, .e_v .itm-outOfStock, .n_r .itm-outOfStock, .m_p .itm-outOfStock { position: absolute; right: 5px; top: 5px; z-index: 10; }
 
 #prdMedia .q_d .i-loader, #prdMedia .g_p .i-loader { position: absolute; right: -5px; top: 5px; z-index: 10; width: 45px; height: auto; margin: 0; display: block !important; padding: 0; left:auto; }
-.g_p .itm-outOfStock:after, #prdMedia .g_p .i-loader:after {content: " "; width: 45px; height: 46px; display: block; background: url(http://static.lazada.vn/cms/icons/ico-bestprice.png) 0 0 no-repeat; margin-top: 3px; }
-.q_d .itm-outOfStock:before, #prdMedia .q_d .i-loader:before {content: " "; width: 45px; height: 46px; display: block; background: url(http://static.lazada.vn/cms/icons/ico-quickdelivery.png) 0 0 no-repeat; }
+.g_p .itm-outOfStock:after, #prdMedia .g_p .i-loader:after {content: " "; width: 45px; height: 46px; display: block; background: url(http://static.Peep.vn/cms/icons/ico-bestprice.png) 0 0 no-repeat; margin-top: 3px; }
+.q_d .itm-outOfStock:before, #prdMedia .q_d .i-loader:before {content: " "; width: 45px; height: 46px; display: block; background: url(http://static.Peep.vn/cms/icons/ico-quickdelivery.png) 0 0 no-repeat; }
 
 /* promise */
 #prdMedia .p_m .i-loader { position: absolute; right: -5px; top: 5px; z-index: 10; width: 65px; height: auto; margin: 0; display: block !important; padding: 0; left:auto; }
-.p_m .itm-outOfStock:before { content: " "; width: 65px; height: 54px; display: block; background: url(http://static.lazada.vn/cms/icons/badge-promise.png) 0 0 no-repeat;}
+.p_m .itm-outOfStock:before { content: " "; width: 65px; height: 54px; display: block; background: url(http://static.Peep.vn/cms/icons/badge-promise.png) 0 0 no-repeat;}
 #prdMedia .p_m .i-loader { position: absolute; right: -5px; top: 5px; z-index: 10; width: 65px; height: auto; margin: 0; display: block !important; padding: 0; left:auto; }
-#prdMedia .p_m .i-loader:before {content: " "; width: 65px; height: 54px; display: block; background: url(http://static.lazada.vn/cms/icons/badge-promise.png) 0 0 no-repeat; }
+#prdMedia .p_m .i-loader:before {content: " "; width: 65px; height: 54px; display: block; background: url(http://static.Peep.vn/cms/icons/badge-promise.png) 0 0 no-repeat; }
 
 /* free shipping */
 #prdMedia .f_s .i-loader { position: absolute; right: -5px; top: 5px; z-index: 10; width: 45px; height: auto; margin: 0; display: block !important; padding: 0; left:auto; }
-.f_s .itm-outOfStock:before { content: " "; width: 45px; height: 46px; display: block; background: url(http://static.lazada.vn/cms/icons/ico-freeshipping.png) 0 0 no-repeat; }
+.f_s .itm-outOfStock:before { content: " "; width: 45px; height: 46px; display: block; background: url(http://static.Peep.vn/cms/icons/ico-freeshipping.png) 0 0 no-repeat; }
 #prdMedia .f_s .i-loader { position: absolute; right: -5px; top: 5px; z-index: 10; width: 45px; height: auto; margin: 0; display: block !important; padding: 0; left:auto; }
-#prdMedia .f_s .i-loader:after {content: " "; width: 45px; height: 46px; display: block; background: url(http://static.lazada.vn/cms/icons/ico-freeshipping.png) 0 0 no-repeat; margin-top: 3px;  }
+#prdMedia .f_s .i-loader:after {content: " "; width: 45px; height: 46px; display: block; background: url(http://static.Peep.vn/cms/icons/ico-freeshipping.png) 0 0 no-repeat; margin-top: 3px;  }
 
 /* new */
 #prdMedia .n_r .i-loader { position: absolute; right: -5px; top: 5px; z-index: 10; width: 65px; height: auto; margin: 0; display: block !important; padding: 0; left:auto; }
-.n_r .itm-outOfStock:before { content: " "; width: 65px; height: 50px; display: block; background: url(http://static.lazada.vn/cms/icons/badge-new.png) 0 0 no-repeat; margin-top: 3px; }
+.n_r .itm-outOfStock:before { content: " "; width: 65px; height: 50px; display: block; background: url(http://static.Peep.vn/cms/icons/badge-new.png) 0 0 no-repeat; margin-top: 3px; }
 #prdMedia .n_r .i-loader { position: absolute; right: -5px; top: 5px; z-index: 10; width: 65px; height: auto; margin: 0; display: block !important; padding: 0; left:auto; }
-#prdMedia .n_r .i-loader:after {content: " "; width: 65px; height: 50px; display: block; background: url(http://static.lazada.vn/cms/icons/badge-new.png) 0 0 no-repeat; margin-top: 3px;  }
+#prdMedia .n_r .i-loader:after {content: " "; width: 65px; height: 50px; display: block; background: url(http://static.Peep.vn/cms/icons/badge-new.png) 0 0 no-repeat; margin-top: 3px;  }
 
 /* best price */
-.p_g .itm-outOfStock:before { content: " "; width: 65px; height: 50px; display: block; background: url(http://static.lazada.vn/cms/icons/badge-bestprice.png) 0 0 no-repeat; margin-top: 3px;}
+.p_g .itm-outOfStock:before { content: " "; width: 65px; height: 50px; display: block; background: url(http://static.Peep.vn/cms/icons/badge-bestprice.png) 0 0 no-repeat; margin-top: 3px;}
 #prdMedia .p_g .i-loader { position: absolute; right: -5px; top: 5px; z-index: 10; width: 65px; height: auto; margin: 0; display: block !important; padding: 0; left:auto; }
-#prdMedia .p_g .i-loader:after {content: " "; width: 65px; height: 50px; display: block; background: url(http://static.lazada.vn/cms/icons/badge-bestprice.png) 0 0 no-repeat; margin-top: 3px }
+#prdMedia .p_g .i-loader:after {content: " "; width: 65px; height: 50px; display: block; background: url(http://static.Peep.vn/cms/icons/badge-bestprice.png) 0 0 no-repeat; margin-top: 3px }
 
 .m_p .itm-outOfStock:after { content: " "; width: 2px; height: 2px; display: block; background: #509aee; position: absolute; right:5px; top: 155px; }
 
@@ -579,7 +579,7 @@ height: 190px
 }
 
 .navSub .multiMenu:hover .navLayerSub .brands a, .navSub .multiMenu:focus .navLayerSub .brands a, .navSub .multiMenu:hover .navLayerSub .title, .navSub .multiMenu:focus .navLayerSub .title {
-	background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/brands-10.gif);
+	background-image: url(http://static-prod.Peep.vn/cms/category_banners/cat-menu/brands-10.gif);
 	background-repeat: no-repeat;
 }
 
@@ -592,7 +592,7 @@ height: 190px
 	border-top: 10px solid #17b1ed;
 }
 .navSub .multiMenu:hover #navLayer_4402 .navLayerSub .sbnc3 {
-	background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/bg-phone.jpg);
+	background-image: url(http://static-prod.Peep.vn/cms/category_banners/cat-menu/bg-phone.jpg);
 	background-position: 50% 20px;
 }
 #navLayer_4402 .navLayerSub .brands {
@@ -623,7 +623,7 @@ height: 190px
 	border-top: 10px solid #15355b;
 }
 .navSub .multiMenu:hover #navLayer_4401 .navLayerSub .sbnc3 {
-	background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/bg-laptops.jpg);
+	background-image: url(http://static-prod.Peep.vn/cms/category_banners/cat-menu/bg-laptops.jpg);
 	background-position: 50% 0;
 }
 #navLayer_4401 .navLayerSub .brands {
@@ -654,7 +654,7 @@ height: 190px
 	border-top: 10px solid #17b1ed;
 }
 .navSub .multiMenu:hover #navLayer_4403 .navLayerSub .sbnc3 {
-	background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/bg-tv.jpg);
+	background-image: url(http://static-prod.Peep.vn/cms/category_banners/cat-menu/bg-tv.jpg);
 	background-position: 50% -8px;
 }
 #navLayer_4403 .navLayerSub .brands {
@@ -686,7 +686,7 @@ height: 190px
 	border-top: 10px solid #15355b;
 }
 .navSub .multiMenu:hover #navLayer_4404 .navLayerSub .sbnc3 {
-	background-image: url(http://static.lazada.vn/cms/category_banners/cat-menu/bg-camera-2.jpg);
+	background-image: url(http://static.Peep.vn/cms/category_banners/cat-menu/bg-camera-2.jpg);
 	background-position: 50% 6px;
 }
 #navLayer_4404 .navLayerSub .brands {
@@ -717,7 +717,7 @@ height: 190px
 	border-top: 10px solid #009f4e;
 }
 .navSub .multiMenu:hover #navLayer_4400 .navLayerSub .sbnc3 {
-	background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/bg-home-app.jpg);
+	background-image: url(http://static-prod.Peep.vn/cms/category_banners/cat-menu/bg-home-app.jpg);
 	background-position: 50% 0;
 }
 #navLayer_4400 .navLayerSub .brands {
@@ -749,7 +749,7 @@ height: 190px
 	border-top: 10px solid #17b1ed;
 }
 .navSub .multiMenu:hover #navLayer_5035 .navLayerSub .sbnc3 {
-	background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/bg-home-living.jpg);
+	background-image: url(http://static-prod.Peep.vn/cms/category_banners/cat-menu/bg-home-living.jpg);
 	background-position: -40px 100%;
 }
 #navLayer_5035 .navLayerSub .brands {
@@ -786,7 +786,7 @@ height: 190px
 	border-top: 10px solid #dd1471;
 }
 .navSub .multiMenu:hover #navLayer_3194 .navLayerSub .sbnc3 {
-	background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/bg-books.jpg);
+	background-image: url(http://static-prod.Peep.vn/cms/category_banners/cat-menu/bg-books.jpg);
 	background-position: 0 100%;
 }
 #navLayer_3194 .navLayerSub .brands {
@@ -830,7 +830,7 @@ height: 190px
 	border-top: 10px solid #009f4e;
 }
 .navSub .multiMenu:hover #navLayer_4405 .navLayerSub .sbnc3 {
-	background-image: url(http://static.lazada.vn/cms/category_banners/cat-menu/bg-health-2.jpg);
+	background-image: url(http://static.Peep.vn/cms/category_banners/cat-menu/bg-health-2.jpg);
 	background-position: 100% 0;
 }
 #navLayer_4405 .navLayerSub .brands {
@@ -862,7 +862,7 @@ height: 190px
 	border-top: 10px solid #dd1471;
 }
 .navSub .multiMenu:hover #navLayer_4406 .navLayerSub .sbnc3 {
-	background-image: url(http://static.lazada.vn/cms/category_banners/cat-menu/bg-kids-2.jpg);
+	background-image: url(http://static.Peep.vn/cms/category_banners/cat-menu/bg-kids-2.jpg);
 	background-position: 100% 0;
 }
 #navLayer_4406 .navLayerSub .brands {
@@ -893,7 +893,7 @@ height: 190px
 	border-top: 10px solid #009f4e;
 }
 .navSub .multiMenu:hover #navLayer_1355 .navLayerSub .sbnc3 {
-	background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/bg-sport.jpg);
+	background-image: url(http://static-prod.Peep.vn/cms/category_banners/cat-menu/bg-sport.jpg);
 	background-position: 50% -5px;
 }
 #navLayer_1355 .navLayerSub .brands {
@@ -925,7 +925,7 @@ height: 190px
 	border-top: 10px solid #dd1670;
 }
 .navSub .multiMenu:hover #navLayer_4308 .navLayerSub .sbnc3 {
-	background-image: url(http://static-prod.lazada.vn/cms/category_banners/cat-menu/bg-fashion.jpg);
+	background-image: url(http://static-prod.Peep.vn/cms/category_banners/cat-menu/bg-fashion.jpg);
 	background-position: 50% 20px;
 }
 #navLayer_4308 .navLayerSub .brands {
@@ -960,7 +960,7 @@ height: 190px
 	border-top: 10px solid #15355b;
 }
 .navSub .multiMenu:hover #navLayer_4303 .navLayerSub .sbnc3 {
-	background-image: url(http://static.lazada.vn/cms/category_banners/cat-menu/bg-motor-2.jpg);
+	background-image: url(http://static.Peep.vn/cms/category_banners/cat-menu/bg-motor-2.jpg);
 	background-position: 100% 0;
 }
 #navLayer_4303 .navLayerSub .brands {
@@ -1009,7 +1009,7 @@ height: 190px
 	height: 18px;
 	display: block;
 	overflow: hidden;
-	background: url(http://static-prod.lazada.vn/cms/icons/btn-close.gif) 0 0 no-repeat;
+	background: url(http://static-prod.Peep.vn/cms/icons/btn-close.gif) 0 0 no-repeat;
 	text-indent: -999em;
 }
 .check-order-inner h2 {
@@ -1165,7 +1165,7 @@ height: 190px
 .register-form {
 	width: 300px;
 	height: 0;
-	background: url(http://static.lazada.vn/cms/subscriber/bg-subcriber-2.png) 0 0 no-repeat;
+	background: url(http://static.Peep.vn/cms/subscriber/bg-subcriber-2.png) 0 0 no-repeat;
 	position: fixed;
 	left: 20px;
 	bottom: 0;
@@ -1392,76 +1392,76 @@ height: 190px
 }
 
 .abs-3 {
-	background: url(http://static-prod.lazada.vn/cms/floating-banner/floating-canon-eos-600d.jpg) 0 0 no-repeat;
+	background: url(http://static-prod.Peep.vn/cms/floating-banner/floating-canon-eos-600d.jpg) 0 0 no-repeat;
 	height: 400px;
 }
 .abs-4 {
 	right: -145px;
 	left: auto;
-	background: url(http://static-prod.lazada.vn/cms/floating-banner/floating-nikon_l27.jpg) 0 0 no-repeat;
+	background: url(http://static-prod.Peep.vn/cms/floating-banner/floating-nikon_l27.jpg) 0 0 no-repeat;
 	height: 400px;
 }
 .abs-5 {
-	background: url(http://static.lazada.vn/cms/floating-banner/skin-watcher.jpg) 0 0 no-repeat;
+	background: url(http://static.Peep.vn/cms/floating-banner/skin-watcher.jpg) 0 0 no-repeat;
 	height: 400px;
 }
 .abs-6 {
 	right: -145px;
 	left: auto;
-	background: url(http://static.lazada.vn/cms/floating-banner/fruit-of-earth.jpg) 0 0 no-repeat;
+	background: url(http://static.Peep.vn/cms/floating-banner/fruit-of-earth.jpg) 0 0 no-repeat;
 	height: 400px;
 }
 .abs-7 {
-	background: url(http://static.lazada.vn/cms/floating-banner/floating-banner_bag.jpg) 0 0 no-repeat;
+	background: url(http://static.Peep.vn/cms/floating-banner/floating-banner_bag.jpg) 0 0 no-repeat;
 	height: 400px;
 }
 .abs-8 {
 	right: -145px;
 	left: auto;
-	background: url(http://static.lazada.vn/cms/floating-banner/floating-banner_shoes.jpg) 0 0 no-repeat;
+	background: url(http://static.Peep.vn/cms/floating-banner/floating-banner_shoes.jpg) 0 0 no-repeat;
 	height: 400px;
 }
 /*
- .abs-7 { background: url(http://static-prod.lazada.vn/cms/floating-banner/Floating-banner_handbag.jpg) 0 0 no-repeat; height: 400px; }
- .abs-8 { right: -145px; left:auto; background: url(http://static-prod.lazada.vn/cms/floating-banner/floating-banner_balo-sankos.jpg) 0 0 no-repeat; height: 400px; }*/
+ .abs-7 { background: url(http://static-prod.Peep.vn/cms/floating-banner/Floating-banner_handbag.jpg) 0 0 no-repeat; height: 400px; }
+ .abs-8 { right: -145px; left:auto; background: url(http://static-prod.Peep.vn/cms/floating-banner/floating-banner_balo-sankos.jpg) 0 0 no-repeat; height: 400px; }*/
 .abs-13 {
-	background: url(http://static-prod.lazada.vn/cms/floating-banner/re-la-mua-western.jpg) 0 0 no-repeat;
+	background: url(http://static-prod.Peep.vn/cms/floating-banner/re-la-mua-western.jpg) 0 0 no-repeat;
 	height: 400px;
 }
 .abs-14 {
 	right: -145px;
 	left: auto;
-	background: url(http://static-prod.lazada.vn/cms/floating-banner/re-la-mua-asus.jpg) 0 0 no-repeat;
+	background: url(http://static-prod.Peep.vn/cms/floating-banner/re-la-mua-asus.jpg) 0 0 no-repeat;
 	height: 400px;
 }
 
 /*.abs-17 { background: url(http://www.lzada.vn/static/static-page/kington/floating_kingston_1.jpg) 0 0 no-repeat; height: 400px; }
  .abs-18 { right: -145px; left:auto; background: url(http://www.lzada.vn/static/static-page/kington/floating_kingston_2.jpg) 0 0 no-repeat; height: 400px; }*/
 .abs-19 {
-	background: url(http://static-prod.lazada.vn/cms/floating-banner/floating-citisport.jpg) 0 0 no-repeat;
+	background: url(http://static-prod.Peep.vn/cms/floating-banner/floating-citisport.jpg) 0 0 no-repeat;
 	height: 400px;
 }
 .abs-20 {
 	right: -145px;
 	left: auto;
-	background: url(http://static-prod.lazada.vn/cms/floating-banner/floating-citisport.jpg) 0 0 no-repeat;
+	background: url(http://static-prod.Peep.vn/cms/floating-banner/floating-citisport.jpg) 0 0 no-repeat;
 	height: 400px;
 }
 
 .abs-23 {
-	background: url(http://static.lazada.vn/cms/floating-banner/quangvan-floating.jpg) 0 0 no-repeat;
+	background: url(http://static.Peep.vn/cms/floating-banner/quangvan-floating.jpg) 0 0 no-repeat;
 	height: 400px;
 }
 .abs-24 {
 	right: -145px;
 	left: auto;
-	background: url(http://static.lazada.vn/cms/floating-banner/quangvan-floating.jpg) 0 0 no-repeat;
+	background: url(http://static.Peep.vn/cms/floating-banner/quangvan-floating.jpg) 0 0 no-repeat;
 	height: 400px;
 }
 
 /* outOfStock */
 .itm.itm-listview .outOfStock.listView, .itm.itm-listview .outOfStock.listView, .itm.hasOverlay .outOfStock.itm-quickview, .js .itm.itm-listview:hover .outOfStock.listView, .itm.itm-listview .outOfStock.listView, .js .itm.hasOverlay:hover .outOfStock.itm-quickview {
-	background: url(http://static.lazada.vn/cms/icons/out-of-stock-2.png) 50% 0 no-repeat !important;
+	background: url(http://static.Peep.vn/cms/icons/out-of-stock-2.png) 50% 0 no-repeat !important;
 	border: none !important;
 	width: 160px;
 	height: 18px;
@@ -1504,7 +1504,7 @@ height: 190px
 
 /* oppo */
 .oppo-content:before {
-	background-image: url(http://static-prod.lazada.vn/cms/icons/oppo_find_piano_left.jpg);
+	background-image: url(http://static-prod.Peep.vn/cms/icons/oppo_find_piano_left.jpg);
 	content: " ";
 	display: block;
 	height: 559px;
@@ -1515,7 +1515,7 @@ height: 190px
 	background-repeat: no-repeat;
 }
 .oppo-content:after {
-	background-image: url(http://static-prod.lazada.vn/cms/icons/oppo_find_piano_right.jpg);
+	background-image: url(http://static-prod.Peep.vn/cms/icons/oppo_find_piano_right.jpg);
 	content: " " !important;
 	display: block !important;
 	height: 559px;
@@ -1535,7 +1535,7 @@ height: 190px
 	color: #fff;
 	font-weight: bold;
 	text-align: center;
-	background: url(http://static-prod.lazada.vn/cms/icons/visa.jpg) 0 0 no-repeat;
+	background: url(http://static-prod.Peep.vn/cms/icons/visa.jpg) 0 0 no-repeat;
 }
 
 /* price range */
@@ -1606,7 +1606,7 @@ height: 190px
 	height: 58px;
 	display: block;
 	float: right;
-	background: url(http://static.lazada.vn/cms/high-street/bg-btn-3.gif) 0 0 no-repeat;
+	background: url(http://static.Peep.vn/cms/high-street/bg-btn-3.gif) 0 0 no-repeat;
 	border: 3px solid #b0adad;
 	border-bottom: none;
 	border-top-left-radius: 3px;
@@ -1618,7 +1618,7 @@ height: 190px
 	display: block;
 	width: 38px;
 	height: 42px;
-	background: url(http://static.lazada.vn/cms/high-street/btn-1.png) 0 0 no-repeat;
+	background: url(http://static.Peep.vn/cms/high-street/btn-1.png) 0 0 no-repeat;
 	float: right;
 	margin: 10px 10px 0 0;
 }
@@ -1634,7 +1634,7 @@ height: 190px
 	position: relative;
 	height: 150px;
 	padding: 18px 10px;
-	background: url(http://static.lazada.vn/cms/high-street/bg-1.jpg) 0 0 no-repeat #fff;
+	background: url(http://static.Peep.vn/cms/high-street/bg-1.jpg) 0 0 no-repeat #fff;
 }
 .highsteet-gallery .btn-prev {
 	width: 27px;
@@ -1646,7 +1646,7 @@ height: 190px
 	width: 100%;
 	height: 54px;
 	display: block;
-	background: url(http://static.lazada.vn/cms/high-street/btn-controls.png) 0 0 no-repeat;
+	background: url(http://static.Peep.vn/cms/high-street/btn-controls.png) 0 0 no-repeat;
 }
 .highsteet-gallery .btn-next {
 	width: 27px;
@@ -1658,7 +1658,7 @@ height: 190px
 	width: 100%;
 	height: 54px;
 	display: block;
-	background: url(http://static.lazada.vn/cms/high-street/btn-controls.png) -27px 0 no-repeat;
+	background: url(http://static.Peep.vn/cms/high-street/btn-controls.png) -27px 0 no-repeat;
 }
 .highsteet-gallery-inner {
 	width: 940px;
@@ -1710,7 +1710,7 @@ height: 190px
 	width: 45px;
 	height: 46px;
 	display: block;
-	background: url(http://static.lazada.vn/cms/icons/ico-bestprice.png) 0 0 no-repeat;
+	background: url(http://static.Peep.vn/cms/icons/ico-bestprice.png) 0 0 no-repeat;
 	margin-top: 3px;
 }
 .q_d .itm-outOfStock:before, #prdMedia .q_d .i-loader:before {
@@ -1718,7 +1718,7 @@ height: 190px
 	width: 45px;
 	height: 46px;
 	display: block;
-	background: url(http://static.lazada.vn/cms/icons/ico-quickdelivery.png) 0 0 no-repeat;
+	background: url(http://static.Peep.vn/cms/icons/ico-quickdelivery.png) 0 0 no-repeat;
 }
 
 /* promise */
@@ -1739,7 +1739,7 @@ height: 190px
 	width: 65px;
 	height: 54px;
 	display: block;
-	background: url(http://static.lazada.vn/cms/icons/badge-promise.png) 0 0 no-repeat;
+	background: url(http://static.Peep.vn/cms/icons/badge-promise.png) 0 0 no-repeat;
 }
 #prdMedia .p_m .i-loader {
 	position: absolute;
@@ -1758,7 +1758,7 @@ height: 190px
 	width: 65px;
 	height: 54px;
 	display: block;
-	background: url(http://static.lazada.vn/cms/icons/badge-promise.png) 0 0 no-repeat;
+	background: url(http://static.Peep.vn/cms/icons/badge-promise.png) 0 0 no-repeat;
 }
 
 /* free shipping */
@@ -1779,7 +1779,7 @@ height: 190px
 	width: 45px;
 	height: 46px;
 	display: block;
-	background: url(http://static.lazada.vn/cms/icons/ico-freeshipping.png) 0 0 no-repeat;
+	background: url(http://static.Peep.vn/cms/icons/ico-freeshipping.png) 0 0 no-repeat;
 }
 #prdMedia .f_s .i-loader {
 	position: absolute;
@@ -1798,7 +1798,7 @@ height: 190px
 	width: 45px;
 	height: 46px;
 	display: block;
-	background: url(http://static.lazada.vn/cms/icons/ico-freeshipping.png) 0 0 no-repeat;
+	background: url(http://static.Peep.vn/cms/icons/ico-freeshipping.png) 0 0 no-repeat;
 	margin-top: 3px;
 }
 
@@ -1820,7 +1820,7 @@ height: 190px
 	width: 65px;
 	height: 50px;
 	display: block;
-	background: url(http://static.lazada.vn/cms/icons/badge-new.png) 0 0 no-repeat;
+	background: url(http://static.Peep.vn/cms/icons/badge-new.png) 0 0 no-repeat;
 	margin-top: 3px;
 }
 #prdMedia .n_r .i-loader {
@@ -1840,7 +1840,7 @@ height: 190px
 	width: 65px;
 	height: 50px;
 	display: block;
-	background: url(http://static.lazada.vn/cms/icons/badge-new.png) 0 0 no-repeat;
+	background: url(http://static.Peep.vn/cms/icons/badge-new.png) 0 0 no-repeat;
 	margin-top: 3px;
 }
 
@@ -1850,7 +1850,7 @@ height: 190px
 	width: 65px;
 	height: 50px;
 	display: block;
-	background: url(http://static.lazada.vn/cms/icons/badge-bestprice.png) 0 0 no-repeat;
+	background: url(http://static.Peep.vn/cms/icons/badge-bestprice.png) 0 0 no-repeat;
 	margin-top: 3px;
 }
 #prdMedia .p_g .i-loader {
@@ -1870,7 +1870,7 @@ height: 190px
 	width: 65px;
 	height: 50px;
 	display: block;
-	background: url(http://static.lazada.vn/cms/icons/badge-bestprice.png) 0 0 no-repeat;
+	background: url(http://static.Peep.vn/cms/icons/badge-bestprice.png) 0 0 no-repeat;
 	margin-top: 3px
 }
 

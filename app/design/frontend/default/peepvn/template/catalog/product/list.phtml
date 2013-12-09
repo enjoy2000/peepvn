@@ -87,9 +87,9 @@ if ($page == 'cms'):
 	            		<em class="itm-title"><?php echo $_helper->productAttribute($_product, $_product->getName() , 'name'); ?></em>
 	            		<div class="itm-stock-hint">	            			
 	                    <?php if($_product->isSaleable()): ?>
-	                        Con hang
+	                        <?php echo $this->__('Còn hàng') ?>
 	                    <?php else: ?>
-	                        Het hang
+	                        <?php echo $this->__('Hết hàng') ?>
 	                    <?php endif; ?>
 	            		</div>
 	            		<span class="itm-priceBox itm-priceBox-block">	            			
@@ -203,9 +203,9 @@ if ($page == 'cms'):
 	            		<em class="itm-title"><?php echo $_helper->productAttribute($_product, $_product->getName() , 'name'); ?></em>
 	            		<div class="itm-stock-hint">	            			
 	                    <?php if($_product->isSaleable()): ?>
-	                        Con hang
+	                        <?php echo $this->__('Còn hàng') ?>
 	                    <?php else: ?>
-	                        Het hang
+	                        <?php echo $this->__('Hết hàng') ?>
 	                    <?php endif; ?>
 	            		</div>
 	            		<span class="itm-priceBox itm-priceBox-block">	            			

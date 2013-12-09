@@ -38,7 +38,7 @@
 </script>
 <div id="messages_product_view"><?php echo $this->getMessagesBlock()->getGroupedHtml() ?></div>
 <div id="prd-detail-page" class="product-view">
-	<div class="">
+	<div class="clearfix">
     <div id="prodinfo" class="l-main prd-detail-wrapper">
     <form action="<?php echo $this->getSubmitUrl($_product) ?>" method="post" id="product_addtocart_form"<?php if($_product->getOptions()): ?> enctype="multipart/form-data"<?php endif; ?>>
         <?php echo $this->getBlockHtml('formkey') ?>
@@ -52,7 +52,7 @@
 		</div>
 		
         <div id="prod_content_wrapper">
-            <div class="prod_content">
+            <div class="prod_content" class="clearfix">
                 <h1 id="prod_title"><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h1>
                 <?php echo $this->getChildHtml('addto') ?>
 			</div>

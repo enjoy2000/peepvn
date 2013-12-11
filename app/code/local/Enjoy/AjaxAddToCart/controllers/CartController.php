@@ -72,4 +72,41 @@ class Enjoy_AjaxAddToCart_CartController extends Mage_Checkout_CartController
             echo 0;
         }
     }
+
+	public function supportAction(){
+		$this->loadLayout();
+		if($this->getRequest()->getPost()){
+			$data = $this->getRequest()->getPost();
+			if(count($data)>5){
+				$subject = $data['subject'];
+				$name = $data['name'];
+				$email = $data['email'];
+				$orderId = $data['order_id'];
+				$description = $data['description'];
+				$phone = $data['phone'];
+				try{
+					$mail = new Zend_Mail();
+					$mail->addTo('Support Team', 'support@peep.vn');
+					$mail->setFrom($name,$email);
+					$mail->setSubject($subject);
+					
+					$body = '<table><tbody>';
+					$body .= '<tr><td>Tên: </td><td>'.$name.'</td></tr>';				
+					$body .= '<tr><td>Email: </td><td>'.$email.'</td></tr>';				
+					$body .= '<tr><td>Chi tiết: </td><td>'.$description.'</td></tr>';		
+					$body .= '<tr><td>Số đơn hàng: </td><td>'.$oder_id.'</td></tr>';		
+					$body .= '<tr><td>Số điện thoại: </td><td>'.$phone.'</td></tr>';
+					$body .= '</tbody></table>';
+					
+					$mail->setBodyHtml($body);
+					@$mail->send();
+					Mage::getSingleton('core/session')->addSuccess('Yêu cầu của bạn đã được gửi đi.');
+				}catch(Exception $e){
+					Mage::getSingleton('core/session')->addError($e->getMessage());
+				}
+			}
+		}
+		
+		$this->renderLayout();
+	}
 }

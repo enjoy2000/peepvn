@@ -19,7 +19,7 @@ function producImagePlaceholder(){
 	});
 }
 /////////////////////////////////////
-// INIT MENU * DO NOT CHANGE      //
+// INIT * DO NOT CHANGE      //
 ///////////////////////////////////\
 $j(document).ready(function(){
 	menuInit();
@@ -80,5 +80,23 @@ $j(document).ready(function(){
 	    {
 	        container.find('.tip').slideUp(100);
 	    }
+	});
+	
+	//ajax send mail support
+	$j(document).on('input#support-submit','click',function(e){
+		e.preventDefault();
+		var data = $j('support-form').serialize();
+		$j.ajax({
+			url : BASE_URL + 'ajaxaddtocart/cart/support',
+			data: data,
+			type: 'POST',
+			success: function(msg){
+				if(parseInt(msg) == 1){
+					alert('Yêu cầu của bạn đã được gửi đi. Peep.vn sẽ cố gắng đọc và hỗ trợ sớm nhất!');
+				}else{
+					alert(msg);
+				}
+			}
+		});
 	});
 });

@@ -42,7 +42,7 @@
 	</header>
 	<div id="dropbox_content">
 		<section id="ticket_submission" class="view" style="display: block;">
-			<form action="#/dropbox/tickets" method="post" data-domain-protocol="http://Peep.vnvn.zendesk.com" data-remote-url="/requests/embedded/create/" novalidate="">
+			<form action="/index.php/ajaxaddtocart/cart/support" id="support-form" method="post">
 				<fieldset class="body">
 
 					<label for="subject">Tiêu đề<abbr title="Yêu cầu">*</abbr></label>
@@ -70,20 +70,15 @@
 							</div>
 						</div>
 					</div>
-
 					
-					<input id="ticket_fields_22096861" name="ticket[fields][22096861]" required="required" type="hidden">
-					<div class="validation error" id="field_22096861_errors">
+					<label for="order_id">Số đơn hàng</label>
+					<input id="order_id" name="order_id" pattern="[+-]?\d+" placeholder="Ví dụ: 200044668" step="1" title="Vui lòng điền vào mục này" type="numeric">
+					<div class="validation error" id="order_id_errors">
 						&nbsp;
 					</div>
-					<label for="field_20982857">Số đơn hàng</label>
-					<input id="field_20982857" name="fields[20982857]" pattern="[+-]?\d+" placeholder="Ví dụ: 200044668" step="1" title="Vui lòng điền vào mục này" type="numeric">
-					<div class="validation error" id="field_20982857_errors">
-						&nbsp;
-					</div>
-					<label for="field_20979416">Số điện thoại<abbr title="Yêu cầu">*</abbr></label>
-					<input id="field_20979416" name="fields[20979416]" pattern="[+-]?\d+" placeholder="Peep.vn sẽ liên hệ với quý khách trong thời gian sớm nhất!" required="required" step="1" title="Vui lòng điền vào mục này" type="numeric">
-					<div class="validation error" id="field_20979416_errors">
+					<label for="phone">Số điện thoại<abbr title="Yêu cầu">*</abbr></label>
+					<input id="phone" name="phone" pattern="[+-]?\d+" placeholder="Peep.vn sẽ liên hệ với quý khách trong thời gian sớm nhất!" required="required" step="1" title="Vui lòng điền vào mục này" type="numeric">
+					<div class="validation error" id="phone_errors">
 						&nbsp;
 					</div>
 					<div>

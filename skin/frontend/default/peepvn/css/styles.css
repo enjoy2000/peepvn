@@ -15518,3 +15518,16 @@ div.product-collateral > div.box-collateral.box-tags ul{
 div.product-collateral > div.box-collateral.box-tags ul li{
 	display: inline;
 }
+h2.slogan{
+	display: inline-block;
+	text-align: center;
+	width: 630px;
+	color: #0ca245;
+}
+
+/* MOBILE */
+@media (max-width: 800px) {
+  div.float-ads {
+    display: none;
+  }
+}

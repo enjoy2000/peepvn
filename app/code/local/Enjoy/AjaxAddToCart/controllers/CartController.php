@@ -4,6 +4,29 @@ require "Mage/Checkout/controllers/CartController.php";
 
 class Enjoy_AjaxAddToCart_CartController extends Mage_Checkout_CartController
 {
+	
+	
+
+    /**
+     * Update shopping cart data action
+     */
+    public function updatePostAction()
+    {
+        $updateAction = (string)$this->getRequest()->getParam('update_cart_action');
+
+        switch ($updateAction) {
+            case 'empty_cart':
+                $this->_emptyShoppingCart();
+                break;
+            case 'update_qty':
+                $this->_updateShoppingCart();
+                break;
+            default:
+                $this->_updateShoppingCart();
+        }
+		
+		echo Mage::getSingleton('checkout/cart')->getSummaryQty();;
+    }
 
 	public function addAction()
     {
@@ -74,7 +97,7 @@ class Enjoy_AjaxAddToCart_CartController extends Mage_Checkout_CartController
     }
 
 	public function supportAction(){
-		$this->loadLayout();
+		//$this->loadLayout();
 		if($this->getRequest()->getPost()){
 			$data = $this->getRequest()->getPost();
 			if(count($data)>5){
@@ -100,13 +123,14 @@ class Enjoy_AjaxAddToCart_CartController extends Mage_Checkout_CartController
 					
 					$mail->setBodyHtml($body);
 					@$mail->send();
-					Mage::getSingleton('core/session')->addSuccess('Yêu cầu của bạn đã được gửi đi.');
+					echo '1';
 				}catch(Exception $e){
-					Mage::getSingleton('core/session')->addError($e->getMessage());
+					echo 'failed';
+					echo $e->getMessage();
 				}
 			}
 		}
 		
-		$this->renderLayout();
+		//$this->renderLayout();
 	}
 }

@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Dec 10, 2013 at 11:20 AM
+-- Generation Time: Dec 11, 2013 at 09:05 AM
 -- Server version: 5.6.12-log
 -- PHP Version: 5.4.16
 
@@ -41,7 +41,7 @@ CREATE TABLE IF NOT EXISTS `adminnotification_inbox` (
   KEY `IDX_ADMINNOTIFICATION_INBOX_SEVERITY` (`severity`),
   KEY `IDX_ADMINNOTIFICATION_INBOX_IS_READ` (`is_read`),
   KEY `IDX_ADMINNOTIFICATION_INBOX_IS_REMOVE` (`is_remove`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Adminnotification Inbox' AUTO_INCREMENT=88 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Adminnotification Inbox' AUTO_INCREMENT=89 ;
 
 --
 -- Dumping data for table `adminnotification_inbox`
@@ -134,7 +134,8 @@ INSERT INTO `adminnotification_inbox` (`notification_id`, `severity`, `date_adde
 (84, 4, '2008-11-07 21:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0),
 (85, 4, '2008-11-07 21:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0),
 (86, 4, '2008-11-07 21:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0),
-(87, 4, '2008-11-07 21:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0);
+(87, 4, '2008-11-07 21:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0),
+(88, 4, '2008-11-07 21:46:42', 'Reminder: Change Magento`s default phone numbers and callouts before site launch', 'Before launching your Magento store, please remember to change Magento`s default phone numbers that appear in email templates, callouts, templates, etc.', '', 0, 0);
 
 -- --------------------------------------------------------
 
@@ -233,7 +234,7 @@ CREATE TABLE IF NOT EXISTS `admin_user` (
 --
 
 INSERT INTO `admin_user` (`user_id`, `firstname`, `lastname`, `email`, `username`, `password`, `created`, `modified`, `logdate`, `lognum`, `reload_acl_flag`, `is_active`, `extra`, `rp_token`, `rp_token_created_at`) VALUES
-(1, 'Bang', 'Dao', 'daotranbang@gmail.com', 'admin', '22064b179055608a9c3f60cf78d926a1:ArgT22dgp1PNOlOAdPv8Ce4CPKGQf2Lx', '2013-12-09 16:46:04', '2013-12-04 08:16:05', '2013-12-09 09:46:04', 12, 0, 1, 'a:1:{s:11:"configState";a:35:{s:16:"currency_options";s:1:"1";s:20:"currency_webservicex";s:1:"1";s:15:"currency_import";s:1:"1";s:20:"currencymanager_info";s:1:"1";s:23:"currencymanager_general";s:1:"1";s:26:"currencymanager_additional";s:1:"0";s:25:"ActiveReviewStars_general";s:1:"1";s:28:"ActiveReviewStars_additional";s:1:"1";s:7:"web_url";s:1:"0";s:7:"web_seo";s:1:"0";s:12:"web_unsecure";s:1:"0";s:10:"web_secure";s:1:"1";s:11:"web_default";s:1:"0";s:9:"web_polls";s:1:"0";s:10:"web_cookie";s:1:"0";s:11:"web_session";s:1:"0";s:24:"web_browser_capabilities";s:1:"0";s:16:"catalog_frontend";s:1:"1";s:15:"catalog_sitemap";s:1:"0";s:14:"catalog_review";s:1:"0";s:20:"catalog_productalert";s:1:"0";s:25:"catalog_productalert_cron";s:1:"0";s:19:"catalog_placeholder";s:1:"0";s:25:"catalog_recently_products";s:1:"0";s:13:"catalog_price";s:1:"0";s:26:"catalog_layered_navigation";s:1:"0";s:18:"catalog_navigation";s:1:"0";s:11:"catalog_seo";s:1:"0";s:14:"catalog_search";s:1:"0";s:20:"catalog_downloadable";s:1:"0";s:22:"catalog_custom_options";s:1:"0";s:15:"general_country";s:1:"0";s:14:"general_region";s:1:"0";s:14:"general_locale";s:1:"1";s:25:"general_store_information";s:1:"0";}}', NULL, NULL);
+(1, 'Bang', 'Dao', 'daotranbang@gmail.com', 'admin', '22064b179055608a9c3f60cf78d926a1:ArgT22dgp1PNOlOAdPv8Ce4CPKGQf2Lx', '2013-12-11 08:04:04', '2013-12-04 08:16:05', '2013-12-11 00:50:07', 13, 0, 1, 'a:1:{s:11:"configState";a:44:{s:16:"currency_options";s:1:"1";s:20:"currency_webservicex";s:1:"1";s:15:"currency_import";s:1:"1";s:20:"currencymanager_info";s:1:"1";s:23:"currencymanager_general";s:1:"1";s:26:"currencymanager_additional";s:1:"0";s:25:"ActiveReviewStars_general";s:1:"1";s:28:"ActiveReviewStars_additional";s:1:"1";s:7:"web_url";s:1:"0";s:7:"web_seo";s:1:"0";s:12:"web_unsecure";s:1:"0";s:10:"web_secure";s:1:"1";s:11:"web_default";s:1:"0";s:9:"web_polls";s:1:"0";s:10:"web_cookie";s:1:"0";s:11:"web_session";s:1:"0";s:24:"web_browser_capabilities";s:1:"0";s:16:"catalog_frontend";s:1:"1";s:15:"catalog_sitemap";s:1:"0";s:14:"catalog_review";s:1:"0";s:20:"catalog_productalert";s:1:"0";s:25:"catalog_productalert_cron";s:1:"0";s:19:"catalog_placeholder";s:1:"0";s:25:"catalog_recently_products";s:1:"0";s:13:"catalog_price";s:1:"0";s:26:"catalog_layered_navigation";s:1:"0";s:18:"catalog_navigation";s:1:"0";s:11:"catalog_seo";s:1:"0";s:14:"catalog_search";s:1:"0";s:20:"catalog_downloadable";s:1:"0";s:22:"catalog_custom_options";s:1:"0";s:15:"general_country";s:1:"0";s:14:"general_region";s:1:"0";s:14:"general_locale";s:1:"1";s:25:"general_store_information";s:1:"0";s:11:"system_cron";s:1:"0";s:11:"system_smtp";s:1:"1";s:15:"system_currency";s:1:"0";s:10:"system_log";s:1:"0";s:24:"system_adminnotification";s:1:"0";s:15:"system_mgt_base";s:1:"0";s:26:"system_external_page_cache";s:1:"0";s:13:"system_backup";s:1:"0";s:34:"system_media_storage_configuration";s:1:"0";}}', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -3525,7 +3526,7 @@ CREATE TABLE IF NOT EXISTS `catalog_category_entity_datetime` (
   KEY `IDX_CATALOG_CATEGORY_ENTITY_DATETIME_ENTITY_ID` (`entity_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_DATETIME_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_DATETIME_STORE_ID` (`store_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Datetime Attribute Backend Table' AUTO_INCREMENT=51 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Datetime Attribute Backend Table' AUTO_INCREMENT=47 ;
 
 --
 -- Dumping data for table `catalog_category_entity_datetime`
@@ -3631,7 +3632,7 @@ CREATE TABLE IF NOT EXISTS `catalog_category_entity_int` (
   KEY `IDX_CATALOG_CATEGORY_ENTITY_INT_ENTITY_ID` (`entity_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_INT_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_INT_STORE_ID` (`store_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Integer Attribute Backend Table' AUTO_INCREMENT=266 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Integer Attribute Backend Table' AUTO_INCREMENT=264 ;
 
 --
 -- Dumping data for table `catalog_category_entity_int`
@@ -3884,7 +3885,7 @@ CREATE TABLE IF NOT EXISTS `catalog_category_entity_text` (
   KEY `IDX_CATALOG_CATEGORY_ENTITY_TEXT_ENTITY_ID` (`entity_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_TEXT_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_TEXT_STORE_ID` (`store_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Text Attribute Backend Table' AUTO_INCREMENT=277 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Text Attribute Backend Table' AUTO_INCREMENT=267 ;
 
 --
 -- Dumping data for table `catalog_category_entity_text`
@@ -4144,7 +4145,7 @@ CREATE TABLE IF NOT EXISTS `catalog_category_entity_varchar` (
   KEY `IDX_CATALOG_CATEGORY_ENTITY_VARCHAR_ENTITY_ID` (`entity_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_VARCHAR_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_VARCHAR_STORE_ID` (`store_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Varchar Attribute Backend Table' AUTO_INCREMENT=373 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Varchar Attribute Backend Table' AUTO_INCREMENT=367 ;
 
 --
 -- Dumping data for table `catalog_category_entity_varchar`
@@ -16128,7 +16129,7 @@ CREATE TABLE IF NOT EXISTS `cms_block` (
 
 INSERT INTO `cms_block` (`block_id`, `title`, `identifier`, `content`, `creation_time`, `update_time`, `is_active`) VALUES
 (3, 'Footer Upper', 'footer_upper', '<div class="footer_inner">\r\n<div class="f_col"><!--- Start CMS footer_multistore_aboutlist-->\r\n<h4 class="hdl">dummy text</h4>\r\n</div>\r\n</div>', '2007-08-28 07:33:10', '2013-12-09 11:14:09', 1),
-(4, 'Footer Bottom', 'footer_bot', '<div class="footer_inner">\r\n<div class="international">&nbsp;</div>\r\n<div class="copyright">Copyright 2012 - 2013, Peep.vn</div>\r\n<div class="socialmedia"><span class="hdl">Follow us</span>\r\n<ul>\r\n<li><a class="social facebook" title="Facebook" href="#" target="_blank">&nbsp;</a></li>\r\n<li></li>\r\n<li>&nbsp;<a class="social linkedin" title="LinkedIn" href="#" target="_blank">&nbsp;</a></li>\r\n<li></li>\r\n<li><a class="social youtube" title="Youtube" href="#" target="_blank">&nbsp;</a></li>\r\n<li><a class="social zing" title="ZingMe" href="#" target="_blank">&nbsp;</a></li>\r\n</ul>\r\n</div>\r\n<div class="clearfix">&nbsp;</div>\r\n<div class="txtCenter mtl">\r\n<div style="font-size: 10px; padding: 10px; line-height: 20px;"><strong>C&ocirc;ng ty TNHH SX TM DV Kh&ocirc;ng Giờ Rồi</strong><br />Địa chỉ : 93 Phong Ph&uacute;, Phường 11, Quận 8, TP. Hồ Ch&iacute; Minh<br /> M&atilde; số doanh nghiệp : , điện thoại :</div>\r\n<!--- End CMS mobile_apps--></div>\r\n</div>', '2007-08-28 07:59:44', '2013-12-09 11:17:17', 1),
+(4, 'Footer Bottom', 'footer_bot', '<div class="footer_inner">\r\n<div class="international">&nbsp;</div>\r\n<div class="copyright">Copyright 2012 - 2013, Peep.vn</div>\r\n<div class="socialmedia"><span class="hdl">Follow us</span>\r\n<ul>\r\n<li><a class="social facebook" title="Facebook" href="https://www.facebook.com/shop.gumiho?ref=hl" target="_blank">&nbsp;</a></li>\r\n<li></li>\r\n<li>&nbsp;<a class="social linkedin" title="LinkedIn" href="#" target="_blank">&nbsp;</a></li>\r\n<li></li>\r\n<li><a class="social youtube" title="Youtube" href="#" target="_blank">&nbsp;</a></li>\r\n<li><a class="social zing" title="ZingMe" href="#" target="_blank">&nbsp;</a></li>\r\n</ul>\r\n</div>\r\n<div class="clearfix">&nbsp;</div>\r\n<div class="txtCenter mtl">\r\n<div style="font-size: 10px; padding: 10px; line-height: 20px;"><strong>C&ocirc;ng ty TNHH SX TM DV Kh&ocirc;ng Giờ Rồi</strong><br />Địa chỉ : 93 Phong Ph&uacute;, Phường 11, Quận 8, TP. Hồ Ch&iacute; Minh<br /> M&atilde; số doanh nghiệp : , điện thoại :</div>\r\n<!--- End CMS mobile_apps--></div>\r\n</div>', '2007-08-28 07:59:44', '2013-12-11 00:51:22', 1),
 (5, 'Footer Links', 'footer_links', '<ul>\r\n<li><a href="{{store direct_url="about-magento-demo-store"}}">About Us</a></li>\r\n<li><a href="{{store direct_url="customer-service"}}">Customer Service</a></li>\r\n<li class="last privacy"><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>\r\n</ul>', '2007-08-30 07:01:52', '2013-12-04 08:14:11', 1),
 (6, 'Left Banner', 'left_banner', '<p><a href="ads-left"><img title="Ads" src="{{media url="wysiwyg/ads/ads.jpg"}}" alt="Ads" /></a></p>', '2013-12-09 11:26:38', '2013-12-09 11:26:38', 1),
 (7, 'Right Banner', 'right_banner', '<p><a href="ads-right"><img title="ads" src="{{media url="wysiwyg/ads/ads.jpg"}}" alt="ads" /></a></p>', '2013-12-09 11:27:36', '2013-12-09 11:27:36', 1);
@@ -16296,7 +16297,7 @@ CREATE TABLE IF NOT EXISTS `core_config_data` (
   `value` text COMMENT 'Config Value',
   PRIMARY KEY (`config_id`),
   UNIQUE KEY `UNQ_CORE_CONFIG_DATA_SCOPE_SCOPE_ID_PATH` (`scope`,`scope_id`,`path`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Config Data' AUTO_INCREMENT=138 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Config Data' AUTO_INCREMENT=167 ;
 
 --
 -- Dumping data for table `core_config_data`
@@ -16439,7 +16440,36 @@ INSERT INTO `core_config_data` (`config_id`, `scope`, `scope_id`, `path`, `value
 (134, 'default', 0, 'general/store_information/phone', NULL),
 (135, 'default', 0, 'general/store_information/merchant_country', NULL),
 (136, 'default', 0, 'general/store_information/merchant_vat_number', NULL),
-(137, 'default', 0, 'general/store_information/address', NULL);
+(137, 'default', 0, 'general/store_information/address', NULL),
+(138, 'default', 0, 'system/cron/schedule_generate_every', '15'),
+(139, 'default', 0, 'system/cron/schedule_ahead_for', '20'),
+(140, 'default', 0, 'system/cron/schedule_lifetime', '15'),
+(141, 'default', 0, 'system/cron/history_cleanup_every', '10'),
+(142, 'default', 0, 'system/cron/history_success_lifetime', '60'),
+(143, 'default', 0, 'system/cron/history_failure_lifetime', '600'),
+(144, 'default', 0, 'system/smtp/disable', '0'),
+(145, 'default', 0, 'system/smtp/host', 'mail.peep.vn'),
+(146, 'default', 0, 'system/smtp/port', '26'),
+(147, 'default', 0, 'system/smtp/set_return_path', '0'),
+(148, 'default', 0, 'system/currency/installed', 'BRL,VEB,THB,GBP,CNY,GHS,EEK,SEK,SKK,NOK,IQD,JOD,EUR,GNF,CHF,HTG,HNL,KZT,GEL,TRL,TRY,LTL,RON,BGN,PEN,GIP,MXN,PHP,HUF,GTQ,ZAR,IRR,SAR,MYR,PKR,INR,IDR,RUB,UAH,KES,ILS,KRW,JPY,PLN,MAD,RSD,AED,JMD,FJD,GYD,HKD,USD,NZD,SGD,TWD,VND'),
+(149, 'default', 0, 'system/log/clean_after_day', '180'),
+(150, 'default', 0, 'system/log/enabled', '0'),
+(151, 'default', 0, 'system/log/time', '00,00,00'),
+(152, 'default', 0, 'system/log/frequency', 'D'),
+(153, 'default', 0, 'crontab/jobs/log_clean/schedule/cron_expr', NULL),
+(154, 'default', 0, 'crontab/jobs/log_clean/run/model', 'log/cron::logClean'),
+(155, 'default', 0, 'system/log/error_email', NULL),
+(156, 'default', 0, 'system/log/error_email_identity', 'general'),
+(157, 'default', 0, 'system/log/error_email_template', 'system_log_error_email_template'),
+(158, 'default', 0, 'system/adminnotification/use_https', '0'),
+(159, 'default', 0, 'system/adminnotification/frequency', '1'),
+(160, 'default', 0, 'system/mgt_base/interests', 'NEW_RELEASE,MODULE_UPDATE,INFO'),
+(161, 'default', 0, 'system/mgt_base/feed_url', 'http://www.mgt-commerce.com/feed'),
+(162, 'default', 0, 'system/external_page_cache/enabled', '0'),
+(163, 'default', 0, 'system/backup/enabled', '0'),
+(164, 'default', 0, 'system/media_storage_configuration/media_storage', '0'),
+(165, 'default', 0, 'system/media_storage_configuration/media_database', 'default_setup'),
+(166, 'default', 0, 'system/media_storage_configuration/configuration_update_time', '3600');
 
 -- --------------------------------------------------------
 
@@ -24707,7 +24737,38 @@ INSERT INTO `log_url` (`url_id`, `visitor_id`, `visit_time`) VALUES
 (745, 8, '2013-12-09 11:53:41'),
 (746, 8, '2013-12-09 11:54:24'),
 (747, 8, '2013-12-09 11:55:45'),
-(748, 8, '2013-12-09 11:56:23');
+(748, 8, '2013-12-09 11:56:23'),
+(749, 9, '2013-12-10 04:47:37'),
+(750, 10, '2013-12-10 23:58:38'),
+(751, 10, '2013-12-11 00:06:06'),
+(752, 10, '2013-12-11 00:14:02'),
+(753, 10, '2013-12-11 00:14:36'),
+(754, 10, '2013-12-11 00:15:31'),
+(755, 10, '2013-12-11 00:18:22'),
+(756, 10, '2013-12-11 00:21:36'),
+(757, 10, '2013-12-11 00:24:54'),
+(758, 10, '2013-12-11 01:12:00'),
+(759, 10, '2013-12-11 01:12:08'),
+(760, 10, '2013-12-11 01:12:42'),
+(761, 10, '2013-12-11 01:13:13'),
+(762, 10, '2013-12-11 01:13:31'),
+(763, 10, '2013-12-11 01:16:11'),
+(764, 10, '2013-12-11 01:32:06'),
+(765, 10, '2013-12-11 01:32:21'),
+(766, 10, '2013-12-11 01:33:25'),
+(767, 10, '2013-12-11 01:33:30'),
+(768, 10, '2013-12-11 01:33:42'),
+(769, 10, '2013-12-11 01:41:41'),
+(770, 10, '2013-12-11 01:42:14'),
+(771, 10, '2013-12-11 01:42:40'),
+(772, 10, '2013-12-11 01:46:26'),
+(773, 10, '2013-12-11 01:46:33'),
+(774, 10, '2013-12-11 01:47:01'),
+(775, 10, '2013-12-11 01:48:25'),
+(776, 10, '2013-12-11 01:49:02'),
+(777, 10, '2013-12-11 01:58:46'),
+(778, 10, '2013-12-11 01:59:06'),
+(779, 10, '2013-12-11 01:59:10');
 
 -- --------------------------------------------------------
 
@@ -24720,7 +24781,7 @@ CREATE TABLE IF NOT EXISTS `log_url_info` (
   `url` varchar(255) NOT NULL DEFAULT '' COMMENT 'URL',
   `referer` varchar(255) DEFAULT NULL COMMENT 'Referrer',
   PRIMARY KEY (`url_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Log URL Info Table' AUTO_INCREMENT=749 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Log URL Info Table' AUTO_INCREMENT=780 ;
 
 --
 -- Dumping data for table `log_url_info`
@@ -25475,7 +25536,38 @@ INSERT INTO `log_url_info` (`url_id`, `url`, `referer`) VALUES
 (745, 'http://local.peep/index.php/tv-video-va-am-thanh/shirts/', 'http://local.peep/index.php/tv-video-va-am-thanh/shirts/coalesce-functioning-on-impatience-t-shirt.html'),
 (746, 'http://local.peep/index.php/tv-video-va-am-thanh/shirts/', 'http://local.peep/index.php/tv-video-va-am-thanh/shirts/coalesce-functioning-on-impatience-t-shirt.html'),
 (747, 'http://local.peep/', 'http://local.peep/index.php/tv-video-va-am-thanh/shirts/coalesce-functioning-on-impatience-t-shirt.html'),
-(748, 'http://local.peep/index.php/ajaxaddtocart/cart/index', 'http://local.peep/');
+(748, 'http://local.peep/index.php/ajaxaddtocart/cart/index', 'http://local.peep/'),
+(749, 'http://local.peep/', NULL),
+(750, 'http://local.peep/', NULL),
+(751, 'http://local.peep/', NULL),
+(752, 'http://local.peep/', NULL),
+(753, 'http://local.peep/', NULL),
+(754, 'http://local.peep/', NULL),
+(755, 'http://local.peep/', NULL),
+(756, 'http://local.peep/', NULL),
+(757, 'http://local.peep/', NULL),
+(758, 'http://local.peep/ajaxaddtocart/support', NULL),
+(759, 'http://local.peep/index.php/ajaxaddtocart/support', NULL),
+(760, 'http://local.peep/index.php/ajaxaddtocart/cart/support', NULL),
+(761, 'http://local.peep/index.php/ajaxaddtocart/cart/support?abc=1', NULL),
+(762, 'http://local.peep/index.php/ajaxaddtocart/cart/support?abc=1', NULL),
+(763, 'http://local.peep/index.php/ajaxaddtocart/cart/support?abc=1', NULL),
+(764, 'http://local.peep/', NULL),
+(765, 'http://local.peep/', 'http://local.peep/'),
+(766, 'http://local.peep/', NULL),
+(767, 'http://local.peep/', NULL),
+(768, 'http://local.peep/', NULL),
+(769, 'http://local.peep/', 'http://local.peep/'),
+(770, 'http://local.peep/', 'http://local.peep/'),
+(771, 'http://local.peep/', 'http://local.peep/'),
+(772, 'http://local.peep/', 'http://local.peep/'),
+(773, 'http://local.peep/', 'http://local.peep/'),
+(774, 'http://local.peep/', 'http://local.peep/'),
+(775, 'http://local.peep/', 'http://local.peep/'),
+(776, 'http://local.peep/index.php/ajaxaddtocart/cart/support', 'http://local.peep/'),
+(777, 'http://local.peep/', NULL),
+(778, 'http://local.peep/index.php/ajaxaddtocart/cart/support', 'http://local.peep/'),
+(779, 'http://local.peep/images/button-bg.gif', 'http://local.peep/index.php/ajaxaddtocart/cart/support');
 
 -- --------------------------------------------------------
 
@@ -25491,7 +25583,7 @@ CREATE TABLE IF NOT EXISTS `log_visitor` (
   `last_url_id` bigint(20) unsigned NOT NULL DEFAULT '0' COMMENT 'Last URL ID',
   `store_id` smallint(5) unsigned NOT NULL COMMENT 'Store ID',
   PRIMARY KEY (`visitor_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Log Visitors Table' AUTO_INCREMENT=9 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Log Visitors Table' AUTO_INCREMENT=11 ;
 
 --
 -- Dumping data for table `log_visitor`
@@ -25505,7 +25597,9 @@ INSERT INTO `log_visitor` (`visitor_id`, `session_id`, `first_visit_at`, `last_v
 (5, '952j4g5gu04mu90oqcpha1bim2', '2013-12-05 16:59:49', '2013-12-05 19:28:30', 521, 1),
 (6, 'nchr91h712dppujnpmums8qs14', '2013-12-05 05:56:52', '2013-12-05 07:02:53', 306, 1),
 (7, 'nljgoftogsfib5dgugndrmdbv0', '2013-12-05 20:32:40', '2013-12-05 23:51:02', 686, 1),
-(8, 'rr0s07sfs83g4pu65pet9e1u43', '2013-12-09 09:35:31', '2013-12-09 11:56:23', 748, 1);
+(8, 'rr0s07sfs83g4pu65pet9e1u43', '2013-12-09 09:35:31', '2013-12-09 11:56:23', 748, 1),
+(9, 'cvcahun0nmjh5em4nitiu72sk0', '2013-12-10 04:47:32', '2013-12-10 04:47:37', 749, 1),
+(10, '16ga0vo8d47jpfhf3fr0qa8jc7', '2013-12-10 23:58:28', '2013-12-11 01:59:10', 779, 1);
 
 -- --------------------------------------------------------
 
@@ -25536,7 +25630,9 @@ INSERT INTO `log_visitor_info` (`visitor_id`, `http_referer`, `http_user_agent`,
 (5, NULL, 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36', NULL, 'vi,en-US;q=0.8,en;q=0.6', 2130706433, 2130706433),
 (6, NULL, 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36', NULL, 'vi,en-US;q=0.8,en;q=0.6', 2130706433, 2130706433),
 (7, NULL, 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36', NULL, 'vi,en-US;q=0.8,en;q=0.6', 2130706433, 2130706433),
-(8, NULL, 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36', NULL, 'vi,en-US;q=0.8,en;q=0.6', 2130706433, 2130706433);
+(8, NULL, 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36', NULL, 'vi,en-US;q=0.8,en;q=0.6', 2130706433, 2130706433),
+(9, NULL, 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36', NULL, 'vi,en-US;q=0.8,en;q=0.6', 2130706433, 2130706433),
+(10, NULL, 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36', NULL, 'vi,en-US;q=0.8,en;q=0.6', 2130706433, 2130706433);
 
 -- --------------------------------------------------------
 
@@ -26908,7 +27004,7 @@ CREATE TABLE IF NOT EXISTS `report_viewed_product_index` (
   KEY `IDX_REPORT_VIEWED_PRODUCT_INDEX_STORE_ID` (`store_id`),
   KEY `IDX_REPORT_VIEWED_PRODUCT_INDEX_ADDED_AT` (`added_at`),
   KEY `IDX_REPORT_VIEWED_PRODUCT_INDEX_PRODUCT_ID` (`product_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Reports Viewed Product Index Table' AUTO_INCREMENT=54 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Reports Viewed Product Index Table' AUTO_INCREMENT=49 ;
 
 --
 -- Dumping data for table `report_viewed_product_index`

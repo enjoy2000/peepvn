@@ -175,11 +175,11 @@ $canApplyMsrp = Mage::helper('catalog')->canApplyMsrp($_item->getProduct(), Mage
     <?php endif; ?>
     <td class="width_10 price center">
         <select name="cart[<?php echo $_item->getId() ?>][qty]" value="<?php echo $this->getQty() ?>" title="<?php echo $this->__('Qty') ?>" class="input-text qty">
-        	<option value="1">1</option>
-        	<option value="2">2</option>
-        	<option value="3">3</option>
-        	<option value="4">4</option>
-        	<option value="5">5</option>
+        	<option <?php echo ($this->getQty() == 1) ? 'selected="selected"' : '' ?> value="1">1</option>
+        	<option <?php echo ($this->getQty() == 2) ? 'selected="selected"' : '' ?> value="2">2</option>
+        	<option <?php echo ($this->getQty() == 3) ? 'selected="selected"' : '' ?> value="3">3</option>
+        	<option <?php echo ($this->getQty() == 4) ? 'selected="selected"' : '' ?> value="4">4</option>
+        	<option <?php echo ($this->getQty() == 5) ? 'selected="selected"' : '' ?> value="5">5</option>
         </select>
     </td>
     <?php if (($this->helper('tax')->displayCartPriceExclTax() || $this->helper('tax')->displayCartBothPrices()) && !$_item->getNoSubtotal()): ?>

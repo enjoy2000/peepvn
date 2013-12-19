@@ -25,7 +25,7 @@ class Enjoy_AjaxAddToCart_CartController extends Mage_Checkout_CartController
                 $this->_updateShoppingCart();
         }
 		
-		echo Mage::getSingleton('checkout/cart')->getSummaryQty();;
+		echo Mage::getSingleton('checkout/cart')->getSummaryQty();
     }
 
 	public function addAction()
